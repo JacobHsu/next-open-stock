@@ -1,10 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import NavItems from "@/components/NavItems";
-import UserDropdown from "@/components/UserDropdown";
 import {searchStocks} from "@/lib/actions/finnhub.actions";
 
-const Header = async ({ user }: { user: User }) => {
+const Header = async () => {
     const initialStocks = await searchStocks();
 
     return (
@@ -18,11 +17,9 @@ const Header = async ({ user }: { user: User }) => {
                         height={50}
                     />
                 </Link>
-                <nav className="hidden sm:block">
+                <nav className="w-full sm:w-auto">
                     <NavItems initialStocks={initialStocks}/>
                 </nav>
-
-                <UserDropdown user={user} initialStocks={initialStocks} />
             </div>
         </header>
     )
