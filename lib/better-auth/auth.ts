@@ -6,6 +6,7 @@ import {nextCookies} from "better-auth/next-js";
 
 let authInstance: ReturnType<typeof betterAuth> | null = null;
 
+
 export const getAuth = async () => {
     if(authInstance) {
         return authInstance;
@@ -37,14 +38,4 @@ export const getAuth = async () => {
     return authInstance;
 }
 
-// Lazy initialization - only connect to DB when auth is actually used
-export const auth = {
-    api: new Proxy({} as any, {
-        get: (target, prop) => {
-            return async (...args: any[]) => {
-                const authInstance = await getAuth();
-                return (authInstance.api as any)[prop](...args);
-            };
-        }
-    })
-};
+export const auth = await getAuth();
