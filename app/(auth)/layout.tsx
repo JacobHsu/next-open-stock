@@ -5,6 +5,8 @@ import {headers} from "next/headers";
 import {redirect} from "next/navigation";
 import {auth} from "@/lib/better-auth/auth";
 
+export const dynamic = 'force-dynamic';
+
 const Layout = async ({ children }: { children : React.ReactNode }) => {
     try {
         const session = await auth.api.getSession({headers: await headers()});
