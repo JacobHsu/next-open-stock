@@ -6,10 +6,15 @@ import {redirect} from "next/navigation";
 import {auth} from "@/lib/better-auth/auth";
 
 const Layout = async ({ children }: { children : React.ReactNode }) => {
+    try {
+        const session = await auth.api.getSession({headers: await headers()});
 
-    const session = await auth.api.getSession({headers: await headers()});
+        if (session?.user) redirect('/')
+    } catch (error) {
+        console.error('Auth layout error:', error);
+        // Continue to show auth page even if session check fails
+    }
 
-    if (session?.user) redirect('/')
     return (
         <main className="auth-layout">
             <section className="auth-left-section scrollbar-hide-default">

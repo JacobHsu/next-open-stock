@@ -57,12 +57,13 @@ export const MARKET_OVERVIEW_WIDGET_CONFIG = {
         {
             title: 'Financial',
             symbols: [
+                { s: 'NYSE:BRK.B', d: 'Berkshire Hathaway Inc' },
                 { s: 'NYSE:JPM', d: 'JPMorgan Chase' },
-                { s: 'NYSE:WFC', d: 'Wells Fargo Co New' },
-                { s: 'NYSE:BAC', d: 'Bank Amer Corp' },
-                { s: 'NYSE:HSBC', d: 'Hsbc Hldgs Plc' },
-                { s: 'NYSE:C', d: 'Citigroup Inc' },
+                { s: 'NYSE:V', d: 'Visa Inc' },
                 { s: 'NYSE:MA', d: 'Mastercard Incorporated' },
+                { s: 'NYSE:BAC', d: 'Bank Amer Corp' },
+                { s: 'NYSE:WFC', d: 'Wells Fargo Co New' },
+                { s: 'NYSE:C', d: 'Citigroup Inc' },
             ],
         },
         {
