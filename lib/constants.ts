@@ -124,29 +124,51 @@ export const ETF_MARKET_OVERVIEW_WIDGET_CONFIG = {
             ],
         },
         {
-            title: 'Sector ETFs',
+            title: 'SPDR', // SPDR Sector ETFs
             symbols: [
-                { s: 'AMEX:XLK', d: 'Technology Select Sector SPDR Fund' },
-                { s: 'AMEX:XLF', d: 'Financial Select Sector SPDR Fund' },
-                { s: 'AMEX:XLE', d: 'Energy Select Sector SPDR Fund' },
-                { s: 'AMEX:XLV', d: 'Health Care Select Sector SPDR Fund' },
-                { s: 'AMEX:XLI', d: 'Industrial Select Sector SPDR Fund' },
-                { s: 'AMEX:XLP', d: 'Consumer Staples Select Sector SPDR Fund' },
+                { s: 'AMEX:XLK', d: 'Technology Select Sector SPDR Fund' },           // 科技
+                { s: 'AMEX:XLF', d: 'Financial Select Sector SPDR Fund' },            // 金融
+                { s: 'AMEX:XLE', d: 'Energy Select Sector SPDR Fund' },               // 能源
+                { s: 'AMEX:XLV', d: 'Health Care Select Sector SPDR Fund' },          // 醫療保健
+                { s: 'AMEX:XLI', d: 'Industrial Select Sector SPDR Fund' },           // 工業
+                { s: 'AMEX:XLP', d: 'Consumer Staples Select Sector SPDR Fund' },     // 必需消費
+                { s: 'AMEX:XLY', d: 'Consumer Discretionary Select Sector SPDR Fund' }, // 非必需消費
+                { s: 'AMEX:XLB', d: 'Materials Select Sector SPDR Fund' },            // 原物料
+                { s: 'AMEX:XLRE', d: 'Real Estate Select Sector SPDR Fund' },         // 不動產
+                { s: 'AMEX:XLU', d: 'Utilities Select Sector SPDR Fund' },            // 公用事業
+                { s: 'AMEX:XLC', d: 'Communication Services Select Sector SPDR Fund' } // 通訊服務
             ],
         },
         {
-            title: 'DIA',
+            title: 'Vanguard', // Vanguard Sector ETFs
             symbols: [
-                { s: 'NYSE:GS', d: 'The Goldman Sachs Group, Inc.' },
-                { s: 'NASDAQ:MSFT', d: 'Microsoft Corporation' },
-                { s: 'NYSE:CAT', d: 'Caterpillar Inc.' },
-                { s: 'NYSE:HD', d: 'The Home Depot, Inc.' },
-                { s: 'NYSE:UNH', d: 'UnitedHealth Group Incorporated' },
-                { s: 'NYSE:V', d: 'Visa Inc.' },
-                { s: 'NYSE:SHW', d: 'The Sherwin-Williams Company' },
-                { s: 'NYSE:AXP', d: 'American Express Company' },
-                { s: 'NYSE:JPM', d: 'JPMorgan Chase & Co.' },
-                { s: 'NASDAQ:AMGN', d: 'Amgen Inc.' },
+                { s: 'AMEX:VGT', d: 'Vanguard Information Technology ETF' },     // 科技
+                { s: 'AMEX:VFH', d: 'Vanguard Financials ETF' },                 // 金融
+                { s: 'AMEX:VDE', d: 'Vanguard Energy ETF' },                     // 能源
+                { s: 'AMEX:VHT', d: 'Vanguard Health Care ETF' },                // 醫療保健
+                { s: 'AMEX:VIS', d: 'Vanguard Industrials ETF' },                // 工業
+                { s: 'AMEX:VDC', d: 'Vanguard Consumer Staples ETF' },           // 必需消費
+                { s: 'AMEX:VCR', d: 'Vanguard Consumer Discretionary ETF' },     // 非必需消費
+                { s: 'AMEX:VAW', d: 'Vanguard Materials ETF' },                  // 原物料
+                { s: 'AMEX:VNQ', d: 'Vanguard Real Estate ETF' },                // 不動產
+                { s: 'AMEX:VPU', d: 'Vanguard Utilities ETF' },                  // 公用事業
+                { s: 'AMEX:VOX', d: 'Vanguard Communication Services ETF' }      // 通訊服務
+            ],
+        },
+        {
+            title: 'iShares', // iShares Sector ETFs
+            symbols: [
+                { s: 'AMEX:IYW', d: 'iShares U.S. Technology ETF' },             // 科技
+                { s: 'AMEX:IYF', d: 'iShares U.S. Financials ETF' },             // 金融
+                { s: 'AMEX:IYE', d: 'iShares U.S. Energy ETF' },                 // 能源
+                { s: 'AMEX:IYH', d: 'iShares U.S. Healthcare ETF' },             // 醫療保健
+                { s: 'AMEX:IYJ', d: 'iShares U.S. Industrials ETF' },            // 工業
+                { s: 'AMEX:IYK', d: 'iShares U.S. Consumer Staples ETF' },       // 必需消費
+                { s: 'AMEX:IYC', d: 'iShares U.S. Consumer Discretionary ETF' }, // 非必需消費
+                { s: 'AMEX:IYM', d: 'iShares U.S. Basic Materials ETF' },        // 原物料
+                { s: 'AMEX:IYR', d: 'iShares U.S. Real Estate ETF' },            // 不動產
+                { s: 'AMEX:IDU', d: 'iShares U.S. Utilities ETF' },              // 公用事業
+                { s: 'AMEX:IYZ', d: 'iShares U.S. Telecommunications ETF' }      // 通訊服務
             ],
         },
     ],
