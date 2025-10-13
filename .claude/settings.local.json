@@ -3,7 +3,8 @@
     "allow": [
       "Bash(npm run build)",
       "Read(//c/Users/user/Downloads/FireShot/**)",
-      "Bash(npm run dev)"
+      "Bash(npm run dev)",
+      "WebFetch(domain:stockanalysis.com)"
     ],
     "deny": [],
     "ask": []
