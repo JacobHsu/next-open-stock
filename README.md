@@ -279,6 +279,7 @@ Developer experience
 - shadcn/ui components with Radix primitives
 - cmdk command palette, next-themes, lucide-react icons
 
+
 ## 🤝 Contributing
 
 You belong here. Whether you’re a student, a self-taught dev, or a seasoned engineer — contributions are welcome.
