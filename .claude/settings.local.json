@@ -5,7 +5,11 @@
       "Read(//c/Users/user/Downloads/FireShot/**)",
       "Bash(npm run dev)",
       "WebFetch(domain:stockanalysis.com)",
-      "WebFetch(domain:www.tradingview.com)"
+      "WebFetch(domain:www.tradingview.com)",
+      "WebFetch(domain:bitwiseinvestments.com)",
+      "WebFetch(domain:www.ftportfolios.com)",
+      "WebFetch(domain:etfs.grayscale.com)",
+      "WebSearch"
     ],
     "deny": [],
     "ask": []
