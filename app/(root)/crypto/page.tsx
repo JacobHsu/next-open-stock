@@ -25,6 +25,7 @@ const CryptoPage = () => {
                 <div className="md-col-span xl:col-span-2">
                     <TradingViewWidget
                         title="Crypto Heatmap"
+                        titleLink="https://finviz.com/map.ashx?t=crypto"
                         scriptUrl={`${scriptUrl}crypto-coins-heatmap.js`}
                         config={CRYPTO_HEATMAP_WIDGET_CONFIG}
                         height={600}

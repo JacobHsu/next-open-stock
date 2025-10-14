@@ -25,6 +25,7 @@ const Home = () => {
                 <div className="md-col-span xl:col-span-2">
                     <TradingViewWidget
                         title="Stock Heatmap"
+                        titleLink="https://finviz.com/map.ashx?t=sec"
                         scriptUrl={`${scriptUrl}stock-heatmap.js`}
                         config={HEATMAP_WIDGET_CONFIG}
                         height={600}

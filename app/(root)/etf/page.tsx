@@ -25,6 +25,7 @@ const ETFPage = () => {
                 <div className="md-col-span xl:col-span-2">
                     <TradingViewWidget
                         title="ETF Heatmap"
+                        titleLink="https://finviz.com/map.ashx?t=etf"
                         scriptUrl={`${scriptUrl}etf-heatmap.js`}
                         config={ETF_HEATMAP_WIDGET_CONFIG}
                         height={600}
