@@ -1,11 +1,13 @@
 // Re-export page-specific configs from their dedicated files
 export * from './configs/sp500-config';
+export * from './configs/nasdaq100-config';
 export * from './configs/etf-config';
 export * from './configs/crypto-config';
 
 // Common Navigation
 export const NAV_ITEMS = [
     { href: '/', label: 'S&P 500' },
+    { href: '/nasdaq100', label: 'Nasdaq 100' },
     { href: '/etf', label: 'ETF' },
     { href: '/crypto', label: 'Crypto' },
     { href: '/search', label: 'Search' },
