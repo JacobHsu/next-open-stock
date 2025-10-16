@@ -193,3 +193,27 @@ export const TOP_STORIES_WIDGET_CONFIG = {
     width: '100%',
     height: '600',
 };
+
+export const TICKER_TAPE_WIDGET_CONFIG = {
+    symbols: [
+        {
+            proName: 'FOREXCOM:SPXUSD',
+            title: 'S&P 500'
+        },
+        {
+            proName: 'CAPITALCOM:DXY',
+            title: 'U.S. Dollar Index'
+        }, 
+        {
+            proName: 'BATS:VIXY',
+            title: 'VIXY'
+        },
+    ],
+    showSymbolLogo: true,
+    isTransparent: true,
+    displayMode: 'adaptive',
+    colorTheme: 'dark',
+    locale: 'en',
+    width: '100%',
+    height: 46,
+};
