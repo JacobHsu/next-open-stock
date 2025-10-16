@@ -1,4 +1,5 @@
 import TradingViewWidget from "@/components/TradingViewWidget";
+import ETFMarketDataWidget from "@/components/ETFMarketDataWidget";
 import {
     HEATMAP_WIDGET_CONFIG,
     MARKET_DATA_WIDGET_CONFIG,
@@ -24,7 +25,7 @@ const Home = () => {
                 </div>
                 <div className="md-col-span xl:col-span-2">
                     <TradingViewWidget
-                        title="Stock Heatmap"
+                        title="S&P 500 Heatmap"
                         titleLink="https://finviz.com/map.ashx?t=sec"
                         scriptUrl={`${scriptUrl}stock-heatmap.js`}
                         config={HEATMAP_WIDGET_CONFIG}
@@ -34,7 +35,7 @@ const Home = () => {
             </section>
             <section className="grid w-full gap-8 home-section">
                 <div className="h-full md:col-span-1 xl:col-span-2">
-                    <TradingViewWidget
+                    <ETFMarketDataWidget
                         scriptUrl={`${scriptUrl}market-quotes.js`}
                         config={MARKET_DATA_WIDGET_CONFIG}
                         height={600}
