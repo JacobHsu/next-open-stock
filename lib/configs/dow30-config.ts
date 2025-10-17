@@ -69,8 +69,22 @@ export const DOW30_MARKET_OVERVIEW_WIDGET_CONFIG = {
                 { s: 'NYSE:KO', d: 'Coca-Cola Company' },
             ],
         },
-
-
+        {
+            title: 'Thematic',
+            symbols: [
+                { s: 'AMEX:HACK', d: 'ETFMG Prime Cyber Security ETF' },
+                { s: 'AMEX:JETS', d: 'U.S. Global Jets ETF' },
+                { s: 'AMEX:IPAY', d: 'ETFMG Prime Mobile Payments ETF' },
+                { s: 'NASDAQ:DRIV', d: 'Global X Autonomous & Electric Vehicles ETF' },
+                { s: 'NASDAQ:FINX', d: 'Global X FinTech ETF' },
+                { s: 'NASDAQ:WOOD', d: 'iShares Global Timber & Forestry ETF' },
+                { s: 'NASDAQ:HERO', d: 'Global X Video Games & Esports ETF' },
+                { s: 'NASDAQ:SOCL', d: 'Global X Social Media ETF' },
+                { s: 'NASDAQ:UFO', d: 'Procure Space ETF' },
+                { s: 'AMEX:AWAY', d: 'ETFMG Travel Tech ETF' },
+                { s: 'NASDAQ:BJK', d: 'VanEck Gaming ETF' },
+            ],
+        },
     ],
     support_host: 'https://www.tradingview.com',
     backgroundColor: '#141414',
