@@ -187,3 +187,27 @@ export const NASDAQ100_TOP_STORIES_WIDGET_CONFIG = {
     width: '100%',
     height: '600',
 };
+
+export const NASDAQ100_TICKER_TAPE_WIDGET_CONFIG = {
+    symbols: [
+        {
+            proName: 'NASDAQ:NDX',
+            title: 'Nasdaq 100 Index'
+        },
+        {
+            proName: 'NASDAQ:IXIC',
+            title: 'Nasdaq Composite'
+        },
+        {
+            proName: 'NASDAQ:SMH',
+            title: 'SMH'
+        },
+    ],
+    showSymbolLogo: true,
+    isTransparent: true,
+    displayMode: 'adaptive',
+    colorTheme: 'dark',
+    locale: 'en',
+    width: '100%',
+    height: 46,
+};

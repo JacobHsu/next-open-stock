@@ -190,3 +190,27 @@ export const ETF_TOP_STORIES_WIDGET_CONFIG = {
     width: '100%',
     height: '600',
 };
+
+export const ETF_TICKER_TAPE_WIDGET_CONFIG = {
+    symbols: [
+        {
+            proName: 'AMEX:SPY',
+            title: 'SPY'
+        },
+        {
+            proName: 'NASDAQ:QQQ',
+            title: 'QQQ'
+        },
+        {
+            proName: 'AMEX:DIA',
+            title: 'DIA'
+        },
+    ],
+    showSymbolLogo: true,
+    isTransparent: true,
+    displayMode: 'adaptive',
+    colorTheme: 'dark',
+    locale: 'en',
+    width: '100%',
+    height: 46,
+};

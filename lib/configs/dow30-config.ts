@@ -184,3 +184,27 @@ export const DOW30_TOP_STORIES_WIDGET_CONFIG = {
     width: '100%',
     height: '600',
 };
+
+export const DOW30_TICKER_TAPE_WIDGET_CONFIG = {
+    symbols: [
+        {
+            proName: 'BLACKBULL:US30',
+            title: 'Dow Jones 30'
+        },
+        {
+            proName: 'AMEX:DIA',
+            title: 'DIA'
+        },
+        {
+            proName: 'FOREXCOM:DJI',
+            title: 'Dow Jones Index CFD'
+        },
+    ],
+    showSymbolLogo: true,
+    isTransparent: true,
+    displayMode: 'adaptive',
+    colorTheme: 'dark',
+    locale: 'en',
+    width: '100%',
+    height: 46,
+};

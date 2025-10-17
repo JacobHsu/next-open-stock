@@ -25,32 +25,13 @@ const Home = () => {
                     />
                 </div>
                 <div className="md-col-span xl:col-span-2">
-                    <div className="flex flex-col gap-3">
-                        <div className="flex items-center justify-between gap-4">
-                            <h2 className="text-xl font-semibold whitespace-nowrap">
-                                <a
-                                    href="https://finviz.com/map.ashx?t=sec"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="hover:text-blue-400 transition-colors"
-                                >
-                                    S&P 500 Heatmap
-                                </a>
-                            </h2>
-                            <div className="flex-1 min-w-0">
-                                <TradingViewWidget
-                                    scriptUrl={`${scriptUrl}ticker-tape.js`}
-                                    config={TICKER_TAPE_WIDGET_CONFIG}
-                                    height={46}
-                                />
-                            </div>
-                        </div>
-                        <TradingViewWidget
-                            scriptUrl={`${scriptUrl}stock-heatmap.js`}
-                            config={HEATMAP_WIDGET_CONFIG}
-                            height={600}
-                        />
-                    </div>
+                    <TradingViewWidget
+                        title="S&P 500 Heatmap"
+                        titleLink="https://finviz.com/map.ashx?t=sec"
+                        scriptUrl={`${scriptUrl}stock-heatmap.js`}
+                        config={HEATMAP_WIDGET_CONFIG}
+                        height={600}
+                    />
                 </div>
             </section>
             <section className="grid w-full gap-8 home-section">

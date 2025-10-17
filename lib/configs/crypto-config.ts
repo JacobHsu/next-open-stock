@@ -165,3 +165,27 @@ export const CRYPTO_TOP_STORIES_WIDGET_CONFIG = {
     width: '100%',
     height: '600',
 };
+
+export const CRYPTO_TICKER_TAPE_WIDGET_CONFIG = {
+    symbols: [
+        {
+            proName: 'BINANCE:BTCUSDT',
+            title: 'Bitcoin'
+        },
+        {
+            proName: 'BINANCE:ETHUSDT',
+            title: 'Ethereum'
+        },
+        {
+            proName: 'NASDAQ:COIN',
+            title: 'Coinbase'
+        },
+    ],
+    showSymbolLogo: true,
+    isTransparent: true,
+    displayMode: 'adaptive',
+    colorTheme: 'dark',
+    locale: 'en',
+    width: '100%',
+    height: 46,
+};
