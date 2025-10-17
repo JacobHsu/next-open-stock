@@ -10,7 +10,8 @@
       "WebFetch(domain:www.ftportfolios.com)",
       "WebFetch(domain:etfs.grayscale.com)",
       "WebSearch",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "WebFetch(domain:www.stockq.org)"
     ],
     "deny": [],
     "ask": []
