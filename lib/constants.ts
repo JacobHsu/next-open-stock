@@ -59,7 +59,11 @@ export const CANDLE_CHART_WIDGET_CONFIG = (symbol: string) => ({
     watchlist: [],
     withdateranges: false,
     compareSymbols: [],
-    studies: [],
+    studies: [
+        "STD;Multi-Time%Period%Charts",
+        "STD;MA%1Cross",
+
+    ],
     width: '100%',
     height: 600,
 });
@@ -76,7 +80,7 @@ export const BASELINE_WIDGET_CONFIG = (symbol: string) => ({
     interval: 'D',
     locale: 'en',
     save_image: false,
-    style: 10,
+    style: 10, // Baseline（基線圖） - 以基準線為中心，顯示價格偏離
     symbol: symbol.toUpperCase(),
     theme: 'dark',
     timezone: 'Etc/UTC',
@@ -85,7 +89,11 @@ export const BASELINE_WIDGET_CONFIG = (symbol: string) => ({
     watchlist: [],
     withdateranges: false,
     compareSymbols: [],
-    studies: [],
+    studies: [
+        "MACD@tv-basicstudies",
+        "STD;Supertrend",
+        // "RSI@tv-basicstudies",
+    ],
     width: '100%',
     height: 600,
 });
