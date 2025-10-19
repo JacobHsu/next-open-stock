@@ -118,7 +118,7 @@ export const ETF_MARKET_OVERVIEW_WIDGET_CONFIG = {
 
 export const ETF_HEATMAP_WIDGET_CONFIG = {
     dataSource: 'AllUSEtf',
-    blockSize: 'aum',
+    blockSize: 'Value.Traded',
     blockColor: 'change',
     grouping: 'asset_class',
     isTransparent: true,

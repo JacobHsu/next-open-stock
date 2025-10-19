@@ -7,6 +7,7 @@ import {
     TICKER_TAPE_WIDGET_CONFIG,
     NASDAQ100_TICKER_TAPE_WIDGET_CONFIG,
     DOW30_TICKER_TAPE_WIDGET_CONFIG,
+    RUSSELL2000_TICKER_TAPE_WIDGET_CONFIG,
     ETF_TICKER_TAPE_WIDGET_CONFIG,
     CRYPTO_TICKER_TAPE_WIDGET_CONFIG
 } from "@/lib/constants";
@@ -19,6 +20,7 @@ const Footer = () => {
     const getTickerTapeConfig = () => {
         if (pathname === '/nasdaq100') return NASDAQ100_TICKER_TAPE_WIDGET_CONFIG;
         if (pathname === '/dow30') return DOW30_TICKER_TAPE_WIDGET_CONFIG;
+        if (pathname === '/russell2000') return RUSSELL2000_TICKER_TAPE_WIDGET_CONFIG;
         if (pathname === '/etf') return ETF_TICKER_TAPE_WIDGET_CONFIG;
         if (pathname === '/crypto') return CRYPTO_TICKER_TAPE_WIDGET_CONFIG;
         return TICKER_TAPE_WIDGET_CONFIG; // S&P 500 (default for home page)

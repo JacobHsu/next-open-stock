@@ -1,0 +1,200 @@
+// Russell 2000 Page Configuration
+
+export const RUSSELL2000_MARKET_OVERVIEW_WIDGET_CONFIG = {
+    colorTheme: 'dark',
+    dateRange: '12M',
+    locale: 'en',
+    largeChartUrl: '',
+    isTransparent: true,
+    showFloatingTooltip: true,
+    plotLineColorGrowing: '#0FEDBE',
+    plotLineColorFalling: '#0FEDBE',
+    gridLineColor: 'rgba(240, 243, 250, 0)',
+    scaleFontColor: '#DBDBDB',
+    belowLineFillColorGrowing: 'rgba(41, 98, 255, 0.12)',
+    belowLineFillColorFalling: 'rgba(41, 98, 255, 0.12)',
+    belowLineFillColorGrowingBottom: 'rgba(41, 98, 255, 0)',
+    belowLineFillColorFallingBottom: 'rgba(41, 98, 255, 0)',
+    symbolActiveColor: 'rgba(15, 237, 190, 0.05)',
+    tabs: [
+        {
+            title: 'ETF',
+            symbols: [
+                { s: 'AMEX:IWM', d: 'iShares Russell 2000 ETF' },
+                { s: 'NASDAQ:VTWO', d: 'Vanguard Russell 2000 ETF' },
+                { s: 'AMEX:SCHA', d: 'Schwab U.S. Small-Cap ETF' },
+                { s: 'AMEX:IJR', d: 'iShares Core S&P Small-Cap ETF' },
+                { s: 'AMEX:UWM', d: 'ProShares Ultra Russell2000' },
+                { s: 'AMEX:TWM', d: 'ProShares UltraShort Russell2000' },
+            ],
+        },
+        {
+            title: 'Technology',
+            symbols: [
+                { s: 'NASDAQ:MSTR', d: 'MicroStrategy Inc' },
+                { s: 'NASDAQ:SMCI', d: 'Super Micro Computer Inc' },
+                { s: 'NASDAQ:MTSI', d: 'MACOM Technology Solutions' },
+                { s: 'NASDAQ:SATS', d: 'EchoStar Corporation' },
+                { s: 'NASDAQ:APPF', d: 'AppFolio Inc' },
+            ],
+        },
+        {
+            title: 'Healthcare',
+            symbols: [
+                { s: 'NASDAQ:SMMT', d: 'Summit Therapeutics Inc' },
+                { s: 'NASDAQ:HQY', d: 'HealthEquity Inc' },
+                { s: 'NASDAQ:ENSG', d: 'The Ensign Group Inc' },
+                { s: 'NASDAQ:TMDX', d: 'TransMedics Group Inc' },
+            ],
+        },
+        {
+            title: 'Energy',
+            symbols: [
+                { s: 'NYSE:RRC', d: 'Range Resources Corporation' },
+                { s: 'NYSE:SM', d: 'SM Energy Company' },
+                { s: 'NYSE:MTDR', d: 'Matador Resources Company' },
+                { s: 'NYSE:CTRA', d: 'Coterra Energy Inc' },
+                { s: 'NYSE:PR', d: 'Permian Resources Corporation' },
+            ],
+        },
+        {
+            title: 'Consumer',
+            symbols: [
+                { s: 'NASDAQ:SFM', d: 'Sprouts Farmers Market Inc' },
+                { s: 'NASDAQ:COKE', d: 'Coca-Cola Consolidated Inc' },
+                { s: 'NASDAQ:TXRH', d: 'Texas Roadhouse Inc' },
+                { s: 'NASDAQ:WING', d: 'Wingstop Inc' },
+                { s: 'NYSE:BOOT', d: 'Boot Barn Holdings Inc' },
+            ],
+        },
+    ],
+    support_host: 'https://www.tradingview.com',
+    backgroundColor: '#141414',
+    width: '100%',
+    height: 600,
+    showSymbolLogo: true,
+    showChart: true,
+};
+
+export const RUSSELL2000_HEATMAP_WIDGET_CONFIG = {
+    dataSource: 'TVCRUT',
+    blockSize: 'Value.Traded',
+    blockColor: 'change',
+    grouping: 'sector',
+    isTransparent: true,
+    locale: 'en',
+    symbolUrl: '',
+    colorTheme: 'dark',
+    exchanges: ["NASDAQ"],
+    hasTopBar: false,
+    isDataSetEnabled: false,
+    isZoomEnabled: true,
+    hasSymbolTooltip: true,
+    isMonoSize: false,
+    width: '100%',
+    height: '600',
+};
+
+export const RUSSELL2000_MARKET_DATA_WIDGET_CONFIG = {
+    title: 'Russell 2000 Stocks',
+    width: '100%',
+    height: 600,
+    locale: 'en',
+    showSymbolLogo: true,
+    colorTheme: 'dark',
+    isTransparent: false,
+    backgroundColor: '#0F0F0F',
+    symbolsGroups: [
+        {
+            name: 'IWM',
+            sourceUrl: 'https://stockanalysis.com/etf/iwm/holdings/',
+            symbols: [
+                { name: 'NYSE:BE', displayName: 'BE - Bloom Energy Corporation (0.86%)' },
+                { name: 'NASDAQ:CRDO', displayName: 'CRDO - Credo Technology Group Holding Ltd (0.70%)' },
+                { name: 'NYSE:IONQ', displayName: 'IONQ - IonQ, Inc. (0.63%)' },
+                { name: 'NYSE:OKLO', displayName: 'OKLO - Oklo Inc. (0.61%)' },
+                { name: 'NASDAQ:RGTI', displayName: 'RGTI - Rigetti Computing, Inc. (0.53%)' },
+                { name: 'NYSE:FN', displayName: 'FN - Fabrinet (0.52%)' },
+                { name: 'NYSE:CDE', displayName: 'CDE - Coeur Mining, Inc. (0.51%)' },
+                { name: 'NASDAQ:KTOS', displayName: 'KTOS - Kratos Defense & Security Solutions, Inc. (0.51%)' },
+                { name: 'NASDAQ:NXT', displayName: 'NXT - Nextracker Inc. (0.44%)' },
+                { name: 'NYSE:QBTS', displayName: 'QBTS - D-Wave Quantum Inc. (0.43%)' },
+                { name: 'NASDAQ:AVAV', displayName: 'AVAV - AeroVironment, Inc. (0.41%)' },
+                { name: 'NYSE:HIMS', displayName: 'HIMS - Hims & Hers Health, Inc. (0.39%)' },
+                { name: 'NASDAQ:STRL', displayName: 'STRL - Sterling Infrastructure, Inc. (0.37%)' },
+                { name: 'NASDAQ:RMBS', displayName: 'RMBS - Rambus Inc. (0.37%)' },
+                { name: 'NASDAQ:ENSG', displayName: 'ENSG - The Ensign Group, Inc. (0.35%)' },
+                { name: 'NASDAQ:SATS', displayName: 'SATS - EchoStar Corporation (0.34%)' },
+                { name: 'NASDAQ:IDCC', displayName: 'IDCC - InterDigital, Inc. (0.33%)' },
+                { name: 'NYSE:HL', displayName: 'HL - Hecla Mining Company (0.32%)' },
+                { name: 'NYSE:GTLS', displayName: 'GTLS - Chart Industries, Inc. (0.31%)' },
+                { name: 'NYSE:SPXC', displayName: 'SPXC - SPX Technologies, Inc. (0.31%)' },
+                { name: 'NASDAQ:BBIO', displayName: 'BBIO - BridgeBio Pharma, Inc. (0.30%)' },
+                { name: 'NYSE:MOD', displayName: 'MOD - Modine Manufacturing Company (0.29%)' },
+            ],
+        },
+        {
+            name: 'VTWO',
+            sourceUrl: 'https://stockanalysis.com/etf/vtwo/holdings/',
+            symbols: [
+                { name: 'NASDAQ:CRDO', displayName: 'CRDO - Credo Technology Group Holding Ltd (0.64%)' },
+                { name: 'NYSE:FN', displayName: 'FN - Fabrinet (0.42%)' },
+                { name: 'NASDAQ:KTOS', displayName: 'KTOS - Kratos Defense & Security Solutions, Inc. (0.38%)' },
+                { name: 'NYSE:BE', displayName: 'BE - Bloom Energy Corporation (0.38%)' },
+                { name: 'NYSE:IONQ', displayName: 'IONQ - IonQ, Inc. (0.36%)' },
+                { name: 'NASDAQ:ENSG', displayName: 'ENSG - The Ensign Group, Inc. (0.34%)' },
+                { name: 'NASDAQ:NXT', displayName: 'NXT - Nextracker Inc. (0.34%)' },
+                { name: 'NYSE:SPXC', displayName: 'SPXC - SPX Technologies, Inc. (0.32%)' },
+                { name: 'NYSE:GTLS', displayName: 'GTLS - Chart Industries, Inc. (0.32%)' },
+                { name: 'NASDAQ:UMBF', displayName: 'UMBF - UMB Financial Corporation (0.31%)' },
+                { name: 'NYSE:CDE', displayName: 'CDE - Coeur Mining, Inc. (0.30%)' },
+                { name: 'NASDAQ:SATS', displayName: 'SATS - EchoStar Corporation (0.30%)' },
+                { name: 'NASDAQ:STRL', displayName: 'STRL - Sterling Infrastructure, Inc. (0.29%)' },
+                { name: 'NASDAQ:CVLT', displayName: 'CVLT - Commvault Systems, Inc. (0.29%)' },
+                { name: 'NASDAQ:BBIO', displayName: 'BBIO - BridgeBio Pharma, Inc. (0.29%)' },
+                { name: 'NYSE:HIMS', displayName: 'HIMS - Hims & Hers Health, Inc. (0.29%)' },
+                { name: 'NASDAQ:GH', displayName: 'GH - Guardant Health, Inc. (0.29%)' },
+                { name: 'NASDAQ:RMBS', displayName: 'RMBS - Rambus Inc. (0.28%)' },
+                { name: 'NASDAQ:AVAV', displayName: 'AVAV - AeroVironment, Inc. (0.27%)' },
+                { name: 'NASDAQ:HQY', displayName: 'HQY - HealthEquity, Inc. (0.27%)' },
+                { name: 'NYSE:WTS', displayName: 'WTS - Watts Water Technologies, Inc. (0.27%)' },
+                { name: 'NYSE:OKLO', displayName: 'OKLO - Oklo Inc. (0.27%)' },
+            ],
+        },
+    ],
+};
+
+export const RUSSELL2000_TOP_STORIES_WIDGET_CONFIG = {
+    displayMode: 'regular',
+    feedMode: 'market',
+    colorTheme: 'dark',
+    isTransparent: true,
+    locale: 'en',
+    market: 'stock',
+    width: '100%',
+    height: '600',
+};
+
+export const RUSSELL2000_TICKER_TAPE_WIDGET_CONFIG = {
+    symbols: [
+        {
+            proName: 'CAPITALCOM:RTY',
+            title: 'Russell 2000 Index'
+        },
+        {
+            proName: 'AMEX:IWM',
+            title: 'IWM'
+        },
+        {
+            proName: 'FOREXCOM:US2000',
+            title: 'Russell 2000 CFD'
+        },
+    ],
+    showSymbolLogo: true,
+    isTransparent: true,
+    displayMode: 'adaptive',
+    colorTheme: 'dark',
+    locale: 'en',
+    width: '100%',
+    height: 46,
+};
