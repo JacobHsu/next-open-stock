@@ -12,7 +12,9 @@
       "WebSearch",
       "Bash(ls:*)",
       "WebFetch(domain:www.stockq.org)",
-      "WebFetch(domain:disfold.com)"
+      "WebFetch(domain:disfold.com)",
+      "WebFetch(domain:ark-funds.com)",
+      "WebFetch(domain:etfdb.com)"
     ],
     "deny": [],
     "ask": []

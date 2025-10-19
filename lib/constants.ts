@@ -5,6 +5,7 @@ export * from './configs/dow30-config';
 export * from './configs/russell2000-config';
 export * from './configs/etf-config';
 export * from './configs/crypto-config';
+export * from './configs/watchlist-config';
 
 // Common Navigation
 export const NAV_ITEMS = [
@@ -15,7 +16,7 @@ export const NAV_ITEMS = [
     { href: '/etf', label: 'ETF' },
     { href: '/crypto', label: 'Crypto' },
     { href: '/search', label: 'Search' },
-    // { href: '/watchlist', label: 'Watchlist' },
+    { href: '/watchlist', label: 'Watchlist' },
 ];
 
 // Alert Options
@@ -91,7 +92,8 @@ export const BASELINE_WIDGET_CONFIG = (symbol: string) => ({
     compareSymbols: [],
     studies: [
         "MACD@tv-basicstudies",
-        "STD;Supertrend",
+        // "STD;Supertrend",
+        "STD;Pivot%1Points%1High%1Low"
         // "RSI@tv-basicstudies",
     ],
     width: '100%',

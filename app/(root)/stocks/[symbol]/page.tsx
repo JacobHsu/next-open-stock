@@ -1,3 +1,6 @@
+'use client';
+
+import React from 'react';
 import TradingViewWidget from "@/components/TradingViewWidget";
 import WatchlistButton from "@/components/WatchlistButton";
 import {
@@ -9,9 +12,23 @@ import {
     COMPANY_FINANCIALS_WIDGET_CONFIG,
 } from "@/lib/constants";
 
-export default async function StockDetails({ params }: StockDetailsPageProps) {
-    const { symbol } = await params;
+export default function StockDetails({ params }: { params: Promise<{ symbol: string }> }) {
+    const [symbol, setSymbol] = React.useState<string>('');
+
+    React.useEffect(() => {
+        params.then(p => setSymbol(p.symbol));
+    }, [params]);
+
+    if (!symbol) {
+        return (
+            <div className="flex min-h-screen items-center justify-center">
+                <div className="text-gray-400">Loading...</div>
+            </div>
+        );
+    }
+
     const scriptUrl = `https://s3.tradingview.com/external-embedding/embed-widget-`;
+    const symbolUpper = symbol.toUpperCase();
 
     return (
         <div className="flex min-h-screen p-4 md:p-6 lg:p-8">
@@ -42,7 +59,10 @@ export default async function StockDetails({ params }: StockDetailsPageProps) {
                 {/* Right column */}
                 <div className="flex flex-col gap-6">
                     <div className="flex items-center justify-between">
-                        <WatchlistButton symbol={symbol.toUpperCase()} company={symbol.toUpperCase()} isInWatchlist={false} />
+                        <WatchlistButton
+                            symbol={symbolUpper}
+                            company={symbolUpper}
+                        />
                     </div>
 
                     <TradingViewWidget
@@ -52,16 +72,18 @@ export default async function StockDetails({ params }: StockDetailsPageProps) {
                     />
 
                     <TradingViewWidget
-                        scriptUrl={`${scriptUrl}company-profile.js`}
+                        scriptUrl={`${scriptUrl}financials.js`}
+                        config={COMPANY_FINANCIALS_WIDGET_CONFIG(symbol)}
+                        height={860}
+                    />
+
+                    <TradingViewWidget
+                        scriptUrl={`${scriptUrl}symbol-profile.js`}
                         config={COMPANY_PROFILE_WIDGET_CONFIG(symbol)}
                         height={440}
                     />
 
-                    <TradingViewWidget
-                        scriptUrl={`${scriptUrl}financials.js`}
-                        config={COMPANY_FINANCIALS_WIDGET_CONFIG(symbol)}
-                        height={800}
-                    />
+
                 </div>
             </section>
         </div>

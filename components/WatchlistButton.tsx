@@ -1,40 +1,54 @@
 "use client";
-import React, { useMemo, useState } from "react";
-
+import React, { useMemo, useEffect } from "react";
+import { useWatchlistStatus } from "@/hooks/useWatchlist";
 
 const WatchlistButton = ({
                              symbol,
                              company,
-                             isInWatchlist,
+                             isInWatchlist: initialIsInWatchlist,
                              showTrashIcon = false,
                              type = "button",
                              onWatchlistChange,
                          }: WatchlistButtonProps) => {
-    const [added, setAdded] = useState<boolean>(!!isInWatchlist);
+    const { isInWatchlist, isLoading, toggle } = useWatchlistStatus(symbol);
 
     const label = useMemo(() => {
-        if (type === "icon") return added ? "" : "";
-        return added ? "Remove from Watchlist" : "Add to Watchlist";
-    }, [added, type]);
+        if (type === "icon") return isInWatchlist ? "" : "";
+        return isInWatchlist ? "Remove from Watchlist" : "Add to Watchlist";
+    }, [isInWatchlist, type]);
 
     const handleClick = () => {
-        const next = !added;
-        setAdded(next);
-        onWatchlistChange?.(symbol, next);
+        const newStatus = toggle(company);
+        onWatchlistChange?.(symbol, newStatus);
     };
+
+    // Sync with parent component if needed
+    useEffect(() => {
+        if (!isLoading && initialIsInWatchlist !== undefined && initialIsInWatchlist !== isInWatchlist) {
+            onWatchlistChange?.(symbol, isInWatchlist);
+        }
+    }, [isInWatchlist, isLoading, initialIsInWatchlist, symbol, onWatchlistChange]);
+
+    if (isLoading) {
+        return (
+            <button disabled className="watchlist-btn opacity-50 cursor-not-allowed">
+                Loading...
+            </button>
+        );
+    }
 
     if (type === "icon") {
         return (
             <button
-                title={added ? `Remove ${symbol} from watchlist` : `Add ${symbol} to watchlist`}
-                aria-label={added ? `Remove ${symbol} from watchlist` : `Add ${symbol} to watchlist`}
-                className={`watchlist-icon-btn ${added ? "watchlist-icon-added" : ""}`}
+                title={isInWatchlist ? `Remove ${symbol} from watchlist` : `Add ${symbol} to watchlist`}
+                aria-label={isInWatchlist ? `Remove ${symbol} from watchlist` : `Add ${symbol} to watchlist`}
+                className={`watchlist-icon-btn ${isInWatchlist ? "watchlist-icon-added" : ""}`}
                 onClick={handleClick}
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
-                    fill={added ? "#FACC15" : "none"}
+                    fill={isInWatchlist ? "#FACC15" : "none"}
                     stroke="#FACC15"
                     strokeWidth="1.5"
                     className="watchlist-star"
@@ -50,8 +64,8 @@ const WatchlistButton = ({
     }
 
     return (
-        <button className={`watchlist-btn ${added ? "watchlist-remove" : ""}`} onClick={handleClick}>
-            {showTrashIcon && added ? (
+        <button className={`watchlist-btn ${isInWatchlist ? "watchlist-remove" : ""}`} onClick={handleClick}>
+            {showTrashIcon && isInWatchlist ? (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
