@@ -212,7 +212,7 @@ export const ETF_MARKET_DATA_WIDGET_CONFIG = {
                 { name: 'AMEX:EPHE', displayName: 'EPHE - Philippines' },
                 { name: 'AMEX:EDEN', displayName: 'EDEN - Denmark' },
                 { name: 'AMEX:EWM', displayName: 'EWM - Malaysia' },
-                { name: 'NASDAQ:COLO', displayName: 'COLO - Colombia' },
+                { name: 'AMEX:COLO', displayName: 'COLO - Colombia' },
                 { name: 'AMEX:EWH', displayName: 'EWH - Hong Kong' },
                 { name: 'AMEX:EZA', displayName: 'EZA - South Africa' },
             ],
