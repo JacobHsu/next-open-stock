@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { useWatchlist } from '@/hooks/useWatchlist';
 import ETFMarketDataWidget from '@/components/ETFMarketDataWidget';
+import TradingViewScreener from '@/components/TradingViewScreener';
 import { WATCHLIST_MARKET_DATA_WIDGET_CONFIG } from '@/lib/constants';
 
 const WatchlistPage = () => {
@@ -134,6 +135,12 @@ const WatchlistPage = () => {
                             </tbody>
                         </table>
                     </div>
+                </div>
+
+                {/* TradingView Stock Screener */}
+                <div className="mt-8">
+                    <h2 className="text-2xl font-bold text-gray-100 mb-4">Stock Screener</h2>
+                    <TradingViewScreener height={550} />
                 </div>
 
                 {/* Popular ETFs Widget */}
