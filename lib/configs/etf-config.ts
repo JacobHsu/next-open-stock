@@ -31,7 +31,7 @@ export const ETF_MARKET_OVERVIEW_WIDGET_CONFIG = {
             ],
         },
         {
-            title: 'International',
+            title: 'Markets',
             symbols: [
                 { s: 'NASDAQ:VXUS', d: 'Vanguard Total International Stock ETF' },
                 { s: 'AMEX:EFA', d: 'iShares MSCI EAFE ETF' },
@@ -44,19 +44,35 @@ export const ETF_MARKET_OVERVIEW_WIDGET_CONFIG = {
             ],
         },
         {
-            title: 'SPDR',
+            title: 'Sector',
             symbols: [
-                { s: 'AMEX:XLK', d: 'Technology Select Sector SPDR Fund' },
-                { s: 'AMEX:XLF', d: 'Financial Select Sector SPDR Fund' },
-                { s: 'AMEX:XLE', d: 'Energy Select Sector SPDR Fund' },
-                { s: 'AMEX:XLV', d: 'Health Care Select Sector SPDR Fund' },
-                { s: 'AMEX:XLI', d: 'Industrial Select Sector SPDR Fund' },
-                { s: 'AMEX:XLP', d: 'Consumer Staples Select Sector SPDR Fund' },
-                { s: 'AMEX:XLY', d: 'Consumer Discretionary Select Sector SPDR Fund' },
-                { s: 'AMEX:XLB', d: 'Materials Select Sector SPDR Fund' },
-                { s: 'AMEX:XLRE', d: 'Real Estate Select Sector SPDR Fund' },
-                { s: 'AMEX:XLU', d: 'Utilities Select Sector SPDR Fund' },
-                { s: 'AMEX:XLC', d: 'Communication Services Select Sector SPDR Fund' }
+                { s: 'AMEX:IXN', d: 'iShares Global Tech ETF' },
+                { s: 'AMEX:IXG', d: 'iShares Global Financials ETF' },
+                { s: 'AMEX:IXC', d: 'iShares Global Energy ETF' },
+                { s: 'AMEX:IXJ', d: 'iShares Global Healthcare ETF' },
+                { s: 'AMEX:EXI', d: 'iShares Global Industrials ETF' },
+                { s: 'AMEX:KXI', d: 'iShares Global Consumer Staples ETF' },
+                { s: 'AMEX:RXI', d: 'iShares Global Consumer Discretionary ETF' },
+                { s: 'AMEX:MXI', d: 'iShares Global Materials ETF' },
+                { s: 'AMEX:REET', d: 'iShares Global REIT ETF' },
+                { s: 'AMEX:JXI', d: 'iShares Global Utilities ETF' },
+                { s: 'AMEX:IXP', d: 'iShares Global Comm Services ETF' }
+            ],
+        },
+        {
+            title: 'iShares',
+            symbols: [
+                { s: 'AMEX:IYW', d: 'iShares U.S. Technology ETF' },
+                { s: 'AMEX:IYF', d: 'iShares U.S. Financials ETF' },
+                { s: 'AMEX:IYE', d: 'iShares U.S. Energy ETF' },
+                { s: 'AMEX:IYH', d: 'iShares U.S. Healthcare ETF' },
+                { s: 'AMEX:IYJ', d: 'iShares U.S. Industrials ETF' },
+                { s: 'AMEX:IYK', d: 'iShares U.S. Consumer Staples ETF' },
+                { s: 'AMEX:IYC', d: 'iShares U.S. Consumer Discretionary ETF' },
+                { s: 'AMEX:IYM', d: 'iShares U.S. Basic Materials ETF' },
+                { s: 'AMEX:IYR', d: 'iShares U.S. Real Estate ETF' },
+                { s: 'AMEX:IDU', d: 'iShares U.S. Utilities ETF' },
+                { s: 'AMEX:IYZ', d: 'iShares U.S. Telecommunications ETF' }
             ],
         },
         {
@@ -76,19 +92,19 @@ export const ETF_MARKET_OVERVIEW_WIDGET_CONFIG = {
             ],
         },
         {
-            title: 'iShares',
+            title: 'SPDR',
             symbols: [
-                { s: 'AMEX:IYW', d: 'iShares U.S. Technology ETF' },
-                { s: 'AMEX:IYF', d: 'iShares U.S. Financials ETF' },
-                { s: 'AMEX:IYE', d: 'iShares U.S. Energy ETF' },
-                { s: 'AMEX:IYH', d: 'iShares U.S. Healthcare ETF' },
-                { s: 'AMEX:IYJ', d: 'iShares U.S. Industrials ETF' },
-                { s: 'AMEX:IYK', d: 'iShares U.S. Consumer Staples ETF' },
-                { s: 'AMEX:IYC', d: 'iShares U.S. Consumer Discretionary ETF' },
-                { s: 'AMEX:IYM', d: 'iShares U.S. Basic Materials ETF' },
-                { s: 'AMEX:IYR', d: 'iShares U.S. Real Estate ETF' },
-                { s: 'AMEX:IDU', d: 'iShares U.S. Utilities ETF' },
-                { s: 'AMEX:IYZ', d: 'iShares U.S. Telecommunications ETF' }
+                { s: 'AMEX:XLK', d: 'Technology Select Sector SPDR Fund' },
+                { s: 'AMEX:XLF', d: 'Financial Select Sector SPDR Fund' },
+                { s: 'AMEX:XLE', d: 'Energy Select Sector SPDR Fund' },
+                { s: 'AMEX:XLV', d: 'Health Care Select Sector SPDR Fund' },
+                { s: 'AMEX:XLI', d: 'Industrial Select Sector SPDR Fund' },
+                { s: 'AMEX:XLP', d: 'Consumer Staples Select Sector SPDR Fund' },
+                { s: 'AMEX:XLY', d: 'Consumer Discretionary Select Sector SPDR Fund' },
+                { s: 'AMEX:XLB', d: 'Materials Select Sector SPDR Fund' },
+                { s: 'AMEX:XLRE', d: 'Real Estate Select Sector SPDR Fund' },
+                { s: 'AMEX:XLU', d: 'Utilities Select Sector SPDR Fund' },
+                { s: 'AMEX:XLC', d: 'Communication Services Select Sector SPDR Fund' }
             ],
         },
         {
