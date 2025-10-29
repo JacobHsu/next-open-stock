@@ -63,7 +63,7 @@ export const CANDLE_CHART_WIDGET_CONFIG = (symbol: string) => ({
     studies: [
         "STD;Multi-Time%Period%Charts",
         "STD;MA%1Cross",
-
+        "STD;PSAR",
     ],
     width: '100%',
     height: 600,
@@ -93,7 +93,8 @@ export const BASELINE_WIDGET_CONFIG = (symbol: string) => ({
     studies: [
         "MACD@tv-basicstudies",
         // "STD;Supertrend",
-        "STD;Pivot%1Points%1High%1Low"
+        "STD;Pivot%1Points%1High%1Low",
+        "STD;VWMA",
         // "RSI@tv-basicstudies",
     ],
     width: '100%',
