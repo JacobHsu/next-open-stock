@@ -14,7 +14,9 @@
       "WebFetch(domain:www.stockq.org)",
       "WebFetch(domain:disfold.com)",
       "WebFetch(domain:ark-funds.com)",
-      "WebFetch(domain:etfdb.com)"
+      "WebFetch(domain:etfdb.com)",
+      "WebFetch(domain:www.vaneck.com)",
+      "Bash(python:*)"
     ],
     "deny": [],
     "ask": []

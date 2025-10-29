@@ -23,8 +23,10 @@ export const CRYPTO_MARKET_OVERVIEW_WIDGET_CONFIG = {
                 { s: 'OTC:BITW', d: 'Bitwise 10 Crypto Index Fund' },
                 { s: 'AMEX:GDLC', d: 'Grayscale Digital Large Cap Fund' },
                 { s: 'AMEX:CRPT', d: 'First Trust SkyBridge Crypto ETF' },
-                { s: 'NASDAQ:COIN', d: 'Coinbase Global Inc' },
-                { s: 'NASDAQ:HOOD', d: 'Robinhood Markets Inc' },
+                { s: 'NASDAQ:DAPP', d: 'VanEck Digital Transformation ETF' },
+                { s: 'AMEX:MNRS', d: 'Grayscale Bitcoin Miners ETF' },
+                { s: 'NASDAQ:SOLZ', d: 'Volatility Shares Solana ETF' },
+                { s: 'NASDAQ:LTCC', d: 'Canary Litecoin ETF' },
             ],
         },
         {
@@ -46,16 +48,29 @@ export const CRYPTO_MARKET_OVERVIEW_WIDGET_CONFIG = {
                 { s: 'NASDAQ:ETHA', d: 'iShares Ethereum Trust ETF' },
                 { s: 'AMEX:FETH', d: 'Fidelity Ethereum Fund' },
                 { s: 'AMEX:ETHW', d: 'Bitwise Ethereum ETF' },
+                { s: 'AMEX:ETHE', d: 'Grayscale Ethereum Trust' },
+                { s: 'AMEX:CETH', d: '21Shares Core Ethereum ETF' },
+                { s: 'AMEX:QETH', d: 'Invesco Galaxy Ethereum ETF' },
+                { s: 'AMEX:ETHV', d: 'VanEck Ethereum ETF' },
             ],
         },
         {
             title: 'Exchanges',
             symbols: [
                 { s: 'NASDAQ:COIN', d: 'Coinbase Global Inc' },
+                { s: 'NYSE:BLSH', d: 'Bullish' },
+                { s: 'NASDAQ:GEMI', d: 'Gemini Space Station' },
                 { s: 'NASDAQ:HOOD', d: 'Robinhood Markets Inc' },
-                { s: 'NASDAQ:PYPL', d: 'PayPal Holdings Inc' },
                 { s: 'NASDAQ:CME', d: 'CME Group Inc' },
                 { s: 'NASDAQ:SOFI', d: 'SoFi Technologies Inc' },
+            ],
+        },
+        {
+            title: 'Stablecoins',
+            symbols: [
+                { s: 'NYSE:CRCL', d: 'Circle Internet Group (USDC)' },
+                { s: 'NASDAQ:COIN', d: 'Coinbase Global (USDC co-issuer)' },
+                { s: 'NASDAQ:PYPL', d: 'PayPal Holdings (PYUSD)' },
             ],
         },
         {
@@ -142,6 +157,35 @@ export const CRYPTO_MARKET_DATA_WIDGET_CONFIG = {
             ],
         },
         {
+            name: 'DAPP',
+            sourceUrl: 'https://www.vaneck.com/us/en/investments/digital-transformation-etf-dapp/overview/',
+            symbols: [
+                { name: 'NASDAQ:IREN', displayName: 'IREN - Iren Ltd (7.98%)' },
+                { name: 'AMEX:BMNR', displayName: 'BMNR - Bitmine Immersion Technologies (7.30%)' },
+                { name: 'NASDAQ:COIN', displayName: 'COIN - Coinbase Global (6.31%)' },
+                { name: 'NASDAQ:APLD', displayName: 'APLD - Applied Digital (6.27%)' },
+                { name: 'NASDAQ:CLSK', displayName: 'CLSK - Cleanspark (6.24%)' },
+                { name: 'NASDAQ:CIFR', displayName: 'CIFR - Cipher Mining (6.21%)' },
+                { name: 'NYSE:CRCL', displayName: 'CRCL - Circle Internet Group (5.63%)' },
+                { name: 'NYSE:SQ', displayName: 'SQ - Block (5.23%)' },
+                { name: 'NASDAQ:HUT', displayName: 'HUT - Hut 8 (4.99%)' },
+                { name: 'NASDAQ:MSTR', displayName: 'MSTR - MicroStrategy (4.98%)' },
+                { name: 'NASDAQ:RIOT', displayName: 'RIOT - Riot Platforms (4.83%)' },
+                { name: 'NASDAQ:GLXY', displayName: 'GLXY - Galaxy Digital (4.82%)' },
+                { name: 'NASDAQ:BTDR', displayName: 'BTDR - Bitdeer Technologies (4.09%)' },
+                { name: 'NASDAQ:WULF', displayName: 'WULF - Terawulf (4.01%)' },
+                { name: 'NASDAQ:CORZ', displayName: 'CORZ - Core Scientific (3.85%)' },
+                { name: 'NASDAQ:MARA', displayName: 'MARA - MARA Holdings (3.82%)' },
+                { name: 'NYSE:BLSH', displayName: 'BLSH - Bullish (3.31%)' },
+                { name: 'NASDAQ:BTBT', displayName: 'BTBT - Bit Digital (2.52%)' },
+                { name: 'NASDAQ:FIGR', displayName: 'FIGR - Figure Technology Solutions (2.51%)' },
+                { name: 'OTC:BCTCF', displayName: 'BCTCF - OSL Group (2.31%)' },
+                { name: 'OTC:MTPLF', displayName: 'MTPLF - Metaplanet (2.05%)' },
+                { name: 'NASDAQ:GEMI', displayName: 'GEMI - Gemini Space Station (0.67%)' },
+                { name: 'NASDAQ:OWLS', displayName: 'OWLS - Obook Holdings (0.10%)' },
+            ],
+        },
+        {
             name: 'GDLC',
             sourceUrl: 'https://etfs.grayscale.com/gdlc',
             symbols: [
@@ -152,6 +196,7 @@ export const CRYPTO_MARKET_DATA_WIDGET_CONFIG = {
                 { name: 'BINANCE:ADAUSDT', displayName: 'ADA - Cardano (1.44%)' },
             ],
         },
+
     ],
 };
 
