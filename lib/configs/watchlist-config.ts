@@ -23,6 +23,22 @@ export const WATCHLIST_MARKET_DATA_WIDGET_CONFIG = {
             ],
         },
         {
+            name: 'Bond',
+            sourceUrl: 'https://www.etf.com/',
+            symbols: [
+                { name: 'AMEX:AGG', displayName: 'AGG - iShares Core U.S. Aggregate Bond ETF' },
+                { name: 'NASDAQ:BND', displayName: 'BND - Vanguard Total Bond Market ETF' },
+                { name: 'NASDAQ:TLT', displayName: 'TLT - iShares 20+ Year Treasury Bond ETF' },
+                { name: 'NASDAQ:IEI', displayName: 'IEI - iShares 3-7 Year Treasury Bond ETF' },
+                { name: 'NASDAQ:SHY', displayName: 'SHY - iShares 1-3 Year Treasury Bond ETF' },
+                { name: 'AMEX:TIP', displayName: 'TIP - iShares TIPS Bond ETF' },
+                { name: 'NASDAQ:BNDX', displayName: 'BNDX - Vanguard Total International Bond ETF' },
+                { name: 'AMEX:BSV', displayName: 'BSV - Vanguard Short-Term Bond ETF' },
+                { name: 'NASDAQ:VCSH', displayName: 'VCSH - Vanguard Short-Term Corporate Bond ETF' },
+                { name: 'NASDAQ:VCIT', displayName: 'VCIT - Vanguard Intermediate-Term Corporate Bond ETF' },
+            ],
+        },
+        {
             name: 'First Trust',
             sourceUrl: 'https://www.ftportfolios.com/',
             symbols: [
