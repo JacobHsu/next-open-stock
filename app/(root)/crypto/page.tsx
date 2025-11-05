@@ -38,6 +38,7 @@ const CryptoPage = () => {
                         scriptUrl={`${scriptUrl}market-quotes.js`}
                         config={CRYPTO_MARKET_DATA_WIDGET_CONFIG}
                         height={600}
+                        showCryptoLinks={true}
                     />
                 </div>
                 <div className="h-full md:col-span-1 xl:col-span-1">
