@@ -56,6 +56,7 @@ const Nasdaq100Page = () => {
                         scriptUrl={`${scriptUrl}market-quotes.js`}
                         config={NASDAQ100_MARKET_DATA_WIDGET_CONFIG}
                         height={600}
+                        showNasdaq100Links={true}
                     />
                 </div>
                 <div className="h-full md:col-span-1 xl:col-span-1">

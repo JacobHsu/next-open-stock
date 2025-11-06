@@ -17,6 +17,7 @@ interface ETFMarketDataWidgetProps {
   height?: number;
   className?: string;
   showCryptoLinks?: boolean;
+  showNasdaq100Links?: boolean;
 }
 
 const ETFMarketDataWidget = ({
@@ -25,6 +26,7 @@ const ETFMarketDataWidget = ({
   height = 600,
   className,
   showCryptoLinks = false,
+  showNasdaq100Links = false,
 }: ETFMarketDataWidgetProps) => {
   const containerRef = useTradingViewWidget(scriptUrl, config, height);
 
@@ -72,6 +74,31 @@ const ETFMarketDataWidget = ({
               className="text-black hover:text-white transition-colors duration-200"
             >
               {crypto}
+            </Link>
+          ))}
+        </div>
+      )}
+
+      {/* Hidden Nasdaq 100 links - only show on nasdaq100 page */}
+      {showNasdaq100Links && (
+        <div className="flex items-center gap-4 mt-2 text-sm">
+          <Link
+            href="https://jacobhsu.github.io/stock-watch/etf/qqq"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-black hover:text-white transition-colors duration-200"
+          >
+            QQQ
+          </Link>
+          {["EWT", "TSM", "NVDA", "AAPL", "META", "GOOG"].map((symbol) => (
+            <Link
+              key={symbol}
+              href={`https://jacobhsu.github.io/stock-watch/stock/${symbol.toLowerCase()}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-black hover:text-white transition-colors duration-200"
+            >
+              {symbol}
             </Link>
           ))}
         </div>
