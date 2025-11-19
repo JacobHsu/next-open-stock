@@ -16,7 +16,13 @@
       "WebFetch(domain:ark-funds.com)",
       "WebFetch(domain:etfdb.com)",
       "WebFetch(domain:www.vaneck.com)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "WebFetch(domain:www.moneydj.com)",
+      "WebFetch(domain:www.tipranks.com)",
+      "WebFetch(domain:www.marketbeat.com)",
+      "WebFetch(domain:investor.vanguard.com)",
+      "WebFetch(domain:finance.yahoo.com)",
+      "WebFetch(domain:www.bestetf.net)"
     ],
     "deny": [],
     "ask": []
