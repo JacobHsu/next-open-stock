@@ -53,6 +53,20 @@ const ETFPage = () => {
                     <TradingViewWidget
                         title="ETF Heatmap"
                         titleLink="https://finviz.com/map.ashx?t=etf"
+                        hiddenLinks={[
+                            {
+                                text: 'Country',
+                                urls: [
+                                    'https://finviz.com/screener.ashx?v=711&t=CNYA,EWG,EWJ,INDA,EWU,EWQ,EWI,EWC,EWZ,EWW,EWA,EWP,EWY,EIDO,TUR,KSA,EWN,EWL,EPOL,EWT,EWK,ARGT,EWD,EIRL,EWS,EIS,UAE,THD,EWO,NORW,VNM,EPHE,EDEN,EWM,COLO,EWH,EZA,ACWI&show_etf=true'
+                                ]
+                            },
+                            {
+                                text: 'Vanguard',
+                                urls: [
+                                    'https://finviz.com/screener.ashx?v=711&t=VT,VTI,VOO,VEA,VWO,BND,VNQ,VXUS,VIG,VYM,VUG,VTV,VO,VB,VIGI,VTEB,VGLT,VGSH,VCSH,VCIT,VCLT,VCR,VDC,VFH,VHT,VIS,VPU,VOX,VAW,VDE,VPL,VGK,VSS,VGT,VIOG,VIOV,VIOO,VOE,VOT,VXF,VBR,VBK&show_etf=true'
+                                ]
+                            }
+                        ]}
                         scriptUrl={`${scriptUrl}etf-heatmap.js`}
                         config={ETF_HEATMAP_WIDGET_CONFIG}
                         height={600}
