@@ -28,6 +28,8 @@ export const ETF_MARKET_OVERVIEW_WIDGET_CONFIG = {
                 { s: 'AMEX:DBB', d: 'Invesco DB Base Metals Fund' },
                 { s: 'AMEX:DBC', d: 'Invesco DB Commodity Index Tracking Fund' },
                 { s: 'AMEX:DBE', d: 'Invesco DB Energy Fund' },
+                { s: 'AMEX:LIT', d: 'Global X Lithium & Battery Tech ETF' },
+                { s: 'AMEX:REMX', d: 'VanEck Rare Earth/Strategic Metals ETF' },
             ],
         },
         {

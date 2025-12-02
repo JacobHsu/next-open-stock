@@ -43,6 +43,14 @@ const ETFPage = () => {
                 <div className="md:col-span-1 xl:col-span-1">
                     <TradingViewWidget
                         title="ETF Market Overview"
+                        hiddenLinks={[
+                            {
+                                text: 'ETFs',
+                                urls: [
+                                    'https://www.macromicro.me/etf'
+                                ]
+                            }
+                        ]}
                         scriptUrl={`${scriptUrl}market-overview.js`}
                         config={ETF_MARKET_OVERVIEW_WIDGET_CONFIG}
                         className="custom-chart"
