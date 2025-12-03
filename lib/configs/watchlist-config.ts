@@ -67,6 +67,7 @@ export const WATCHLIST_MARKET_DATA_WIDGET_CONFIG = {
                 { name: 'NASDAQ:IGF', displayName: 'IGF - iShares Global Infrastructure ETF' },
                 { name: 'AMEX:IGM', displayName: 'IGM - iShares Expanded Tech Sector ETF' },
                 { name: 'AMEX:IGV', displayName: 'IGV - iShares Expanded Tech-Software Sector ETF' },
+                { name: 'AMEX:ITA', displayName: 'ITA - iShares U.S. Aerospace & Defense ETF' },
                 { name: 'AMEX:IJH', displayName: 'IJH - iShares Core S&P Mid-Cap ETF' },
                 { name: 'AMEX:IJR', displayName: 'IJR - iShares Core S&P Small-Cap ETF' },
                 { name: 'AMEX:ITOT', displayName: 'ITOT - iShares Core S&P Total U.S. Stock Market ETF' },
