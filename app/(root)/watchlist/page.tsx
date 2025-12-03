@@ -102,6 +102,14 @@ const WatchlistPage = () => {
                                         </td>
                                         <td className="px-6 py-4 text-right">
                                             <div className="flex justify-end gap-2">
+                                                <a
+                                                    href={`https://seekingalpha.com/symbol/${item.symbol}`}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-lg transition-colors text-sm font-medium"
+                                                >
+                                                    Seek
+                                                </a>
                                                 <Link
                                                     href={`/stocks/${item.symbol}`}
                                                     className="px-4 py-2 bg-gray-700 hover:bg-gray-600 text-gray-200 rounded-lg transition-colors text-sm font-medium"
