@@ -125,6 +125,20 @@ export const ETF_MARKET_OVERVIEW_WIDGET_CONFIG = {
                 { s: 'NASDAQ:PXI', d: 'Invesco DWA Communication Services Momentum ETF' }
             ],
         },
+        {
+            title: 'Industrials',
+            symbols: [
+                { s: 'AMEX:XLI', d: 'Industrial Select Sector SPDR Fund' },
+                { s: 'AMEX:VIS', d: 'Vanguard Industrials ETF' },
+                { s: 'AMEX:IYJ', d: 'iShares U.S. Industrials ETF' },
+                { s: 'AMEX:EXI', d: 'iShares Global Industrials ETF' },
+                { s: 'AMEX:ITA', d: 'iShares U.S. Aerospace & Defense ETF' },
+                { s: 'AMEX:PPA', d: 'Invesco Aerospace & Defense ETF' },
+                { s: 'AMEX:XAR', d: 'SPDR S&P Aerospace & Defense ETF' },
+                { s: 'BATS:EUAD', d: 'Select STOXX Europe Aerospace & Defense ETF' },
+                { s: 'AMEX:DFEN', d: 'Direxion Daily Aerospace & Defense Bull 3X' }
+            ],
+        },
     ],
     support_host: 'https://www.tradingview.com',
     backgroundColor: '#141414',
