@@ -1,0 +1,32 @@
+{
+  "symbol": "VPU",
+  "name": "Vanguard Utilities ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/vpu/holdings/",
+  "holdings": [
+    { "name": "NYSE:NEE", "displayName": "NEE - NextEra Energy, Inc. (10.99%)" },
+    { "name": "NASDAQ:CEG", "displayName": "CEG - Constellation Energy Corporation (7.75%)" },
+    { "name": "NYSE:SO", "displayName": "SO - The Southern Company (6.51%)" },
+    { "name": "NYSE:DUK", "displayName": "DUK - Duke Energy Corporation (6.34%)" },
+    { "name": "NASDAQ:AEP", "displayName": "AEP - American Electric Power Company, Inc. (4.21%)" },
+    { "name": "NYSE:VST", "displayName": "VST - Vistra Corp. (4.19%)" },
+    { "name": "NYSE:SRE", "displayName": "SRE - Sempra (3.93%)" },
+    { "name": "NYSE:D", "displayName": "D - Dominion Energy, Inc. (3.28%)" },
+    { "name": "NASDAQ:XEL", "displayName": "XEL - Xcel Energy Inc. (3.07%)" },
+    { "name": "NASDAQ:EXC", "displayName": "EXC - Exelon Corporation (3.05%)" },
+    { "name": "NYSE:ETR", "displayName": "ETR - Entergy Corporation (2.81%)" },
+    { "name": "NYSE:PEG", "displayName": "PEG - Public Service Enterprise Group Incorporated (2.64%)" },
+    { "name": "NYSE:WEC", "displayName": "WEC - WEC Energy Group, Inc. (2.34%)" },
+    { "name": "NYSE:ED", "displayName": "ED - Consolidated Edison, Inc. (2.30%)" },
+    { "name": "NYSE:PCG", "displayName": "PCG - PG&E Corporation (2.30%)" },
+    { "name": "NYSE:NRG", "displayName": "NRG - NRG Energy, Inc. (2.20%)" },
+    { "name": "NYSE:AEE", "displayName": "AEE - Ameren Corporation (1.85%)" },
+    { "name": "NYSE:DTE", "displayName": "DTE - DTE Energy Company (1.85%)" },
+    { "name": "NYSE:ES", "displayName": "ES - Eversource Energy (1.78%)" },
+    { "name": "NYSE:PPL", "displayName": "PPL - PPL Corporation (1.77%)" },
+    { "name": "NYSE:ATO", "displayName": "ATO - Atmos Energy Corporation (1.67%)" },
+    { "name": "NYSE:FE", "displayName": "FE - FirstEnergy Corp. (1.65%)" },
+    { "name": "NYSE:AWK", "displayName": "AWK - American Water Works Company, Inc. (1.64%)" },
+    { "name": "NYSE:CNP", "displayName": "CNP - CenterPoint Energy, Inc. (1.64%)" },
+    { "name": "NYSE:CMS", "displayName": "CMS - CMS Energy Corporation (1.44%)" }
+  ]
+}

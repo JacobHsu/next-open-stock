@@ -1,0 +1,20 @@
+{
+  "symbol": "EUAD",
+  "name": "Select STOXX Europe Aerospace & Defense ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/euad/holdings/",
+  "holdings": [
+    { "name": "OTC:EADSY", "displayName": "EADSY - Airbus SE (13.77%)" },
+    { "name": "OTC:RNMBY", "displayName": "RNMBY - Rheinmetall AG (7.39%)" },
+    { "name": "OTC:BAESY", "displayName": "BAESY - BAE Systems plc (5.96%)" },
+    { "name": "OTC:SAFRY", "displayName": "SAFRY - Safran SA (5.84%)" },
+    { "name": "OTC:FINMY", "displayName": "FINMY - Leonardo S.p.a. (5.59%)" },
+    { "name": "OTC:RYCEY", "displayName": "RYCEY - Rolls-Royce Holdings plc (5.29%)" },
+    { "name": "OTC:THLLY", "displayName": "THLLY - Thales S.A. (4.56%)" },
+    { "name": "OTC:SAABY", "displayName": "SAABY - Saab AB (4.45%)" },
+    { "name": "OTC:MTUAY", "displayName": "MTUAY - MTU Aero Engines AG (3.62%)" },
+    { "name": "OTC:HAGHY", "displayName": "HAGHY - Hensoldt AG (1.35%)" },
+    { "name": "OTC:BCKIY", "displayName": "BCKIY - Babcock International Group PLC (0.94%)" },
+    { "name": "OTC:QNTQY", "displayName": "QNTQY - QinetiQ Group plc (0.60%)" },
+    { "name": "OTC:CMGMY", "displayName": "CMGMY - Chemring Group PLC (0.44%)" }
+  ]
+}

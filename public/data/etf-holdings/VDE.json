@@ -1,0 +1,31 @@
+{
+  "symbol": "VDE",
+  "name": "Vanguard Energy ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/vde/holdings/",
+  "holdings": [
+    { "name": "NYSE:XOM", "displayName": "XOM - Exxon Mobil Corporation (23.00%)" },
+    { "name": "NYSE:CVX", "displayName": "CVX - Chevron Corporation (15.79%)" },
+    { "name": "NYSE:COP", "displayName": "COP - ConocoPhillips (5.52%)" },
+    { "name": "NYSE:WMB", "displayName": "WMB - The Williams Companies, Inc. (3.67%)" },
+    { "name": "NYSE:MPC", "displayName": "MPC - Marathon Petroleum Corporation (3.24%)" },
+    { "name": "NYSE:EOG", "displayName": "EOG - EOG Resources, Inc. (3.06%)" },
+    { "name": "NYSE:PSX", "displayName": "PSX - Phillips 66 (2.91%)" },
+    { "name": "NYSE:VLO", "displayName": "VLO - Valero Energy Corporation (2.78%)" },
+    { "name": "NYSE:KMI", "displayName": "KMI - Kinder Morgan, Inc. (2.72%)" },
+    { "name": "NYSE:SLB", "displayName": "SLB - SLB N.V. (2.51%)" },
+    { "name": "NASDAQ:BKR", "displayName": "BKR - Baker Hughes Company (2.50%)" },
+    { "name": "NYSE:LNG", "displayName": "LNG - Cheniere Energy, Inc. (2.46%)" },
+    { "name": "NYSE:OKE", "displayName": "OKE - ONEOK, Inc. (2.18%)" },
+    { "name": "NYSE:TRGP", "displayName": "TRGP - Targa Resources Corp. (1.74%)" },
+    { "name": "NYSE:EQT", "displayName": "EQT - EQT Corporation (1.66%)" },
+    { "name": "NASDAQ:FANG", "displayName": "FANG - Diamondback Energy, Inc. (1.42%)" },
+    { "name": "NYSE:OXY", "displayName": "OXY - Occidental Petroleum Corporation (1.40%)" },
+    { "name": "NYSE:HAL", "displayName": "HAL - Halliburton Company (1.23%)" },
+    { "name": "NASDAQ:EXE", "displayName": "EXE - Expand Energy Corporation (1.23%)" },
+    { "name": "NYSE:DVN", "displayName": "DVN - Devon Energy Corporation (1.06%)" },
+    { "name": "NYSE:TPL", "displayName": "TPL - Texas Pacific Land Corporation (0.97%)" },
+    { "name": "NYSE:CTRA", "displayName": "CTRA - Coterra Energy Inc. (0.95%)" },
+    { "name": "NYSE:FTI", "displayName": "FTI - TechnipFMC plc (0.94%)" },
+    { "name": "NYSE:DTM", "displayName": "DTM - DT Midstream, Inc. (0.59%)" }
+  ]
+}

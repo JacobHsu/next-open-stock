@@ -9,20 +9,42 @@ import {
     ETF_MARKET_OVERVIEW_WIDGET_CONFIG,
     ETF_TOP_STORIES_WIDGET_CONFIG
 } from "@/lib/constants";
-import { getETFHoldingsConfig } from "@/lib/configs/etf-holdings-config";
-import { useMemo } from "react";
+import { fetchETFHoldings, ETFHoldingConfig } from "@/lib/types/etf-holdings";
+import { useState, useEffect } from "react";
 
 const ETFSymbolPage = () => {
     const params = useParams();
     const symbol = params.symbol as string;
     const scriptUrl = `https://s3.tradingview.com/external-embedding/embed-widget-`;
 
-    // Get ETF holdings configuration
-    const etfConfig = useMemo(() => getETFHoldingsConfig(symbol), [symbol]);
+    // State for ETF holdings configuration
+    const [etfConfig, setEtfConfig] = useState<ETFHoldingConfig | null>(null);
+    const [loading, setLoading] = useState(true);
 
-    // If ETF not found, show 404
-    if (!etfConfig) {
-        notFound();
+    // Fetch ETF holdings on mount
+    useEffect(() => {
+        const loadETFData = async () => {
+            setLoading(true);
+            const data = await fetchETFHoldings(symbol);
+            setEtfConfig(data);
+            setLoading(false);
+
+            // If ETF not found, show 404
+            if (!data) {
+                notFound();
+            }
+        };
+
+        loadETFData();
+    }, [symbol]);
+
+    // Show loading state
+    if (loading || !etfConfig) {
+        return (
+            <div className="flex min-h-screen items-center justify-center">
+                <div className="text-lg">Loading ETF data...</div>
+            </div>
+        );
     }
 
     // Create custom market data widget config for this ETF
