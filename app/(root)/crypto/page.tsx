@@ -16,6 +16,7 @@ const CryptoPage = () => {
                 <div className="md:col-span-1 xl:col-span-1">
                     <TradingViewWidget
                         title="Crypto Market Overview"
+                        titleLink="https://sosovalue.com/tc/assets/etf/us-btc-spot"
                         scriptUrl={`${scriptUrl}market-overview.js`}
                         config={CRYPTO_MARKET_OVERVIEW_WIDGET_CONFIG}
                         className="custom-chart"
