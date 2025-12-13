@@ -1,6 +1,6 @@
 "use client";
 
-import React, { memo } from "react";
+import React, { memo, useState, useEffect } from "react";
 import useTradingViewWidget from "@/hooks/useTradingViewWidget";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
@@ -29,6 +29,28 @@ const ETFMarketDataWidget = ({
   showNasdaq100Links = false,
 }: ETFMarketDataWidgetProps) => {
   const containerRef = useTradingViewWidget(scriptUrl, config, height);
+  const [topLosers, setTopLosers] = useState<string[]>([]);
+
+  useEffect(() => {
+    if (!showNasdaq100Links) return;
+
+    // Fetch top losers from QQQ
+    const fetchTopLosers = async () => {
+      try {
+        const res = await fetch('/api/etf/top-losers?symbol=QQQ&limit=5');
+        const data = await res.json();
+
+        if (data.success && data.topLosers) {
+          const symbols = data.topLosers.map((loser: { symbol: string }) => loser.symbol);
+          setTopLosers(symbols);
+        }
+      } catch (error) {
+        console.error('Failed to fetch top losers:', error);
+      }
+    };
+
+    fetchTopLosers();
+  }, [showNasdaq100Links]);
 
   return (
     <div className="w-full">
@@ -90,6 +112,20 @@ const ETFMarketDataWidget = ({
           >
             QQQ
           </Link>
+          {/* Dynamic top losers */}
+          {topLosers.map((symbol) => (
+            <Link
+              key={symbol}
+              href={`https://jacobhsu.github.io/stock-watch/stock/${symbol.toLowerCase()}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-black hover:text-red-400 transition-colors duration-200"
+              title={`Top loser from QQQ`}
+            >
+              {symbol}
+            </Link>
+          ))}
+          {/* Fixed symbols */}
           {["EWT", "TSM", "NVDA", "AAPL", "META", "GOOG"].map((symbol) => (
             <Link
               key={symbol}
