@@ -41,13 +41,13 @@ async function processBatches<T, R>(
 /**
  * API endpoint to get top losers from QQQ holdings
  * Processes all symbols in batches of 50 to avoid rate limits
- * GET /api/etf/top-losers?symbol=QQQ&limit=5
+ * GET /api/etf/top-losers?symbol=QQQ&limit=8
  */
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
     const symbol = searchParams.get('symbol') || 'QQQ';
-    const limit = parseInt(searchParams.get('limit') || '5', 10);
+    const limit = parseInt(searchParams.get('limit') || '8', 10);
 
     const token = process.env.FINNHUB_API_KEY ?? process.env.NEXT_PUBLIC_FINNHUB_API_KEY;
     if (!token) {
@@ -79,7 +79,7 @@ export async function GET(request: Request) {
       try {
         const url = `${FINNHUB_BASE_URL}/quote?symbol=${encodeURIComponent(sym)}&token=${token}`;
         const res = await fetch(url, {
-          next: { revalidate: 86400 } // Cache for 1 day (24 hours)
+          next: { revalidate: 3600 } // Cache for 1 hour
         });
 
         if (!res.ok) {
