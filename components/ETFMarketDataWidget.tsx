@@ -116,7 +116,7 @@ const ETFMarketDataWidget = ({
           {topLosers.map((symbol) => (
             <Link
               key={symbol}
-              href={`https://jacobhsu.github.io/stock-watch/stock/${symbol.toLowerCase()}`}
+              href={`https://jacobhsu.github.io/stock-watch/stock/?symbol=${symbol}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:text-red-400 transition-colors duration-200"
@@ -129,7 +129,7 @@ const ETFMarketDataWidget = ({
           {["EWT", "TSM", "NVDA", "AAPL", "META", "GOOG"].map((symbol) => (
             <Link
               key={symbol}
-              href={`https://jacobhsu.github.io/stock-watch/stock/${symbol.toLowerCase()}`}
+              href={`https://jacobhsu.github.io/stock-watch/stock/?symbol=${symbol}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:text-white transition-colors duration-200"
