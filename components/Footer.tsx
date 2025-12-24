@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation";
 import OpenDevSocietyBranding from "./OpenDevSocietyBranding";
 import TradingViewWidget from "./TradingViewWidget";
+import MarketHolidayBanner from "./MarketHolidayBanner";
 import {
     TICKER_TAPE_WIDGET_CONFIG,
     NASDAQ100_TICKER_TAPE_WIDGET_CONFIG,
@@ -31,6 +32,9 @@ const Footer = () => {
     return (
         <footer className="bg-gray-900 text-white border-t border-gray-800">
             <div className="container mx-auto px-4 py-4">
+                {/* Market Holiday Banner */}
+                <MarketHolidayBanner />
+
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                     {/* Copyright */}
                     <div className="text-gray-400 text-sm">
