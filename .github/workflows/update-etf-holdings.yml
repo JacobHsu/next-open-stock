@@ -1,0 +1,83 @@
+name: Update ETF Holdings
+
+on:
+  # Run monthly on the 1st at 2:00 AM UTC
+  schedule:
+    - cron: '0 2 1 * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      etf_symbols:
+        description: 'ETF symbols to update (comma-separated, or "all-vanguard")'
+        required: false
+        default: 'all-vanguard'
+
+jobs:
+  update-holdings:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Update ETF holdings
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.etf_symbols }}" = "all-vanguard" ] || [ -z "${{ github.event.inputs.etf_symbols }}" ]; then
+            pnpm run update-etf:vanguard
+          else
+            pnpm run update-etf --symbols ${{ github.event.inputs.etf_symbols }}
+          fi
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code public/data/etf-holdings/ || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/data/etf-holdings/
+          git commit -m "chore: update ETF holdings data (automated)
+
+          Updated ETF holdings from stockanalysis.com
+          - Exchange verification via Finnhub API
+          - Top 25 holdings per ETF
+          - Weight percentages included"
+          git push
+
+      - name: Create summary
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          echo "### ETF Holdings Updated ✅" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Updated holdings data for:" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          git diff --name-only HEAD~1 HEAD | grep '.json$' | sed 's/.*\//- /' | sed 's/.json//' >> $GITHUB_STEP_SUMMARY
+
+      - name: No changes summary
+        if: steps.git-check.outputs.changes != 'true'
+        run: |
+          echo "### No Changes Detected ℹ️" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "ETF holdings are already up to date." >> $GITHUB_STEP_SUMMARY

@@ -3,30 +3,105 @@
   "name": "Vanguard Consumer Discretionary ETF",
   "sourceUrl": "https://stockanalysis.com/etf/vcr/holdings/",
   "holdings": [
-    { "name": "NASDAQ:AMZN", "displayName": "AMZN - Amazon.com, Inc. (21.44%)" },
-    { "name": "NASDAQ:TSLA", "displayName": "TSLA - Tesla, Inc. (17.37%)" },
-    { "name": "NYSE:HD", "displayName": "HD - The Home Depot, Inc. (4.87%)" },
-    { "name": "NYSE:MCD", "displayName": "MCD - McDonald's Corporation (3.30%)" },
-    { "name": "NYSE:TJX", "displayName": "TJX - The TJX Companies, Inc. (2.54%)" },
-    { "name": "NASDAQ:BKNG", "displayName": "BKNG - Booking Holdings Inc. (2.39%)" },
-    { "name": "NYSE:LOW", "displayName": "LOW - Lowe's Companies, Inc. (1.90%)" },
-    { "name": "NASDAQ:SBUX", "displayName": "SBUX - Starbucks Corporation (1.48%)" },
-    { "name": "NASDAQ:MELI", "displayName": "MELI - MercadoLibre, Inc. (1.42%)" },
-    { "name": "NASDAQ:ORLY", "displayName": "ORLY - O'Reilly Automotive, Inc. (1.33%)" },
-    { "name": "NYSE:NKE", "displayName": "NKE - NIKE, Inc. (1.16%)" },
-    { "name": "NASDAQ:DASH", "displayName": "DASH - DoorDash, Inc. (1.14%)" },
-    { "name": "NYSE:GM", "displayName": "GM - General Motors Company (1.14%)" },
-    { "name": "NASDAQ:MAR", "displayName": "MAR - Marriott International, Inc. (1.10%)" },
-    { "name": "NYSE:HLT", "displayName": "HLT - Hilton Worldwide Holdings Inc. (1.06%)" },
-    { "name": "NYSE:RCL", "displayName": "RCL - Royal Caribbean Cruises Ltd. (1.04%)" },
-    { "name": "NYSE:AZO", "displayName": "AZO - AutoZone, Inc. (1.01%)" },
-    { "name": "NASDAQ:ROST", "displayName": "ROST - Ross Stores, Inc. (0.90%)" },
-    { "name": "NYSE:F", "displayName": "F - Ford Motor Company (0.80%)" },
-    { "name": "NASDAQ:ABNB", "displayName": "ABNB - Airbnb, Inc. (0.78%)" },
-    { "name": "NYSE:CVNA", "displayName": "CVNA - Carvana Co. (0.76%)" },
-    { "name": "NYSE:CMG", "displayName": "CMG - Chipotle Mexican Grill, Inc. (0.72%)" },
-    { "name": "NYSE:DHI", "displayName": "DHI - D.R. Horton, Inc. (0.72%)" },
-    { "name": "NYSE:YUM", "displayName": "YUM - Yum! Brands, Inc. (0.66%)" },
-    { "name": "NASDAQ:EBAY", "displayName": "EBAY - eBay Inc. (0.63%)" }
+    {
+      "name": "NASDAQ:AMZN",
+      "displayName": "AMZN - Amazon.com, Inc. (21.44%)"
+    },
+    {
+      "name": "NASDAQ:TSLA",
+      "displayName": "TSLA - Tesla, Inc. (17.37%)"
+    },
+    {
+      "name": "NYSE:HD",
+      "displayName": "HD - The Home Depot, Inc. (4.87%)"
+    },
+    {
+      "name": "NYSE:MCD",
+      "displayName": "MCD - McDonald's Corporation (3.30%)"
+    },
+    {
+      "name": "NYSE:TJX",
+      "displayName": "TJX - The TJX Companies, Inc. (2.54%)"
+    },
+    {
+      "name": "NASDAQ:BKNG",
+      "displayName": "BKNG - Booking Holdings Inc. (2.39%)"
+    },
+    {
+      "name": "NYSE:LOW",
+      "displayName": "LOW - Lowe's Companies, Inc. (1.90%)"
+    },
+    {
+      "name": "NASDAQ:SBUX",
+      "displayName": "SBUX - Starbucks Corporation (1.48%)"
+    },
+    {
+      "name": "NASDAQ:MELI",
+      "displayName": "MELI - MercadoLibre, Inc. (1.42%)"
+    },
+    {
+      "name": "NASDAQ:ORLY",
+      "displayName": "ORLY - O'Reilly Automotive, Inc. (1.33%)"
+    },
+    {
+      "name": "NYSE:NKE",
+      "displayName": "NKE - NIKE, Inc. (1.16%)"
+    },
+    {
+      "name": "NASDAQ:DASH",
+      "displayName": "DASH - DoorDash, Inc. (1.14%)"
+    },
+    {
+      "name": "NYSE:GM",
+      "displayName": "GM - General Motors Company (1.14%)"
+    },
+    {
+      "name": "NASDAQ:MAR",
+      "displayName": "MAR - Marriott International, Inc. (1.10%)"
+    },
+    {
+      "name": "NYSE:HLT",
+      "displayName": "HLT - Hilton Worldwide Holdings Inc. (1.06%)"
+    },
+    {
+      "name": "NYSE:RCL",
+      "displayName": "RCL - Royal Caribbean Cruises Ltd. (1.04%)"
+    },
+    {
+      "name": "NYSE:AZO",
+      "displayName": "AZO - AutoZone, Inc. (1.01%)"
+    },
+    {
+      "name": "NASDAQ:ROST",
+      "displayName": "ROST - Ross Stores, Inc. (0.90%)"
+    },
+    {
+      "name": "NYSE:F",
+      "displayName": "F - Ford Motor Company (0.80%)"
+    },
+    {
+      "name": "NASDAQ:ABNB",
+      "displayName": "ABNB - Airbnb, Inc. (0.78%)"
+    },
+    {
+      "name": "NYSE:CVNA",
+      "displayName": "CVNA - Carvana Co. (0.76%)"
+    },
+    {
+      "name": "NYSE:CMG",
+      "displayName": "CMG - Chipotle Mexican Grill, Inc. (0.72%)"
+    },
+    {
+      "name": "NYSE:DHI",
+      "displayName": "DHI - D.R. Horton, Inc. (0.72%)"
+    },
+    {
+      "name": "NYSE:YUM",
+      "displayName": "YUM - Yum! Brands, Inc. (0.66%)"
+    },
+    {
+      "name": "NASDAQ:EBAY",
+      "displayName": "EBAY - eBay Inc. (0.63%)"
+    }
   ]
 }

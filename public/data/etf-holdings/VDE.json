@@ -3,29 +3,105 @@
   "name": "Vanguard Energy ETF",
   "sourceUrl": "https://stockanalysis.com/etf/vde/holdings/",
   "holdings": [
-    { "name": "NYSE:XOM", "displayName": "XOM - Exxon Mobil Corporation (23.00%)" },
-    { "name": "NYSE:CVX", "displayName": "CVX - Chevron Corporation (15.79%)" },
-    { "name": "NYSE:COP", "displayName": "COP - ConocoPhillips (5.52%)" },
-    { "name": "NYSE:WMB", "displayName": "WMB - The Williams Companies, Inc. (3.67%)" },
-    { "name": "NYSE:MPC", "displayName": "MPC - Marathon Petroleum Corporation (3.24%)" },
-    { "name": "NYSE:EOG", "displayName": "EOG - EOG Resources, Inc. (3.06%)" },
-    { "name": "NYSE:PSX", "displayName": "PSX - Phillips 66 (2.91%)" },
-    { "name": "NYSE:VLO", "displayName": "VLO - Valero Energy Corporation (2.78%)" },
-    { "name": "NYSE:KMI", "displayName": "KMI - Kinder Morgan, Inc. (2.72%)" },
-    { "name": "NYSE:SLB", "displayName": "SLB - SLB N.V. (2.51%)" },
-    { "name": "NASDAQ:BKR", "displayName": "BKR - Baker Hughes Company (2.50%)" },
-    { "name": "NYSE:LNG", "displayName": "LNG - Cheniere Energy, Inc. (2.46%)" },
-    { "name": "NYSE:OKE", "displayName": "OKE - ONEOK, Inc. (2.18%)" },
-    { "name": "NYSE:TRGP", "displayName": "TRGP - Targa Resources Corp. (1.74%)" },
-    { "name": "NYSE:EQT", "displayName": "EQT - EQT Corporation (1.66%)" },
-    { "name": "NASDAQ:FANG", "displayName": "FANG - Diamondback Energy, Inc. (1.42%)" },
-    { "name": "NYSE:OXY", "displayName": "OXY - Occidental Petroleum Corporation (1.40%)" },
-    { "name": "NYSE:HAL", "displayName": "HAL - Halliburton Company (1.23%)" },
-    { "name": "NASDAQ:EXE", "displayName": "EXE - Expand Energy Corporation (1.23%)" },
-    { "name": "NYSE:DVN", "displayName": "DVN - Devon Energy Corporation (1.06%)" },
-    { "name": "NYSE:TPL", "displayName": "TPL - Texas Pacific Land Corporation (0.97%)" },
-    { "name": "NYSE:CTRA", "displayName": "CTRA - Coterra Energy Inc. (0.95%)" },
-    { "name": "NYSE:FTI", "displayName": "FTI - TechnipFMC plc (0.94%)" },
-    { "name": "NYSE:DTM", "displayName": "DTM - DT Midstream, Inc. (0.59%)" }
+    {
+      "name": "NYSE:XOM",
+      "displayName": "XOM - Exxon Mobil Corporation (22.02%)"
+    },
+    {
+      "name": "NYSE:CVX",
+      "displayName": "CVX - Chevron Corporation (14.89%)"
+    },
+    {
+      "name": "NYSE:COP",
+      "displayName": "COP - ConocoPhillips (5.56%)"
+    },
+    {
+      "name": "NYSE:WMB",
+      "displayName": "WMB - The Williams Companies, Inc. (3.82%)"
+    },
+    {
+      "name": "NYSE:MPC",
+      "displayName": "MPC - Marathon Petroleum Corporation (3.16%)"
+    },
+    {
+      "name": "NYSE:EOG",
+      "displayName": "EOG - EOG Resources, Inc. (3.06%)"
+    },
+    {
+      "name": "NYSE:PSX",
+      "displayName": "PSX - Phillips 66 (2.87%)"
+    },
+    {
+      "name": "NYSE:VLO",
+      "displayName": "VLO - Valero Energy Corporation (2.85%)"
+    },
+    {
+      "name": "NYSE:KMI",
+      "displayName": "KMI - Kinder Morgan, Inc. (2.81%)"
+    },
+    {
+      "name": "NASDAQ:BKR",
+      "displayName": "BKR - Baker Hughes Company (2.55%)"
+    },
+    {
+      "name": "NYSE:SLB",
+      "displayName": "SLB - SLB N.V. (2.47%)"
+    },
+    {
+      "name": "NYSE:LNG",
+      "displayName": "LNG - Cheniere Energy, Inc. (2.38%)"
+    },
+    {
+      "name": "NYSE:OKE",
+      "displayName": "OKE - ONEOK, Inc. (2.36%)"
+    },
+    {
+      "name": "NYSE:EQT",
+      "displayName": "EQT - EQT Corporation (1.96%)"
+    },
+    {
+      "name": "NYSE:TRGP",
+      "displayName": "TRGP - Targa Resources Corp. (1.95%)"
+    },
+    {
+      "name": "NASDAQ:EXE",
+      "displayName": "EXE - Expand Energy Corporation (1.51%)"
+    },
+    {
+      "name": "NASDAQ:FANG",
+      "displayName": "FANG - Diamondback Energy, Inc. (1.49%)"
+    },
+    {
+      "name": "NYSE:OXY",
+      "displayName": "OXY - Occidental Petroleum Corporation (1.41%)"
+    },
+    {
+      "name": "NYSE:DVN",
+      "displayName": "DVN - Devon Energy Corporation (1.19%)"
+    },
+    {
+      "name": "NYSE:HAL",
+      "displayName": "HAL - Halliburton Company (1.18%)"
+    },
+    {
+      "name": "NYSE:CTRA",
+      "displayName": "CTRA - Coterra Energy Inc. (1.07%)"
+    },
+    {
+      "name": "NYSE:FTI",
+      "displayName": "FTI - TechnipFMC plc (1.01%)"
+    },
+    {
+      "name": "NYSE:TPL",
+      "displayName": "TPL - Texas Pacific Land Corporation (0.88%)"
+    },
+    {
+      "name": "NYSE:DTM",
+      "displayName": "DTM - DT Midstream, Inc. (0.65%)"
+    },
+    {
+      "name": "NYSE:AR",
+      "displayName": "AR - Antero Resources Corporation (0.57%)"
+    }
   ]
 }

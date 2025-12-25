@@ -1,0 +1,99 @@
+{
+  "symbol": "VFH",
+  "name": "Vanguard Financials ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/vfh/holdings/",
+  "holdings": [
+    {
+      "name": "NYSE:JPM",
+      "displayName": "JPM - JPMorgan Chase & Co. (9.76%)"
+    },
+    {
+      "name": "NYSE:BRK.B",
+      "displayName": "BRK.B - Berkshire Hathaway Inc. (8.03%)"
+    },
+    {
+      "name": "NYSE:MA",
+      "displayName": "MA - Mastercard Incorporated (5.32%)"
+    },
+    {
+      "name": "NYSE:BAC",
+      "displayName": "BAC - Bank of America Corporation (4.28%)"
+    },
+    {
+      "name": "NYSE:V",
+      "displayName": "V - Visa Inc. (4.13%)"
+    },
+    {
+      "name": "NYSE:WFC",
+      "displayName": "WFC - Wells Fargo & Company (3.12%)"
+    },
+    {
+      "name": "NYSE:GS",
+      "displayName": "GS - The Goldman Sachs Group, Inc. (2.84%)"
+    },
+    {
+      "name": "NYSE:AXP",
+      "displayName": "AXP - American Express Company (2.31%)"
+    },
+    {
+      "name": "NYSE:MS",
+      "displayName": "MS - Morgan Stanley (2.30%)"
+    },
+    {
+      "name": "NYSE:C",
+      "displayName": "C - Citigroup Inc. (2.16%)"
+    },
+    {
+      "name": "NYSE:SCHW",
+      "displayName": "SCHW - The Charles Schwab Corporation (1.81%)"
+    },
+    {
+      "name": "NYSE:SPGI",
+      "displayName": "SPGI - S&P Global Inc. (1.77%)"
+    },
+    {
+      "name": "NYSE:BLK",
+      "displayName": "BLK - BlackRock, Inc. (1.75%)"
+    },
+    {
+      "name": "NYSE:COF",
+      "displayName": "COF - Capital One Financial Corporation (1.59%)"
+    },
+    {
+      "name": "NYSE:PGR",
+      "displayName": "PGR - The Progressive Corporation (1.52%)"
+    },
+    {
+      "name": "NYSE:CB",
+      "displayName": "CB - Chubb Limited (1.27%)"
+    },
+    {
+      "name": "NYSE:BX",
+      "displayName": "BX - Blackstone Inc. (1.22%)"
+    },
+    {
+      "name": "NASDAQ:CME",
+      "displayName": "CME - CME Group Inc. (1.15%)"
+    },
+    {
+      "name": "NASDAQ:HOOD",
+      "displayName": "HOOD - Robinhood Markets, Inc. (1.07%)"
+    },
+    {
+      "name": "NYSE:MMC",
+      "displayName": "MMC - Marsh & McLennan Companies, Inc. (1.02%)"
+    },
+    {
+      "name": "NYSE:ICE",
+      "displayName": "ICE - Intercontinental Exchange, Inc. (1.02%)"
+    },
+    {
+      "name": "NYSE:MCO",
+      "displayName": "MCO - Moody's Corporation (0.90%)"
+    },
+    {
+      "name": "NYSE:BK",
+      "displayName": "BK - The Bank of New York Mellon Corporation (0.90%)"
+    }
+  ]
+}

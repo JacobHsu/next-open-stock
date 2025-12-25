@@ -1,0 +1,107 @@
+{
+  "symbol": "VOX",
+  "name": "Vanguard Communication Services ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/vox/holdings/",
+  "holdings": [
+    {
+      "name": "NASDAQ:META",
+      "displayName": "META - Meta Platforms, Inc. (23.02%)"
+    },
+    {
+      "name": "NASDAQ:GOOGL",
+      "displayName": "GOOGL - Alphabet, Inc. (14.52%)"
+    },
+    {
+      "name": "NASDAQ:GOOG",
+      "displayName": "GOOG - Alphabet Inc. (9.91%)"
+    },
+    {
+      "name": "NASDAQ:NFLX",
+      "displayName": "NFLX - Netflix, Inc. (4.07%)"
+    },
+    {
+      "name": "NYSE:T",
+      "displayName": "T - AT&T Inc. (3.98%)"
+    },
+    {
+      "name": "NYSE:DIS",
+      "displayName": "DIS - The Walt Disney Company (3.88%)"
+    },
+    {
+      "name": "NYSE:VZ",
+      "displayName": "VZ - Verizon Communications Inc. (3.78%)"
+    },
+    {
+      "name": "NASDAQ:TMUS",
+      "displayName": "TMUS - T-Mobile US, Inc. (2.70%)"
+    },
+    {
+      "name": "NASDAQ:WBD",
+      "displayName": "WBD - Warner Bros. Discovery, Inc. (2.59%)"
+    },
+    {
+      "name": "NASDAQ:CMCSA",
+      "displayName": "CMCSA - Comcast Corporation (2.56%)"
+    },
+    {
+      "name": "NYSE:RBLX",
+      "displayName": "RBLX - Roblox Corporation (1.84%)"
+    },
+    {
+      "name": "NASDAQ:EA",
+      "displayName": "EA - Electronic Arts Inc. (1.82%)"
+    },
+    {
+      "name": "NASDAQ:TTWO",
+      "displayName": "TTWO - Take-Two Interactive Software, Inc. (1.80%)"
+    },
+    {
+      "name": "NYSE:OMC",
+      "displayName": "OMC - Omnicom Group Inc. (1.43%)"
+    },
+    {
+      "name": "NYSE:RDDT",
+      "displayName": "RDDT - Reddit, Inc. (1.36%)"
+    },
+    {
+      "name": "NYSE:LYV",
+      "displayName": "LYV - Live Nation Entertainment, Inc. (1.33%)"
+    },
+    {
+      "name": "NASDAQ:FWONK",
+      "displayName": "FWONK - Formula One Group (1.27%)"
+    },
+    {
+      "name": "NASDAQ:CHTR",
+      "displayName": "CHTR - Charter Communications, Inc. (1.11%)"
+    },
+    {
+      "name": "NASDAQ:TTD",
+      "displayName": "TTD - The Trade Desk, Inc. (1.10%)"
+    },
+    {
+      "name": "NYSE:PINS",
+      "displayName": "PINS - Pinterest, Inc. (0.98%)"
+    },
+    {
+      "name": "NYSE:TKO",
+      "displayName": "TKO - TKO Group Holdings, Inc. (0.84%)"
+    },
+    {
+      "name": "NASDAQ:ROKU",
+      "displayName": "ROKU - Roku, Inc. (0.79%)"
+    },
+    {
+      "name": "NASDAQ:ASTS",
+      "displayName": "ASTS - AST SpaceMobile, Inc. (0.71%)"
+    },
+    {
+      "name": "NASDAQ:FOXA",
+      "displayName": "FOXA - Fox Corporation (0.65%)"
+    },
+    {
+      "name": "NASDAQ:SATS",
+      "displayName": "SATS - EchoStar Corporation (0.64%)"
+    }
+  ]
+}

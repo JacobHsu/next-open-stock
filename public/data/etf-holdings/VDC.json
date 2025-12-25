@@ -3,30 +3,105 @@
   "name": "Vanguard Consumer Staples ETF",
   "sourceUrl": "https://stockanalysis.com/etf/vdc/holdings/",
   "holdings": [
-    { "name": "NASDAQ:WMT", "displayName": "WMT - Walmart Inc. (14.50%)" },
-    { "name": "NASDAQ:COST", "displayName": "COST - Costco Wholesale Corporation (11.97%)" },
-    { "name": "NYSE:PG", "displayName": "PG - The Procter & Gamble Company (10.07%)" },
-    { "name": "NYSE:KO", "displayName": "KO - The Coca-Cola Company (8.47%)" },
-    { "name": "NASDAQ:PEP", "displayName": "PEP - PepsiCo, Inc. (4.52%)" },
-    { "name": "NYSE:PM", "displayName": "PM - Philip Morris International Inc. (4.44%)" },
-    { "name": "NYSE:MO", "displayName": "MO - Altria Group, Inc. (3.39%)" },
-    { "name": "NASDAQ:MDLZ", "displayName": "MDLZ - Mondelez International, Inc. (2.57%)" },
-    { "name": "NYSE:CL", "displayName": "CL - Colgate-Palmolive Company (2.16%)" },
-    { "name": "NASDAQ:MNST", "displayName": "MNST - Monster Beverage Corporation (1.95%)" },
-    { "name": "NYSE:KR", "displayName": "KR - The Kroger Co. (1.52%)" },
-    { "name": "NYSE:TGT", "displayName": "TGT - Target Corporation (1.48%)" },
-    { "name": "NYSE:SYY", "displayName": "SYY - Sysco Corporation (1.34%)" },
-    { "name": "NASDAQ:KMB", "displayName": "KMB - Kimberly-Clark Corporation (1.32%)" },
-    { "name": "NASDAQ:KDP", "displayName": "KDP - Keurig Dr Pepper Inc. (1.32%)" },
-    { "name": "NYSE:KVUE", "displayName": "KVUE - Kenvue Inc. (1.23%)" },
-    { "name": "NYSE:ADM", "displayName": "ADM - Archer-Daniels-Midland Company (1.10%)" },
-    { "name": "NYSE:HSY", "displayName": "HSY - The Hershey Company (1.05%)" },
-    { "name": "NYSE:GIS", "displayName": "GIS - General Mills, Inc. (0.96%)" },
-    { "name": "NYSE:K", "displayName": "K - Kellogg Company (0.94%)" },
-    { "name": "NYSE:DG", "displayName": "DG - Dollar General Corporation (0.93%)" },
-    { "name": "NASDAQ:KHC", "displayName": "KHC - The Kraft Heinz Company (0.88%)" },
-    { "name": "NYSE:EL", "displayName": "EL - The Estée Lauder Companies Inc. (0.86%)" },
-    { "name": "NASDAQ:DLTR", "displayName": "DLTR - Dollar Tree, Inc. (0.85%)" },
-    { "name": "NASDAQ:CASY", "displayName": "CASY - Casey's General Stores, Inc. (0.84%)" }
+    {
+      "name": "NASDAQ:WMT",
+      "displayName": "WMT - Walmart Inc. (14.50%)"
+    },
+    {
+      "name": "NASDAQ:COST",
+      "displayName": "COST - Costco Wholesale Corporation (11.97%)"
+    },
+    {
+      "name": "NYSE:PG",
+      "displayName": "PG - The Procter & Gamble Company (10.07%)"
+    },
+    {
+      "name": "NYSE:KO",
+      "displayName": "KO - The Coca-Cola Company (8.47%)"
+    },
+    {
+      "name": "NASDAQ:PEP",
+      "displayName": "PEP - PepsiCo, Inc. (4.52%)"
+    },
+    {
+      "name": "NYSE:PM",
+      "displayName": "PM - Philip Morris International Inc. (4.44%)"
+    },
+    {
+      "name": "NYSE:MO",
+      "displayName": "MO - Altria Group, Inc. (3.39%)"
+    },
+    {
+      "name": "NASDAQ:MDLZ",
+      "displayName": "MDLZ - Mondelez International, Inc. (2.57%)"
+    },
+    {
+      "name": "NYSE:CL",
+      "displayName": "CL - Colgate-Palmolive Company (2.16%)"
+    },
+    {
+      "name": "NASDAQ:MNST",
+      "displayName": "MNST - Monster Beverage Corporation (1.95%)"
+    },
+    {
+      "name": "NYSE:KR",
+      "displayName": "KR - The Kroger Co. (1.52%)"
+    },
+    {
+      "name": "NYSE:TGT",
+      "displayName": "TGT - Target Corporation (1.48%)"
+    },
+    {
+      "name": "NYSE:SYY",
+      "displayName": "SYY - Sysco Corporation (1.34%)"
+    },
+    {
+      "name": "NASDAQ:KMB",
+      "displayName": "KMB - Kimberly-Clark Corporation (1.32%)"
+    },
+    {
+      "name": "NASDAQ:KDP",
+      "displayName": "KDP - Keurig Dr Pepper Inc. (1.32%)"
+    },
+    {
+      "name": "NYSE:KVUE",
+      "displayName": "KVUE - Kenvue Inc. (1.23%)"
+    },
+    {
+      "name": "NYSE:ADM",
+      "displayName": "ADM - Archer-Daniels-Midland Company (1.10%)"
+    },
+    {
+      "name": "NYSE:HSY",
+      "displayName": "HSY - The Hershey Company (1.05%)"
+    },
+    {
+      "name": "NYSE:GIS",
+      "displayName": "GIS - General Mills, Inc. (0.96%)"
+    },
+    {
+      "name": "NYSE:K",
+      "displayName": "K - Kellogg Company (0.94%)"
+    },
+    {
+      "name": "NYSE:DG",
+      "displayName": "DG - Dollar General Corporation (0.93%)"
+    },
+    {
+      "name": "NASDAQ:KHC",
+      "displayName": "KHC - The Kraft Heinz Company (0.88%)"
+    },
+    {
+      "name": "NYSE:EL",
+      "displayName": "EL - The Estée Lauder Companies Inc. (0.86%)"
+    },
+    {
+      "name": "NASDAQ:DLTR",
+      "displayName": "DLTR - Dollar Tree, Inc. (0.85%)"
+    },
+    {
+      "name": "NASDAQ:CASY",
+      "displayName": "CASY - Casey's General Stores, Inc. (0.84%)"
+    }
   ]
 }

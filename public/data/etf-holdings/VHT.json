@@ -1,0 +1,99 @@
+{
+  "symbol": "VHT",
+  "name": "Vanguard Health Care ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/vht/holdings/",
+  "holdings": [
+    {
+      "name": "NYSE:LLY",
+      "displayName": "LLY - Eli Lilly and Company (12.39%)"
+    },
+    {
+      "name": "NYSE:ABBV",
+      "displayName": "ABBV - AbbVie Inc. (4.85%)"
+    },
+    {
+      "name": "NYSE:JNJ",
+      "displayName": "JNJ - Johnson & Johnson (4.42%)"
+    },
+    {
+      "name": "NYSE:UNH",
+      "displayName": "UNH - UnitedHealth Group Incorporated (4.02%)"
+    },
+    {
+      "name": "NYSE:MRK",
+      "displayName": "MRK - Merck & Co., Inc. (3.75%)"
+    },
+    {
+      "name": "NYSE:ABT",
+      "displayName": "ABT - Abbott Laboratories (3.21%)"
+    },
+    {
+      "name": "NYSE:TMO",
+      "displayName": "TMO - Thermo Fisher Scientific Inc. (3.19%)"
+    },
+    {
+      "name": "NASDAQ:ISRG",
+      "displayName": "ISRG - Intuitive Surgical, Inc. (2.94%)"
+    },
+    {
+      "name": "NASDAQ:AMGN",
+      "displayName": "AMGN - Amgen Inc. (2.66%)"
+    },
+    {
+      "name": "NASDAQ:GILD",
+      "displayName": "GILD - Gilead Sciences, Inc. (2.24%)"
+    },
+    {
+      "name": "NYSE:BSX",
+      "displayName": "BSX - Boston Scientific Corporation (2.16%)"
+    },
+    {
+      "name": "NYSE:PFE",
+      "displayName": "PFE - Pfizer Inc. (2.10%)"
+    },
+    {
+      "name": "NYSE:DHR",
+      "displayName": "DHR - Danaher Corporation (2.09%)"
+    },
+    {
+      "name": "NYSE:MDT",
+      "displayName": "MDT - Medtronic plc (1.93%)"
+    },
+    {
+      "name": "NYSE:SYK",
+      "displayName": "SYK - Stryker Corporation (1.83%)"
+    },
+    {
+      "name": "NASDAQ:VRTX",
+      "displayName": "VRTX - Vertex Pharmaceuticals Incorporated (1.59%)"
+    },
+    {
+      "name": "NYSE:MCK",
+      "displayName": "MCK - McKesson Corporation (1.57%)"
+    },
+    {
+      "name": "NYSE:CVS",
+      "displayName": "CVS - CVS Health Corporation (1.46%)"
+    },
+    {
+      "name": "NYSE:BMY",
+      "displayName": "BMY - Bristol-Myers Squibb Company (1.43%)"
+    },
+    {
+      "name": "NYSE:HCA",
+      "displayName": "HCA - HCA Healthcare, Inc. (1.19%)"
+    },
+    {
+      "name": "NASDAQ:REGN",
+      "displayName": "REGN - Regeneron Pharmaceuticals, Inc. (1.16%)"
+    },
+    {
+      "name": "NYSE:ELV",
+      "displayName": "ELV - Elevance Health, Inc. (1.09%)"
+    },
+    {
+      "name": "NYSE:CI",
+      "displayName": "CI - The Cigna Group (1.06%)"
+    }
+  ]
+}

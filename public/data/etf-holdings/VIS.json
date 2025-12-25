@@ -3,30 +3,105 @@
   "name": "Vanguard Industrials ETF",
   "sourceUrl": "https://stockanalysis.com/etf/vis/holdings/",
   "holdings": [
-    { "name": "NYSE:GE", "displayName": "GE - GE Aerospace (5.25%)" },
-    { "name": "NYSE:CAT", "displayName": "CAT - Caterpillar Inc. (4.32%)" },
-    { "name": "NYSE:RTX", "displayName": "RTX - RTX Corporation (3.80%)" },
-    { "name": "NYSE:UBER", "displayName": "UBER - Uber Technologies, Inc. (3.05%)" },
-    { "name": "NYSE:GEV", "displayName": "GEV - GE Vernova Inc. (2.54%)" },
-    { "name": "NYSE:ETN", "displayName": "ETN - Eaton Corporation plc (2.38%)" },
-    { "name": "NYSE:UNP", "displayName": "UNP - Union Pacific Corporation (2.10%)" },
-    { "name": "NASDAQ:HON", "displayName": "HON - Honeywell International Inc. (2.06%)" },
-    { "name": "NYSE:BA", "displayName": "BA - The Boeing Company (2.05%)" },
-    { "name": "NYSE:DE", "displayName": "DE - Deere & Company (1.89%)" },
-    { "name": "NASDAQ:ADP", "displayName": "ADP - Automatic Data Processing, Inc. (1.68%)" },
-    { "name": "NYSE:LMT", "displayName": "LMT - Lockheed Martin Corporation (1.65%)" },
-    { "name": "NYSE:TT", "displayName": "TT - Trane Technologies plc (1.59%)" },
-    { "name": "NYSE:PH", "displayName": "PH - Parker-Hannifin Corporation (1.57%)" },
-    { "name": "NYSE:MMM", "displayName": "MMM - 3M Company (1.43%)" },
-    { "name": "NYSE:WM", "displayName": "WM - Waste Management, Inc. (1.28%)" },
-    { "name": "NYSE:NOC", "displayName": "NOC - Northrop Grumman Corporation (1.27%)" },
-    { "name": "NYSE:HWM", "displayName": "HWM - Howmet Aerospace Inc. (1.26%)" },
-    { "name": "NYSE:GD", "displayName": "GD - General Dynamics Corporation (1.25%)" },
-    { "name": "NYSE:EMR", "displayName": "EMR - Emerson Electric Co. (1.25%)" },
-    { "name": "NYSE:JCI", "displayName": "JCI - Johnson Controls International plc (1.20%)" },
-    { "name": "NYSE:TDG", "displayName": "TDG - TransDigm Group Incorporated (1.17%)" },
-    { "name": "NYSE:UPS", "displayName": "UPS - United Parcel Service, Inc. (1.13%)" },
-    { "name": "NYSE:VRT", "displayName": "VRT - Vertiv Holdings Co (1.11%)" },
-    { "name": "NYSE:ITW", "displayName": "ITW - Illinois Tool Works Inc. (1.08%)" }
+    {
+      "name": "NYSE:GE",
+      "displayName": "GE - GE Aerospace (5.11%)"
+    },
+    {
+      "name": "NYSE:CAT",
+      "displayName": "CAT - Caterpillar Inc. (4.35%)"
+    },
+    {
+      "name": "NYSE:RTX",
+      "displayName": "RTX - RTX Corporation (3.78%)"
+    },
+    {
+      "name": "NYSE:UBER",
+      "displayName": "UBER - Uber Technologies, Inc. (2.80%)"
+    },
+    {
+      "name": "NYSE:GEV",
+      "displayName": "GEV - GE Vernova Inc. (2.64%)"
+    },
+    {
+      "name": "NYSE:UNP",
+      "displayName": "UNP - Union Pacific Corporation (2.22%)"
+    },
+    {
+      "name": "NYSE:ETN",
+      "displayName": "ETN - Eaton Corporation plc (2.17%)"
+    },
+    {
+      "name": "NASDAQ:HON",
+      "displayName": "HON - Honeywell International Inc. (1.97%)"
+    },
+    {
+      "name": "NYSE:BA",
+      "displayName": "BA - The Boeing Company (1.96%)"
+    },
+    {
+      "name": "NYSE:DE",
+      "displayName": "DE - Deere & Company (1.93%)"
+    },
+    {
+      "name": "NYSE:PH",
+      "displayName": "PH - Parker-Hannifin Corporation (1.76%)"
+    },
+    {
+      "name": "NASDAQ:ADP",
+      "displayName": "ADP - Automatic Data Processing, Inc. (1.67%)"
+    },
+    {
+      "name": "NYSE:LMT",
+      "displayName": "LMT - Lockheed Martin Corporation (1.55%)"
+    },
+    {
+      "name": "NYSE:TT",
+      "displayName": "TT - Trane Technologies plc (1.51%)"
+    },
+    {
+      "name": "NYSE:MMM",
+      "displayName": "MMM - 3M Company (1.48%)"
+    },
+    {
+      "name": "NYSE:WM",
+      "displayName": "WM - Waste Management, Inc. (1.42%)"
+    },
+    {
+      "name": "NYSE:HWM",
+      "displayName": "HWM - Howmet Aerospace Inc. (1.26%)"
+    },
+    {
+      "name": "NYSE:GD",
+      "displayName": "GD - General Dynamics Corporation (1.26%)"
+    },
+    {
+      "name": "NYSE:NOC",
+      "displayName": "NOC - Northrop Grumman Corporation (1.26%)"
+    },
+    {
+      "name": "NYSE:TDG",
+      "displayName": "TDG - TransDigm Group Incorporated (1.23%)"
+    },
+    {
+      "name": "NYSE:JCI",
+      "displayName": "JCI - Johnson Controls International plc (1.23%)"
+    },
+    {
+      "name": "NYSE:EMR",
+      "displayName": "EMR - Emerson Electric Co. (1.21%)"
+    },
+    {
+      "name": "NYSE:UPS",
+      "displayName": "UPS - United Parcel Service, Inc. (1.14%)"
+    },
+    {
+      "name": "NYSE:PWR",
+      "displayName": "PWR - Quanta Services, Inc. (1.12%)"
+    },
+    {
+      "name": "NYSE:ITW",
+      "displayName": "ITW - Illinois Tool Works Inc. (1.11%)"
+    }
   ]
 }

@@ -1,0 +1,107 @@
+{
+  "symbol": "VGT",
+  "name": "Vanguard Information Technology ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/vgt/holdings/",
+  "holdings": [
+    {
+      "name": "NASDAQ:NVDA",
+      "displayName": "NVDA - NVIDIA Corporation (16.61%)"
+    },
+    {
+      "name": "NASDAQ:AAPL",
+      "displayName": "AAPL - Apple Inc. (15.30%)"
+    },
+    {
+      "name": "NASDAQ:MSFT",
+      "displayName": "MSFT - Microsoft Corporation (12.42%)"
+    },
+    {
+      "name": "NASDAQ:AVGO",
+      "displayName": "AVGO - Broadcom Inc. (5.23%)"
+    },
+    {
+      "name": "NASDAQ:PLTR",
+      "displayName": "PLTR - Palantir Technologies Inc. (1.85%)"
+    },
+    {
+      "name": "NASDAQ:AMD",
+      "displayName": "AMD - Advanced Micro Devices, Inc. (1.73%)"
+    },
+    {
+      "name": "NYSE:ORCL",
+      "displayName": "ORCL - Oracle Corporation (1.66%)"
+    },
+    {
+      "name": "NASDAQ:CSCO",
+      "displayName": "CSCO - Cisco Systems, Inc. (1.52%)"
+    },
+    {
+      "name": "NYSE:IBM",
+      "displayName": "IBM - International Business Machines Corporation (1.44%)"
+    },
+    {
+      "name": "NASDAQ:MU",
+      "displayName": "MU - Micron Technology, Inc. (1.33%)"
+    },
+    {
+      "name": "NYSE:CRM",
+      "displayName": "CRM - Salesforce, Inc. (1.11%)"
+    },
+    {
+      "name": "NASDAQ:AMAT",
+      "displayName": "AMAT - Applied Materials, Inc. (1.04%)"
+    },
+    {
+      "name": "NASDAQ:LRCX",
+      "displayName": "LRCX - Lam Research Corporation (1.01%)"
+    },
+    {
+      "name": "NASDAQ:INTC",
+      "displayName": "INTC - Intel Corporation (0.93%)"
+    },
+    {
+      "name": "NASDAQ:QCOM",
+      "displayName": "QCOM - QUALCOMM Incorporated (0.93%)"
+    },
+    {
+      "name": "NASDAQ:INTU",
+      "displayName": "INTU - Intuit Inc. (0.91%)"
+    },
+    {
+      "name": "NYSE:APH",
+      "displayName": "APH - Amphenol Corporation (0.89%)"
+    },
+    {
+      "name": "NYSE:NOW",
+      "displayName": "NOW - ServiceNow, Inc. (0.86%)"
+    },
+    {
+      "name": "NASDAQ:KLAC",
+      "displayName": "KLAC - KLA Corporation (0.81%)"
+    },
+    {
+      "name": "NYSE:ACN",
+      "displayName": "ACN - Accenture plc (0.81%)"
+    },
+    {
+      "name": "NASDAQ:TXN",
+      "displayName": "TXN - Texas Instruments Incorporated (0.80%)"
+    },
+    {
+      "name": "NASDAQ:APP",
+      "displayName": "APP - AppLovin Corporation (0.72%)"
+    },
+    {
+      "name": "NYSE:ANET",
+      "displayName": "ANET - Arista Networks, Inc. (0.72%)"
+    },
+    {
+      "name": "NASDAQ:ADBE",
+      "displayName": "ADBE - Adobe Inc. (0.71%)"
+    },
+    {
+      "name": "NASDAQ:ADI",
+      "displayName": "ADI - Analog Devices, Inc. (0.71%)"
+    }
+  ]
+}
