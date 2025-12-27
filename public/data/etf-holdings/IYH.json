@@ -1,0 +1,107 @@
+{
+  "symbol": "IYH",
+  "name": "iShares U.S. Healthcare ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/iyh/holdings/",
+  "holdings": [
+    {
+      "name": "NYSE:LLY",
+      "displayName": "LLY - Eli Lilly and Company (14.70%)"
+    },
+    {
+      "name": "NYSE:JNJ",
+      "displayName": "JNJ - Johnson & Johnson (8.52%)"
+    },
+    {
+      "name": "NYSE:ABBV",
+      "displayName": "ABBV - AbbVie Inc. (6.94%)"
+    },
+    {
+      "name": "NYSE:UNH",
+      "displayName": "UNH - UnitedHealth Group Incorporated (5.08%)"
+    },
+    {
+      "name": "NYSE:MRK",
+      "displayName": "MRK - Merck & Co., Inc. (4.57%)"
+    },
+    {
+      "name": "NYSE:TMO",
+      "displayName": "TMO - Thermo Fisher Scientific Inc. (3.73%)"
+    },
+    {
+      "name": "NYSE:ABT",
+      "displayName": "ABT - Abbott Laboratories (3.68%)"
+    },
+    {
+      "name": "NASDAQ:ISRG",
+      "displayName": "ISRG - Intuitive Surgical, Inc. (3.47%)"
+    },
+    {
+      "name": "NASDAQ:AMGN",
+      "displayName": "AMGN - Amgen Inc. (3.06%)"
+    },
+    {
+      "name": "NASDAQ:GILD",
+      "displayName": "GILD - Gilead Sciences, Inc. (2.67%)"
+    },
+    {
+      "name": "NYSE:DHR",
+      "displayName": "DHR - Danaher Corporation (2.48%)"
+    },
+    {
+      "name": "NYSE:PFE",
+      "displayName": "PFE - Pfizer Inc. (2.42%)"
+    },
+    {
+      "name": "NYSE:BSX",
+      "displayName": "BSX - Boston Scientific Corporation (2.42%)"
+    },
+    {
+      "name": "NYSE:MDT",
+      "displayName": "MDT - Medtronic plc (2.13%)"
+    },
+    {
+      "name": "NYSE:SYK",
+      "displayName": "SYK - Stryker Corporation (2.08%)"
+    },
+    {
+      "name": "NASDAQ:VRTX",
+      "displayName": "VRTX - Vertex Pharmaceuticals Incorporated (2.03%)"
+    },
+    {
+      "name": "NYSE:BMY",
+      "displayName": "BMY - Bristol-Myers Squibb Company (1.90%)"
+    },
+    {
+      "name": "NASDAQ:REGN",
+      "displayName": "REGN - Regeneron Pharmaceuticals, Inc. (1.36%)"
+    },
+    {
+      "name": "NYSE:HCA",
+      "displayName": "HCA - HCA Healthcare, Inc. (1.31%)"
+    },
+    {
+      "name": "NYSE:ELV",
+      "displayName": "ELV - Elevance Health, Inc. (1.30%)"
+    },
+    {
+      "name": "NYSE:CI",
+      "displayName": "CI - The Cigna Group (1.23%)"
+    },
+    {
+      "name": "NYSE:BDX",
+      "displayName": "BDX - Becton, Dickinson and Company (0.96%)"
+    },
+    {
+      "name": "NYSE:ZTS",
+      "displayName": "ZTS - Zoetis Inc. (0.95%)"
+    },
+    {
+      "name": "NASDAQ:IDXX",
+      "displayName": "IDXX - IDEXX Laboratories, Inc. (0.93%)"
+    },
+    {
+      "name": "NASDAQ:ALNY",
+      "displayName": "ALNY - Alnylam Pharmaceuticals, Inc. (0.87%)"
+    }
+  ]
+}

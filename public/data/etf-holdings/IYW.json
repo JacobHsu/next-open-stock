@@ -1,0 +1,107 @@
+{
+  "symbol": "IYW",
+  "name": "iShares U.S. Technology ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/iyw/holdings/",
+  "holdings": [
+    {
+      "name": "NASDAQ:NVDA",
+      "displayName": "NVDA - NVIDIA Corporation (16.79%)"
+    },
+    {
+      "name": "NASDAQ:AAPL",
+      "displayName": "AAPL - Apple Inc. (15.20%)"
+    },
+    {
+      "name": "NASDAQ:MSFT",
+      "displayName": "MSFT - Microsoft Corporation (13.82%)"
+    },
+    {
+      "name": "NASDAQ:META",
+      "displayName": "META - Meta Platforms, Inc. (3.42%)"
+    },
+    {
+      "name": "NASDAQ:AVGO",
+      "displayName": "AVGO - Broadcom Inc. (3.08%)"
+    },
+    {
+      "name": "NASDAQ:PLTR",
+      "displayName": "PLTR - Palantir Technologies Inc. (2.80%)"
+    },
+    {
+      "name": "NASDAQ:GOOGL",
+      "displayName": "GOOGL - Alphabet, Inc. (2.45%)"
+    },
+    {
+      "name": "NASDAQ:AMD",
+      "displayName": "AMD - Advanced Micro Devices, Inc. (2.29%)"
+    },
+    {
+      "name": "NYSE:ORCL",
+      "displayName": "ORCL - Oracle Corporation (2.19%)"
+    },
+    {
+      "name": "NASDAQ:MU",
+      "displayName": "MU - Micron Technology, Inc. (2.11%)"
+    },
+    {
+      "name": "NASDAQ:GOOG",
+      "displayName": "GOOG - Alphabet Inc. (2.01%)"
+    },
+    {
+      "name": "NYSE:IBM",
+      "displayName": "IBM - International Business Machines Corporation (1.87%)"
+    },
+    {
+      "name": "NYSE:CRM",
+      "displayName": "CRM - Salesforce, Inc. (1.63%)"
+    },
+    {
+      "name": "NASDAQ:LRCX",
+      "displayName": "LRCX - Lam Research Corporation (1.47%)"
+    },
+    {
+      "name": "NASDAQ:AMAT",
+      "displayName": "AMAT - Applied Materials, Inc. (1.38%)"
+    },
+    {
+      "name": "NASDAQ:QCOM",
+      "displayName": "QCOM - QUALCOMM Incorporated (1.25%)"
+    },
+    {
+      "name": "NASDAQ:INTU",
+      "displayName": "INTU - Intuit Inc. (1.22%)"
+    },
+    {
+      "name": "NASDAQ:APP",
+      "displayName": "APP - AppLovin Corporation (1.14%)"
+    },
+    {
+      "name": "NYSE:APH",
+      "displayName": "APH - Amphenol Corporation (1.11%)"
+    },
+    {
+      "name": "NASDAQ:KLAC",
+      "displayName": "KLAC - KLA Corporation (1.11%)"
+    },
+    {
+      "name": "NASDAQ:TXN",
+      "displayName": "TXN - Texas Instruments Incorporated (1.06%)"
+    },
+    {
+      "name": "NASDAQ:INTC",
+      "displayName": "INTC - Intel Corporation (1.05%)"
+    },
+    {
+      "name": "NYSE:NOW",
+      "displayName": "NOW - ServiceNow, Inc. (1.04%)"
+    },
+    {
+      "name": "NASDAQ:ADBE",
+      "displayName": "ADBE - Adobe Inc. (0.97%)"
+    },
+    {
+      "name": "NASDAQ:ADI",
+      "displayName": "ADI - Analog Devices, Inc. (0.91%)"
+    }
+  ]
+}

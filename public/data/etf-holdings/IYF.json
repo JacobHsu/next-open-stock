@@ -1,0 +1,107 @@
+{
+  "symbol": "IYF",
+  "name": "iShares U.S. Financials ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/iyf/holdings/",
+  "holdings": [
+    {
+      "name": "NYSE:BRK.B",
+      "displayName": "BRK.B - Berkshire Hathaway Inc. (11.52%)"
+    },
+    {
+      "name": "NYSE:JPM",
+      "displayName": "JPM - JPMorgan Chase & Co. (11.19%)"
+    },
+    {
+      "name": "NYSE:BAC",
+      "displayName": "BAC - Bank of America Corporation (4.54%)"
+    },
+    {
+      "name": "NYSE:WFC",
+      "displayName": "WFC - Wells Fargo & Company (4.11%)"
+    },
+    {
+      "name": "NYSE:GS",
+      "displayName": "GS - The Goldman Sachs Group, Inc. (3.87%)"
+    },
+    {
+      "name": "NYSE:C",
+      "displayName": "C - Citigroup Inc. (3.25%)"
+    },
+    {
+      "name": "NYSE:MS",
+      "displayName": "MS - Morgan Stanley (3.15%)"
+    },
+    {
+      "name": "NYSE:SCHW",
+      "displayName": "SCHW - The Charles Schwab Corporation (2.62%)"
+    },
+    {
+      "name": "NYSE:BLK",
+      "displayName": "BLK - BlackRock, Inc. (2.50%)"
+    },
+    {
+      "name": "NYSE:SPGI",
+      "displayName": "SPGI - S&P Global Inc. (2.40%)"
+    },
+    {
+      "name": "NYSE:PGR",
+      "displayName": "PGR - The Progressive Corporation (2.01%)"
+    },
+    {
+      "name": "NYSE:BX",
+      "displayName": "BX - Blackstone Inc. (1.74%)"
+    },
+    {
+      "name": "NYSE:CB",
+      "displayName": "CB - Chubb Limited (1.73%)"
+    },
+    {
+      "name": "NASDAQ:CME",
+      "displayName": "CME - CME Group Inc. (1.49%)"
+    },
+    {
+      "name": "NYSE:ICE",
+      "displayName": "ICE - Intercontinental Exchange, Inc. (1.40%)"
+    },
+    {
+      "name": "NYSE:MMC",
+      "displayName": "MMC - Marsh & McLennan Companies, Inc. (1.40%)"
+    },
+    {
+      "name": "NASDAQ:HOOD",
+      "displayName": "HOOD - Robinhood Markets, Inc. (1.34%)"
+    },
+    {
+      "name": "NYSE:KKR",
+      "displayName": "KKR - KKR & Co. Inc. (1.34%)"
+    },
+    {
+      "name": "NYSE:USB",
+      "displayName": "USB - U.S. Bancorp (1.29%)"
+    },
+    {
+      "name": "NYSE:PNC",
+      "displayName": "PNC - The PNC Financial Services Group, Inc. (1.27%)"
+    },
+    {
+      "name": "NYSE:BK",
+      "displayName": "BK - The Bank of New York Mellon Corporation (1.24%)"
+    },
+    {
+      "name": "NYSE:MCO",
+      "displayName": "MCO - Moody's Corporation (1.21%)"
+    },
+    {
+      "name": "NYSE:AON",
+      "displayName": "AON - Aon plc (1.13%)"
+    },
+    {
+      "name": "NYSE:AJG",
+      "displayName": "AJG - Arthur J. Gallagher & Co. (0.99%)"
+    },
+    {
+      "name": "NYSE:TRV",
+      "displayName": "TRV - The Travelers Companies, Inc. (0.99%)"
+    }
+  ]
+}
