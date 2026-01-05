@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import { use } from 'react';
 import TradingViewWidget from "@/components/TradingViewWidget";
 import WatchlistButton from "@/components/WatchlistButton";
 import {
@@ -13,19 +13,7 @@ import {
 } from "@/lib/constants";
 
 export default function StockDetails({ params }: { params: Promise<{ symbol: string }> }) {
-    const [symbol, setSymbol] = React.useState<string>('');
-
-    React.useEffect(() => {
-        params.then(p => setSymbol(p.symbol));
-    }, [params]);
-
-    if (!symbol) {
-        return (
-            <div className="flex min-h-screen items-center justify-center">
-                <div className="text-gray-400">Loading...</div>
-            </div>
-        );
-    }
+    const { symbol } = use(params);
 
     const scriptUrl = `https://s3.tradingview.com/external-embedding/embed-widget-`;
     const symbolUpper = symbol.toUpperCase();
@@ -82,8 +70,6 @@ export default function StockDetails({ params }: { params: Promise<{ symbol: str
                         config={COMPANY_PROFILE_WIDGET_CONFIG(symbol)}
                         height={440}
                     />
-
-
                 </div>
             </section>
         </div>
