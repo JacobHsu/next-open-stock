@@ -1,0 +1,107 @@
+{
+  "symbol": "XLU",
+  "name": "Utilities Select Sector SPDR Fund",
+  "sourceUrl": "https://stockanalysis.com/etf/xlu/holdings/",
+  "holdings": [
+    {
+      "name": "NYSE:NEE",
+      "displayName": "NEE - NextEra Energy, Inc. (12.69%)"
+    },
+    {
+      "name": "NASDAQ:CEG",
+      "displayName": "CEG - Constellation Energy Corporation (8.37%)"
+    },
+    {
+      "name": "NYSE:SO",
+      "displayName": "SO - The Southern Company (7.29%)"
+    },
+    {
+      "name": "NYSE:DUK",
+      "displayName": "DUK - Duke Energy Corporation (6.92%)"
+    },
+    {
+      "name": "NASDAQ:AEP",
+      "displayName": "AEP - American Electric Power Company, Inc. (4.68%)"
+    },
+    {
+      "name": "NYSE:SRE",
+      "displayName": "SRE - Sempra (4.37%)"
+    },
+    {
+      "name": "NYSE:VST",
+      "displayName": "VST - Vistra Corp. (3.90%)"
+    },
+    {
+      "name": "NYSE:D",
+      "displayName": "D - Dominion Energy, Inc. (3.80%)"
+    },
+    {
+      "name": "NASDAQ:EXC",
+      "displayName": "EXC - Exelon Corporation (3.34%)"
+    },
+    {
+      "name": "NASDAQ:XEL",
+      "displayName": "XEL - Xcel Energy Inc. (3.32%)"
+    },
+    {
+      "name": "NYSE:ETR",
+      "displayName": "ETR - Entergy Corporation (3.13%)"
+    },
+    {
+      "name": "NYSE:PEG",
+      "displayName": "PEG - Public Service Enterprise Group Incorporated (3.04%)"
+    },
+    {
+      "name": "NYSE:ED",
+      "displayName": "ED - Consolidated Edison, Inc. (2.72%)"
+    },
+    {
+      "name": "NYSE:PCG",
+      "displayName": "PCG - PG&E Corporation (2.68%)"
+    },
+    {
+      "name": "NYSE:WEC",
+      "displayName": "WEC - WEC Energy Group, Inc. (2.60%)"
+    },
+    {
+      "name": "NYSE:NRG",
+      "displayName": "NRG - NRG Energy, Inc. (2.32%)"
+    },
+    {
+      "name": "NYSE:AEE",
+      "displayName": "AEE - Ameren Corporation (2.05%)"
+    },
+    {
+      "name": "NYSE:ATO",
+      "displayName": "ATO - Atmos Energy Corporation (2.04%)"
+    },
+    {
+      "name": "NYSE:DTE",
+      "displayName": "DTE - DTE Energy Company (2.03%)"
+    },
+    {
+      "name": "NYSE:PPL",
+      "displayName": "PPL - PPL Corporation (1.97%)"
+    },
+    {
+      "name": "NYSE:AWK",
+      "displayName": "AWK - American Water Works Company, Inc. (1.93%)"
+    },
+    {
+      "name": "NYSE:ES",
+      "displayName": "ES - Eversource Energy (1.92%)"
+    },
+    {
+      "name": "NYSE:CNP",
+      "displayName": "CNP - CenterPoint Energy, Inc. (1.90%)"
+    },
+    {
+      "name": "NYSE:FE",
+      "displayName": "FE - FirstEnergy Corp. (1.77%)"
+    },
+    {
+      "name": "NYSE:EIX",
+      "displayName": "EIX - Edison International (1.75%)"
+    }
+  ]
+}
