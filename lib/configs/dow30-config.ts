@@ -63,7 +63,7 @@ export const DOW30_MARKET_OVERVIEW_WIDGET_CONFIG = {
             title: 'Retail',
             symbols: [
                 { s: 'NASDAQ:AMZN', d: 'AMZN - Amazon.com, Inc.' },
-                { s: 'NYSE:WMT', d: 'Walmart Inc' },
+                { s: 'NASDAQ:WMT', d: 'Walmart Inc' },
                 { s: 'NYSE:HD', d: 'Home Depot Inc' },
                 { s: 'NYSE:PG', d: 'Procter & Gamble Company' },
                 { s: 'NYSE:KO', d: 'Coca-Cola Company' },
@@ -151,7 +151,7 @@ export const DOW30_MARKET_DATA_WIDGET_CONFIG = {
                 { name: 'NYSE:CVX', displayName: 'CVX - Chevron Corporation (2.02%)' },
                 { name: 'NYSE:PG', displayName: 'PG - The Procter & Gamble Company (1.98%)' },
                 { name: 'NYSE:DIS', displayName: 'DIS - The Walt Disney Company (1.48%)' },
-                { name: 'NYSE:WMT', displayName: 'WMT - Walmart Inc. (1.42%)' },
+                { name: 'NASDAQ:WMT', displayName: 'WMT - Walmart Inc. (1.42%)' },
             ],
         },
         {
@@ -177,7 +177,7 @@ export const DOW30_MARKET_DATA_WIDGET_CONFIG = {
                 { name: 'NYSE:GS', displayName: 'GS - The Goldman Sachs Group, Inc. (2.98%)' },
                 { name: 'NYSE:CAT', displayName: 'CAT - Caterpillar Inc. (2.91%)' },
                 { name: 'NYSE:TRV', displayName: 'TRV - The Travelers Companies, Inc. (2.78%)' },
-                { name: 'NYSE:WMT', displayName: 'WMT - Walmart Inc. (1.57%)' },
+                { name: 'NASDAQ:WMT', displayName: 'WMT - Walmart Inc. (1.57%)' },
                 { name: 'NYSE:AXP', displayName: 'AXP - American Express Company (1.53%)' },
                 { name: 'NYSE:DIS', displayName: 'DIS - The Walt Disney Company (1.46%)' },
                 { name: 'NYSE:SHW', displayName: 'SHW - The Sherwin-Williams Company (1.31%)' },

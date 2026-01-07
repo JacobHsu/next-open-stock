@@ -1,19 +1,41 @@
 'use client';
 
-import { useCallback, useRef } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 
-export function useDebounce(callback: () => void, delay: number) {
-    const timeoutRef = useRef<NodeJS.Timeout | null>(null);
-    const callbackRef = useRef(callback);
+export function useDebounce<T extends (...args: any[]) => any>(
+  callback: T,
+  delay: number
+) {
+  const callbackRef = useRef(callback);
+  const timerRef = useRef<NodeJS.Timeout | undefined>(undefined);
 
-    // Keep callback ref up to date
+  // Always use the latest callback
+  useEffect(() => {
     callbackRef.current = callback;
+  }, [callback]);
 
-    return useCallback(() => {
-        if (timeoutRef.current) {
-            clearTimeout(timeoutRef.current);
-        }
+  // Return stable function reference
+  const debouncedCallback = useCallback(
+    (...args: Parameters<T>) => {
+      if (timerRef.current) {
+        clearTimeout(timerRef.current);
+      }
 
-        timeoutRef.current = setTimeout(() => callbackRef.current(), delay);
-    }, [delay])
+      timerRef.current = setTimeout(() => {
+        callbackRef.current(...args);
+      }, delay);
+    },
+    [delay] // Only depends on delay
+  );
+
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      if (timerRef.current) {
+        clearTimeout(timerRef.current);
+      }
+    };
+  }, []);
+
+  return debouncedCallback;
 }
