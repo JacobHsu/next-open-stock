@@ -5,31 +5,31 @@
   "holdings": [
     {
       "name": "NYSE:LLY",
-      "displayName": "LLY - Eli Lilly and Company (14.70%)"
+      "displayName": "LLY - Eli Lilly and Company (14.74%)"
     },
     {
       "name": "NYSE:JNJ",
-      "displayName": "JNJ - Johnson & Johnson (8.52%)"
+      "displayName": "JNJ - Johnson & Johnson (8.29%)"
     },
     {
       "name": "NYSE:ABBV",
-      "displayName": "ABBV - AbbVie Inc. (6.94%)"
+      "displayName": "ABBV - AbbVie Inc. (6.87%)"
     },
     {
       "name": "NYSE:UNH",
-      "displayName": "UNH - UnitedHealth Group Incorporated (5.08%)"
+      "displayName": "UNH - UnitedHealth Group Incorporated (5.16%)"
     },
     {
       "name": "NYSE:MRK",
-      "displayName": "MRK - Merck & Co., Inc. (4.57%)"
+      "displayName": "MRK - Merck & Co., Inc. (4.54%)"
     },
     {
       "name": "NYSE:TMO",
-      "displayName": "TMO - Thermo Fisher Scientific Inc. (3.73%)"
+      "displayName": "TMO - Thermo Fisher Scientific Inc. (3.87%)"
     },
     {
       "name": "NYSE:ABT",
-      "displayName": "ABT - Abbott Laboratories (3.68%)"
+      "displayName": "ABT - Abbott Laboratories (3.65%)"
     },
     {
       "name": "NASDAQ:ISRG",
@@ -37,71 +37,71 @@
     },
     {
       "name": "NASDAQ:AMGN",
-      "displayName": "AMGN - Amgen Inc. (3.06%)"
+      "displayName": "AMGN - Amgen Inc. (3.05%)"
     },
     {
       "name": "NASDAQ:GILD",
-      "displayName": "GILD - Gilead Sciences, Inc. (2.67%)"
+      "displayName": "GILD - Gilead Sciences, Inc. (2.57%)"
     },
     {
       "name": "NYSE:DHR",
-      "displayName": "DHR - Danaher Corporation (2.48%)"
-    },
-    {
-      "name": "NYSE:PFE",
-      "displayName": "PFE - Pfizer Inc. (2.42%)"
+      "displayName": "DHR - Danaher Corporation (2.46%)"
     },
     {
       "name": "NYSE:BSX",
       "displayName": "BSX - Boston Scientific Corporation (2.42%)"
     },
     {
+      "name": "NYSE:PFE",
+      "displayName": "PFE - Pfizer Inc. (2.38%)"
+    },
+    {
       "name": "NYSE:MDT",
-      "displayName": "MDT - Medtronic plc (2.13%)"
+      "displayName": "MDT - Medtronic plc (2.12%)"
     },
     {
       "name": "NYSE:SYK",
-      "displayName": "SYK - Stryker Corporation (2.08%)"
+      "displayName": "SYK - Stryker Corporation (2.10%)"
     },
     {
       "name": "NASDAQ:VRTX",
-      "displayName": "VRTX - Vertex Pharmaceuticals Incorporated (2.03%)"
+      "displayName": "VRTX - Vertex Pharmaceuticals Incorporated (2.07%)"
     },
     {
       "name": "NYSE:BMY",
-      "displayName": "BMY - Bristol-Myers Squibb Company (1.90%)"
+      "displayName": "BMY - Bristol-Myers Squibb Company (1.92%)"
     },
     {
       "name": "NASDAQ:REGN",
-      "displayName": "REGN - Regeneron Pharmaceuticals, Inc. (1.36%)"
-    },
-    {
-      "name": "NYSE:HCA",
-      "displayName": "HCA - HCA Healthcare, Inc. (1.31%)"
+      "displayName": "REGN - Regeneron Pharmaceuticals, Inc. (1.37%)"
     },
     {
       "name": "NYSE:ELV",
-      "displayName": "ELV - Elevance Health, Inc. (1.30%)"
+      "displayName": "ELV - Elevance Health, Inc. (1.35%)"
+    },
+    {
+      "name": "NYSE:HCA",
+      "displayName": "HCA - HCA Healthcare, Inc. (1.27%)"
     },
     {
       "name": "NYSE:CI",
-      "displayName": "CI - The Cigna Group (1.23%)"
+      "displayName": "CI - The Cigna Group (1.22%)"
     },
     {
       "name": "NYSE:BDX",
       "displayName": "BDX - Becton, Dickinson and Company (0.96%)"
     },
     {
-      "name": "NYSE:ZTS",
-      "displayName": "ZTS - Zoetis Inc. (0.95%)"
+      "name": "NASDAQ:IDXX",
+      "displayName": "IDXX - IDEXX Laboratories, Inc. (0.95%)"
     },
     {
-      "name": "NASDAQ:IDXX",
-      "displayName": "IDXX - IDEXX Laboratories, Inc. (0.93%)"
+      "name": "NYSE:ZTS",
+      "displayName": "ZTS - Zoetis Inc. (0.93%)"
     },
     {
       "name": "NASDAQ:ALNY",
-      "displayName": "ALNY - Alnylam Pharmaceuticals, Inc. (0.87%)"
+      "displayName": "ALNY - Alnylam Pharmaceuticals, Inc. (0.89%)"
     }
   ]
 }

@@ -1,0 +1,107 @@
+{
+  "symbol": "IYM",
+  "name": "iShares U.S. Basic Materials ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/iym/holdings/",
+  "holdings": [
+    {
+      "name": "NASDAQ:LIN",
+      "displayName": "LIN - Linde plc (19.83%)"
+    },
+    {
+      "name": "NYSE:NEM",
+      "displayName": "NEM - Newmont Corporation (11.71%)"
+    },
+    {
+      "name": "NYSE:FCX",
+      "displayName": "FCX - Freeport-McMoRan Inc. (7.97%)"
+    },
+    {
+      "name": "NYSE:ECL",
+      "displayName": "ECL - Ecolab Inc. (6.74%)"
+    },
+    {
+      "name": "NYSE:APD",
+      "displayName": "APD - Air Products and Chemicals, Inc. (4.57%)"
+    },
+    {
+      "name": "NYSE:AU",
+      "displayName": "AU - AngloGold Ashanti plc (4.02%)"
+    },
+    {
+      "name": "NASDAQ:FAST",
+      "displayName": "FAST - Fastenal Company (3.82%)"
+    },
+    {
+      "name": "NYSE:NUE",
+      "displayName": "NUE - Nucor Corporation (3.39%)"
+    },
+    {
+      "name": "NASDAQ:STLD",
+      "displayName": "STLD - Steel Dynamics, Inc. (2.61%)"
+    },
+    {
+      "name": "NYSE:IP",
+      "displayName": "IP - International Paper Company (2.54%)"
+    },
+    {
+      "name": "NASDAQ:RGLD",
+      "displayName": "RGLD - Royal Gold, Inc. (2.48%)"
+    },
+    {
+      "name": "NYSE:ALB",
+      "displayName": "ALB - Albemarle Corporation (2.36%)"
+    },
+    {
+      "name": "NYSE:IFF",
+      "displayName": "IFF - International Flavors & Fragrances Inc. (2.15%)"
+    },
+    {
+      "name": "NYSE:CRS",
+      "displayName": "CRS - Carpenter Technology Corporation (2.04%)"
+    },
+    {
+      "name": "NYSE:AA",
+      "displayName": "AA - Alcoa Corporation (2.02%)"
+    },
+    {
+      "name": "NYSE:RS",
+      "displayName": "RS - Reliance, Inc. (1.95%)"
+    },
+    {
+      "name": "NYSE:RBC",
+      "displayName": "RBC - RBC Bearings Incorporated (1.80%)"
+    },
+    {
+      "name": "NYSE:AVY",
+      "displayName": "AVY - Avery Dennison Corporation (1.73%)"
+    },
+    {
+      "name": "NYSE:SCCO",
+      "displayName": "SCCO - Southern Copper Corporation (1.64%)"
+    },
+    {
+      "name": "NYSE:MLI",
+      "displayName": "MLI - Mueller Industries, Inc. (1.61%)"
+    },
+    {
+      "name": "NASDAQ:CF",
+      "displayName": "CF - CF Industries Holdings, Inc. (1.55%)"
+    },
+    {
+      "name": "NASDAQ:LYB",
+      "displayName": "LYB - LyondellBasell Industries N.V. (1.43%)"
+    },
+    {
+      "name": "NASDAQ:SOLS",
+      "displayName": "SOLS - Solstice Advanced Materials, Inc. (1.03%)"
+    },
+    {
+      "name": "NASDAQ:MP",
+      "displayName": "MP - MP Materials Corp. (1.02%)"
+    },
+    {
+      "name": "NASDAQ:MOS",
+      "displayName": "MOS - The Mosaic Company (0.99%)"
+    }
+  ]
+}

@@ -2,14 +2,17 @@
   "name": "Openstock",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+"scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
     "test:db": "node scripts/test-db.mjs",
     "update-etf": "tsx scripts/update-etf-holdings.ts",
-    "update-etf:vanguard": "tsx scripts/update-etf-holdings.ts --all-vanguard"
+    "update-etf:vanguard": "tsx scripts/update-etf-holdings.ts --all-vanguard",
+    "update-etf:spdr": "tsx scripts/update-etf-holdings.ts --all-spdr",
+    "update-etf:ishares": "tsx scripts/update-etf-holdings.ts --all-ishares",
+    "update-etf:all": "tsx scripts/update-etf-holdings.ts --all"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.10",

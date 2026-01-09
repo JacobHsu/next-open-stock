@@ -48,19 +48,19 @@
       "displayName": "SLB - SLB N.V. (2.47%)"
     },
     {
-      "name": "NYSE:LNG",
+      "name": "NASDAQ:LNG",
       "displayName": "LNG - Cheniere Energy, Inc. (2.38%)"
     },
     {
-      "name": "NYSE:OKE",
+      "name": "NASDAQ:OKE",
       "displayName": "OKE - ONEOK, Inc. (2.36%)"
     },
     {
-      "name": "NYSE:EQT",
+      "name": "NASDAQ:EQT",
       "displayName": "EQT - EQT Corporation (1.96%)"
     },
     {
-      "name": "NYSE:TRGP",
+      "name": "NASDAQ:TRGP",
       "displayName": "TRGP - Targa Resources Corp. (1.95%)"
     },
     {
@@ -84,23 +84,23 @@
       "displayName": "HAL - Halliburton Company (1.18%)"
     },
     {
-      "name": "NYSE:CTRA",
+      "name": "NASDAQ:CTRA",
       "displayName": "CTRA - Coterra Energy Inc. (1.07%)"
     },
     {
-      "name": "NYSE:FTI",
+      "name": "NASDAQ:FTI",
       "displayName": "FTI - TechnipFMC plc (1.01%)"
     },
     {
-      "name": "NYSE:TPL",
+      "name": "NASDAQ:TPL",
       "displayName": "TPL - Texas Pacific Land Corporation (0.88%)"
     },
     {
-      "name": "NYSE:DTM",
+      "name": "NASDAQ:DTM",
       "displayName": "DTM - DT Midstream, Inc. (0.65%)"
     },
     {
-      "name": "NYSE:AR",
+      "name": "NASDAQ:AR",
       "displayName": "AR - Antero Resources Corporation (0.57%)"
     }
   ]

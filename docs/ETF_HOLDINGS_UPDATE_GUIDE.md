@@ -7,6 +7,7 @@
 - ✅ stockanalysis.com 權重會變化，需要定期更新
 - ✅ 自動驗證交易所標籤（NYSE vs NASDAQ）
 - ✅ GitHub Actions 每月自動更新
+- ✅ 支援多 Provider（Vanguard、SPDR、iShares）
 
 ## 系統架構
 
@@ -16,30 +17,129 @@ public/data/etf-holdings/       → JSON 數據存放目錄
 .github/workflows/               → GitHub Actions 自動化
 ```
 
+## 支援的 ETF Providers
+
+| Provider | ETFs 數量 | 說明 |
+|----------|-----------|------|
+| Vanguard | 11 | 部門型 ETF（科技、金融、能源等） |
+| SPDR | 11 | Sector Select SPDR Fund 系列 |
+| iShares US | 11 | iShares U.S. 系列部門 ETF |
+
+### Vanguard ETFs
+- VGT - Vanguard Information Technology ETF
+- VFH - Vanguard Financials ETF
+- VDE - Vanguard Energy ETF
+- VHT - Vanguard Health Care ETF
+- VIS - Vanguard Industrials ETF
+- VDC - Vanguard Consumer Staples ETF
+- VCR - Vanguard Consumer Discretionary ETF
+- VAW - Vanguard Materials ETF
+- VNQ - Vanguard Real Estate ETF
+- VPU - Vanguard Utilities ETF
+- VOX - Vanguard Communication Services ETF
+
+### SPDR ETFs
+- XLK - Technology Select Sector SPDR Fund
+- XLF - Financial Select Sector SPDR Fund
+- XLE - Energy Select Sector SPDR Fund
+- XLV - Health Care Select Sector SPDR Fund
+- XLI - Industrial Select Sector SPDR Fund
+- XLP - Consumer Staples Select Sector SPDR Fund
+- XLY - Consumer Discretionary Select Sector SPDR Fund
+- XLB - Materials Select Sector SPDR Fund
+- XLRE - Real Estate Select Sector SPDR Fund
+- XLU - Utilities Select Sector SPDR Fund
+- XLC - Communication Services Select Sector SPDR Fund
+
+### iShares US ETFs
+- IYW - iShares U.S. Technology ETF
+- IYF - iShares U.S. Financials ETF
+- IYE - iShares U.S. Energy ETF
+- IYH - iShares U.S. Healthcare ETF
+- IYJ - iShares U.S. Industrials ETF
+- IYK - iShares U.S. Consumer Staples ETF
+- IYC - iShares U.S. Consumer Discretionary ETF
+- IYM - iShares U.S. Basic Materials ETF
+- IYR - iShares U.S. Real Estate ETF
+- IDU - iShares U.S. Utilities ETF
+- IYZ - iShares U.S. Telecommunications ETF
+
 ## 手動更新
 
 ### 更新單個 ETF
 
 ```bash
-npm run update-etf VGT
+pnpm run update-etf VGT
 ```
 
 ### 更新多個 ETF
 
 ```bash
-npm run update-etf -- --symbols VGT,VFH,VHT
+pnpm run update-etf -- --symbols VGT,VFH,VHT
 ```
 
 或
 
 ```bash
-npm run update-etf VGT VFH VHT
+pnpm run update-etf VGT VFH VHT
 ```
 
-### 更新所有 Vanguard ETF
+### 批次更新（按 Provider）
+
+#### 更新所有 Vanguard ETF
 
 ```bash
-npm run update-etf:vanguard
+pnpm run update-etf:vanguard
+```
+
+或
+
+```bash
+tsx scripts/update-etf-holdings.ts --all-vanguard
+```
+
+#### 更新所有 SPDR ETF
+
+```bash
+pnpm run update-etf:spdr
+```
+
+或
+
+```bash
+tsx scripts/update-etf-holdings.ts --all-spdr
+```
+
+#### 更新所有 iShares US ETF
+
+```bash
+pnpm run update-etf:ishares
+```
+
+或
+
+```bash
+tsx scripts/update-etf-holdings.ts --all-ishares
+```
+
+#### 更新所有 Providers（33 ETFs）
+
+```bash
+pnpm run update-etf:all
+```
+
+或
+
+```bash
+tsx scripts/update-etf-holdings.ts --all
+```
+
+### 使用 Provider 參數
+
+```bash
+tsx scripts/update-etf-holdings.ts --provider spdr
+tsx scripts/update-etf-holdings.ts --provider ishares
+tsx scripts/update-etf-holdings.ts --provider vanguard
 ```
 
 ## 自動更新（GitHub Actions）
@@ -47,7 +147,7 @@ npm run update-etf:vanguard
 ### 排程更新
 
 - **頻率**: 每月 1 號凌晨 2:00 UTC
-- **範圍**: 所有 Vanguard ETF
+- **範圍**: 所有 Providers（33 ETFs）
 - **自動化**: 自動 commit 並 push 更新
 
 ### 手動觸發
@@ -55,7 +155,9 @@ npm run update-etf:vanguard
 1. 前往 GitHub Actions 頁面
 2. 選擇 "Update ETF Holdings" workflow
 3. 點擊 "Run workflow"
-4. 輸入要更新的 ETF symbols（或使用預設值 "all-vanguard"）
+4. 選擇更新方式：
+   - **Provider**: vanguard, spdr, ishares, 或 all（預設）
+   - **Symbols**: 自訂 ETF 符號（覆蓋 Provider 選項）
 
 ## 交易所驗證機制
 
@@ -94,21 +196,24 @@ FINNHUB_API_KEY=your_api_key_here
 ### 1. 手動新增單個 ETF
 
 ```bash
-npm run update-etf QQQ
+pnpm run update-etf QQQ
 ```
 
 ### 2. 批量新增
 
-修改 `scripts/update-etf-holdings.ts`，在 `main()` 函數中加入你的 ETF list：
+修改 `scripts/update-etf-holdings.ts`，在 `ALL_PROVIDERS` 物件中加入你的 ETF：
 
 ```typescript
-const myETFs = ['QQQ', 'SPY', 'IWM', 'DIA'];
+const ISHARES_ETFS = [
+    'IYW', 'IYF', 'IYE', 'IYH', 'IYJ', 'IYK', 'IYC', 'IYM', 'IYR', 'IDU', 'IYZ',
+    'QQQ', 'SPY', 'IWM', 'DIA',  // 新增
+];
 ```
 
 然後執行：
 
 ```bash
-npm run update-etf -- --symbols QQQ,SPY,IWM,DIA
+pnpm run update-etf -- --symbols QQQ,SPY,IWM,DIA
 ```
 
 ### 3. 更新 GitHub Actions
@@ -177,17 +282,4 @@ if (etfData) {
 - 每月自動更新已足夠（權重變化不頻繁）
 - 新增 ETF 時建議手動執行一次確認
 - 定期檢查 GitHub Actions log
-
-## 已支援的 Vanguard ETF
-
-- VGT - Vanguard Information Technology ETF
-- VFH - Vanguard Financials ETF
-- VDE - Vanguard Energy ETF
-- VHT - Vanguard Health Care ETF
-- VIS - Vanguard Industrials ETF
-- VDC - Vanguard Consumer Staples ETF
-- VCR - Vanguard Consumer Discretionary ETF
-- VAW - Vanguard Materials ETF
-- VNQ - Vanguard Real Estate ETF
-- VPU - Vanguard Utilities ETF
-- VOX - Vanguard Communication Services ETF
+- 監控 33 個 ETF JSON 檔案的完整性

@@ -1,0 +1,107 @@
+{
+  "symbol": "XLF",
+  "name": "Financial Select Sector SPDR Fund",
+  "sourceUrl": "https://stockanalysis.com/etf/xlf/holdings/",
+  "holdings": [
+    {
+      "name": "NYSE:BRK.B",
+      "displayName": "BRK.B - Berkshire Hathaway Inc. (11.44%)"
+    },
+    {
+      "name": "NYSE:JPM",
+      "displayName": "JPM - JPMorgan Chase & Co. (11.19%)"
+    },
+    {
+      "name": "NYSE:V",
+      "displayName": "V - Visa Inc. (7.55%)"
+    },
+    {
+      "name": "NYSE:MA",
+      "displayName": "MA - Mastercard Incorporated (5.98%)"
+    },
+    {
+      "name": "NYSE:BAC",
+      "displayName": "BAC - Bank of America Corporation (4.70%)"
+    },
+    {
+      "name": "NYSE:WFC",
+      "displayName": "WFC - Wells Fargo & Company (3.72%)"
+    },
+    {
+      "name": "NYSE:GS",
+      "displayName": "GS - The Goldman Sachs Group, Inc. (3.55%)"
+    },
+    {
+      "name": "NYSE:MS",
+      "displayName": "MS - Morgan Stanley (2.81%)"
+    },
+    {
+      "name": "NYSE:C",
+      "displayName": "C - Citigroup Inc. (2.73%)"
+    },
+    {
+      "name": "NYSE:AXP",
+      "displayName": "AXP - American Express Company (2.56%)"
+    },
+    {
+      "name": "NYSE:SCHW",
+      "displayName": "SCHW - The Charles Schwab Corporation (2.14%)"
+    },
+    {
+      "name": "NYSE:SPGI",
+      "displayName": "SPGI - S&P Global Inc. (2.10%)"
+    },
+    {
+      "name": "NYSE:COF",
+      "displayName": "COF - Capital One Financial Corporation (2.03%)"
+    },
+    {
+      "name": "NYSE:BLK",
+      "displayName": "BLK - BlackRock, Inc. (1.95%)"
+    },
+    {
+      "name": "NYSE:PGR",
+      "displayName": "PGR - The Progressive Corporation (1.54%)"
+    },
+    {
+      "name": "NYSE:BX",
+      "displayName": "BX - Blackstone Inc. (1.43%)"
+    },
+    {
+      "name": "NYSE:CB",
+      "displayName": "CB - Chubb Limited (1.41%)"
+    },
+    {
+      "name": "NASDAQ:CME",
+      "displayName": "CME - CME Group Inc. (1.21%)"
+    },
+    {
+      "name": "NYSE:ICE",
+      "displayName": "ICE - Intercontinental Exchange, Inc. (1.16%)"
+    },
+    {
+      "name": "NASDAQ:HOOD",
+      "displayName": "HOOD - Robinhood Markets, Inc. (1.16%)"
+    },
+    {
+      "name": "NYSE:KKR",
+      "displayName": "KKR - KKR & Co. Inc. (1.13%)"
+    },
+    {
+      "name": "NYSE:MMC",
+      "displayName": "MMC - Marsh & McLennan Companies, Inc. (1.13%)"
+    },
+    {
+      "name": "NYSE:USB",
+      "displayName": "USB - U.S. Bancorp (1.07%)"
+    },
+    {
+      "name": "NYSE:PNC",
+      "displayName": "PNC - The PNC Financial Services Group, Inc. (1.07%)"
+    },
+    {
+      "name": "NYSE:BK",
+      "displayName": "BK - The Bank of New York Mellon Corporation (1.05%)"
+    }
+  ]
+}

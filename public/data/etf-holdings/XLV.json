@@ -3,30 +3,105 @@
   "name": "Health Care Select Sector SPDR Fund",
   "sourceUrl": "https://stockanalysis.com/etf/xlv/holdings/",
   "holdings": [
-    { "name": "NYSE:LLY", "displayName": "LLY - Eli Lilly and Company (14.43%)" },
-    { "name": "NYSE:JNJ", "displayName": "JNJ - Johnson & Johnson (8.84%)" },
-    { "name": "NYSE:ABBV", "displayName": "ABBV - AbbVie Inc. (7.17%)" },
-    { "name": "NYSE:UNH", "displayName": "UNH - UnitedHealth Group Incorporated (5.33%)" },
-    { "name": "NYSE:MRK", "displayName": "MRK - Merck & Co., Inc. (4.50%)" },
-    { "name": "NYSE:TMO", "displayName": "TMO - Thermo Fisher Scientific Inc. (3.90%)" },
-    { "name": "NYSE:ABT", "displayName": "ABT - Abbott Laboratories (3.87%)" },
-    { "name": "NASDAQ:ISRG", "displayName": "ISRG - Intuitive Surgical, Inc. (3.70%)" },
-    { "name": "NASDAQ:AMGN", "displayName": "AMGN - Amgen Inc. (3.15%)" },
-    { "name": "NASDAQ:GILD", "displayName": "GILD - Gilead Sciences, Inc. (2.74%)" },
-    { "name": "NYSE:PFE", "displayName": "PFE - Pfizer Inc. (2.67%)" },
-    { "name": "NYSE:DHR", "displayName": "DHR - Danaher Corporation (2.60%)" },
-    { "name": "NYSE:BSX", "displayName": "BSX - Boston Scientific Corporation (2.53%)" },
-    { "name": "NYSE:MDT", "displayName": "MDT - Medtronic plc (2.36%)" },
-    { "name": "NYSE:SYK", "displayName": "SYK - Stryker Corporation (2.21%)" },
-    { "name": "NASDAQ:VRTX", "displayName": "VRTX - Vertex Pharmaceuticals Incorporated (2.06%)" },
-    { "name": "NYSE:BMY", "displayName": "BMY - Bristol-Myers Squibb Company (1.91%)" },
-    { "name": "NYSE:MCK", "displayName": "MCK - McKesson Corporation (1.81%)" },
-    { "name": "NYSE:CVS", "displayName": "CVS - CVS Health Corporation (1.77%)" },
-    { "name": "NYSE:HCA", "displayName": "HCA - HCA Healthcare, Inc. (1.45%)" },
-    { "name": "NYSE:ELV", "displayName": "ELV - Elevance Health, Inc. (1.35%)" },
-    { "name": "NASDAQ:REGN", "displayName": "REGN - Regeneron Pharmaceuticals, Inc. (1.30%)" },
-    { "name": "NYSE:CI", "displayName": "CI - The Cigna Group (1.28%)" },
-    { "name": "NYSE:COR", "displayName": "COR - Cencora, Inc. (1.19%)" },
-    { "name": "NASDAQ:IDXX", "displayName": "IDXX - IDEXX Laboratories, Inc. (1.03%)" }
+    {
+      "name": "NYSE:LLY",
+      "displayName": "LLY - Eli Lilly and Company (15.19%)"
+    },
+    {
+      "name": "NYSE:JNJ",
+      "displayName": "JNJ - Johnson & Johnson (8.63%)"
+    },
+    {
+      "name": "NYSE:ABBV",
+      "displayName": "ABBV - AbbVie Inc. (7.12%)"
+    },
+    {
+      "name": "NYSE:UNH",
+      "displayName": "UNH - UnitedHealth Group Incorporated (5.34%)"
+    },
+    {
+      "name": "NYSE:MRK",
+      "displayName": "MRK - Merck & Co., Inc. (4.65%)"
+    },
+    {
+      "name": "NYSE:TMO",
+      "displayName": "TMO - Thermo Fisher Scientific Inc. (4.00%)"
+    },
+    {
+      "name": "NYSE:ABT",
+      "displayName": "ABT - Abbott Laboratories (3.81%)"
+    },
+    {
+      "name": "NASDAQ:ISRG",
+      "displayName": "ISRG - Intuitive Surgical, Inc. (3.62%)"
+    },
+    {
+      "name": "NASDAQ:AMGN",
+      "displayName": "AMGN - Amgen Inc. (3.17%)"
+    },
+    {
+      "name": "NASDAQ:GILD",
+      "displayName": "GILD - Gilead Sciences, Inc. (2.66%)"
+    },
+    {
+      "name": "NYSE:DHR",
+      "displayName": "DHR - Danaher Corporation (2.56%)"
+    },
+    {
+      "name": "NYSE:BSX",
+      "displayName": "BSX - Boston Scientific Corporation (2.52%)"
+    },
+    {
+      "name": "NYSE:PFE",
+      "displayName": "PFE - Pfizer Inc. (2.48%)"
+    },
+    {
+      "name": "NYSE:MDT",
+      "displayName": "MDT - Medtronic plc (2.21%)"
+    },
+    {
+      "name": "NYSE:SYK",
+      "displayName": "SYK - Stryker Corporation (2.18%)"
+    },
+    {
+      "name": "NASDAQ:VRTX",
+      "displayName": "VRTX - Vertex Pharmaceuticals Incorporated (2.12%)"
+    },
+    {
+      "name": "NYSE:BMY",
+      "displayName": "BMY - Bristol-Myers Squibb Company (1.99%)"
+    },
+    {
+      "name": "NYSE:MCK",
+      "displayName": "MCK - McKesson Corporation (1.75%)"
+    },
+    {
+      "name": "NYSE:CVS",
+      "displayName": "CVS - CVS Health Corporation (1.75%)"
+    },
+    {
+      "name": "NASDAQ:REGN",
+      "displayName": "REGN - Regeneron Pharmaceuticals, Inc. (1.41%)"
+    },
+    {
+      "name": "NYSE:ELV",
+      "displayName": "ELV - Elevance Health, Inc. (1.41%)"
+    },
+    {
+      "name": "NYSE:HCA",
+      "displayName": "HCA - HCA Healthcare, Inc. (1.30%)"
+    },
+    {
+      "name": "NYSE:CI",
+      "displayName": "CI - The Cigna Group (1.29%)"
+    },
+    {
+      "name": "NYSE:COR",
+      "displayName": "COR - Cencora, Inc. (1.14%)"
+    },
+    {
+      "name": "NYSE:BDX",
+      "displayName": "BDX - Becton, Dickinson and Company (1.00%)"
+    }
   ]
 }

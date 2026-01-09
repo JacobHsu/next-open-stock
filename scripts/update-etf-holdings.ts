@@ -80,7 +80,7 @@ const ETF_NAMES: Record<string, string> = {
     'XLU': 'Utilities Select Sector SPDR Fund',
     'XLC': 'Communication Services Select Sector SPDR Fund',
 
-    // iShares ETFs
+    // iShares US ETFs
     'IYW': 'iShares U.S. Technology ETF',
     'IYF': 'iShares U.S. Financials ETF',
     'IYE': 'iShares U.S. Energy ETF',
@@ -92,6 +92,38 @@ const ETF_NAMES: Record<string, string> = {
     'IYR': 'iShares U.S. Real Estate ETF',
     'IDU': 'iShares U.S. Utilities ETF',
     'IYZ': 'iShares U.S. Telecommunications ETF',
+
+    // iShares Global ETFs (future support)
+    'IXN': 'iShares Global Tech ETF',
+    'IXG': 'iShares Global Financials ETF',
+    'IXC': 'iShares Global Energy ETF',
+    'IXJ': 'iShares Global Healthcare ETF',
+    'EXI': 'iShares Global Industrials ETF',
+    'KXI': 'iShares Global Consumer Staples ETF',
+    'RXI': 'iShares Global Consumer Discretionary ETF',
+    'MXI': 'iShares Global Materials ETF',
+    'REET': 'iShares Global REIT ETF',
+    'JXI': 'iShares Global Utilities ETF',
+    'IXP': 'iShares Global Comm Services ETF',
+};
+
+// Provider definitions for batch updates
+const VANGUARD_ETFS = [
+    'VGT', 'VFH', 'VDE', 'VHT', 'VIS', 'VDC', 'VCR', 'VAW', 'VNQ', 'VPU', 'VOX',
+];
+
+const SPDR_ETFS = [
+    'XLK', 'XLF', 'XLE', 'XLV', 'XLI', 'XLP', 'XLY', 'XLB', 'XLRE', 'XLU', 'XLC',
+];
+
+const ISHARES_ETFS = [
+    'IYW', 'IYF', 'IYE', 'IYH', 'IYJ', 'IYK', 'IYC', 'IYM', 'IYR', 'IDU', 'IYZ',
+];
+
+const ALL_PROVIDERS = {
+    vanguard: VANGUARD_ETFS,
+    spdr: SPDR_ETFS,
+    ishares: ISHARES_ETFS,
 };
 
 /**
@@ -273,36 +305,80 @@ async function saveETFConfig(config: ETFConfig): Promise<void> {
 async function main() {
     const args = process.argv.slice(2);
 
-    // Vanguard ETFs from ETF_MARKET_OVERVIEW_WIDGET_CONFIG
-    const vanguardETFs = [
-        'VGT', // Vanguard Information Technology ETF
-        'VFH', // Vanguard Financials ETF
-        'VDE', // Vanguard Energy ETF
-        'VHT', // Vanguard Health Care ETF
-        'VIS', // Vanguard Industrials ETF
-        'VDC', // Vanguard Consumer Staples ETF
-        'VCR', // Vanguard Consumer Discretionary ETF
-        'VAW', // Vanguard Materials ETF
-        'VNQ', // Vanguard Real Estate ETF
-        'VPU', // Vanguard Utilities ETF
-        'VOX', // Vanguard Communication Services ETF
-    ];
-
     let symbols: string[] = [];
 
-    if (args.includes('--all-vanguard')) {
-        symbols = vanguardETFs;
-    } else if (args.includes('--symbols')) {
+    // Parse command line arguments
+    if (args.includes('--help') || args.length === 0) {
+        console.log(`
+Usage: tsx scripts/update-etf-holdings.ts [options] [symbols...]
+
+Options:
+  --all-vanguard     Update all Vanguard sector ETFs (11 ETFs)
+  --all-spdr         Update all SPDR sector ETFs (11 ETFs)
+  --all-ishares      Update all iShares US sector ETFs (11 ETFs)
+  --all              Update ETFs from all providers (33 ETFs)
+  --provider NAME    Update ETFs for specific provider (vanguard, spdr, ishares)
+  --symbols LIST     Update comma-separated list of ETFs
+  --help             Show this help message
+
+Examples:
+  tsx scripts/update-etf-holdings.ts --all-vanguard
+  tsx scripts/update-etf-holdings.ts --all-spdr
+  tsx scripts/update-etf-holdings.ts --all-ishares
+  tsx scripts/update-etf-holdings.ts --all
+  tsx scripts/update-etf-holdings.ts --provider spdr
+  tsx scripts/update-etf-holdings.ts --symbols VGT,XLK,IYW
+  tsx scripts/update-etf-holdings.ts VGT XLK IYW
+`);
+        return;
+    }
+
+    // Handle --all flag (all providers)
+    if (args.includes('--all')) {
+        symbols = [...VANGUARD_ETFS, ...SPDR_ETFS, ...ISHARES_ETFS];
+    }
+    // Handle --all-vanguard flag
+    else if (args.includes('--all-vanguard')) {
+        symbols = VANGUARD_ETFS;
+    }
+    // Handle --all-spdr flag
+    else if (args.includes('--all-spdr')) {
+        symbols = SPDR_ETFS;
+    }
+    // Handle --all-ishares flag
+    else if (args.includes('--all-ishares')) {
+        symbols = ISHARES_ETFS;
+    }
+    // Handle --provider flag
+    else if (args.includes('--provider')) {
+        const providerIndex = args.indexOf('--provider');
+        const providerName = args[providerIndex + 1]?.toLowerCase();
+        if (providerName && ALL_PROVIDERS[providerName as keyof typeof ALL_PROVIDERS]) {
+            symbols = ALL_PROVIDERS[providerName as keyof typeof ALL_PROVIDERS];
+        } else {
+            console.error('Error: Unknown provider. Use: vanguard, spdr, or ishares');
+            console.log('Available providers: vanguard, spdr, ishares');
+            return;
+        }
+    }
+    // Handle --symbols flag
+    else if (args.includes('--symbols')) {
         const symbolsIndex = args.indexOf('--symbols');
         const symbolsArg = args[symbolsIndex + 1];
         if (symbolsArg) {
             symbols = symbolsArg.split(',').map(s => s.trim().toUpperCase());
         }
-    } else if (args.length > 0) {
+    }
+    // Handle positional arguments (individual symbols)
+    else if (args.length > 0) {
         symbols = args.map(s => s.trim().toUpperCase());
     } else {
         console.log('Usage:');
         console.log('  tsx scripts/update-etf-holdings.ts --all-vanguard');
+        console.log('  tsx scripts/update-etf-holdings.ts --all-spdr');
+        console.log('  tsx scripts/update-etf-holdings.ts --all-ishares');
+        console.log('  tsx scripts/update-etf-holdings.ts --all');
+        console.log('  tsx scripts/update-etf-holdings.ts --provider spdr');
         console.log('  tsx scripts/update-etf-holdings.ts --symbols VGT,VFH,VHT');
         console.log('  tsx scripts/update-etf-holdings.ts VGT VFH VHT');
         return;

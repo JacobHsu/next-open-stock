@@ -4,10 +4,6 @@
   "sourceUrl": "https://stockanalysis.com/etf/vnq/holdings/",
   "holdings": [
     {
-      "name": "NASDAQ:VRTPX",
-      "displayName": "VRTPX - Vanguard Real Estate II Index (14.49%)"
-    },
-    {
       "name": "NYSE:WELL",
       "displayName": "WELL - Welltower Inc. (7.82%)"
     },
@@ -36,7 +32,7 @@
       "displayName": "O - Realty Income Corporation (2.96%)"
     },
     {
-      "name": "NYSE:CBRE",
+      "name": "NASDAQ:CBRE",
       "displayName": "CBRE - CBRE Group, Inc. (2.70%)"
     },
     {
@@ -48,7 +44,7 @@
       "displayName": "CCI - Crown Castle Inc. (2.23%)"
     },
     {
-      "name": "NYSE:VTR",
+      "name": "NASDAQ:VTR",
       "displayName": "VTR - Ventas, Inc. (2.06%)"
     },
     {
@@ -56,11 +52,11 @@
       "displayName": "CSGP - CoStar Group, Inc. (1.63%)"
     },
     {
-      "name": "NYSE:EXR",
+      "name": "NASDAQ:EXR",
       "displayName": "EXR - Extra Space Storage Inc. (1.59%)"
     },
     {
-      "name": "NYSE:VICI",
+      "name": "NASDAQ:VICI",
       "displayName": "VICI - VICI Properties Inc. (1.57%)"
     },
     {
@@ -68,7 +64,7 @@
       "displayName": "AVB - AvalonBay Communities, Inc. (1.45%)"
     },
     {
-      "name": "NYSE:IRM",
+      "name": "NASDAQ:IRM",
       "displayName": "IRM - Iron Mountain Incorporated (1.43%)"
     },
     {
@@ -80,27 +76,27 @@
       "displayName": "SBAC - SBA Communications Corporation (1.17%)"
     },
     {
-      "name": "NYSE:ESS",
+      "name": "NASDAQ:ESS",
       "displayName": "ESS - Essex Property Trust, Inc. (0.95%)"
     },
     {
-      "name": "NYSE:INVH",
+      "name": "NASDAQ:INVH",
       "displayName": "INVH - Invitation Homes Inc. (0.92%)"
     },
     {
-      "name": "NYSE:SUI",
+      "name": "NASDAQ:SUI",
       "displayName": "SUI - Sun Communities, Inc. (0.91%)"
     },
     {
-      "name": "NYSE:WY",
+      "name": "NASDAQ:WY",
       "displayName": "WY - Weyerhaeuser Company (0.90%)"
     },
     {
-      "name": "NYSE:MAA",
+      "name": "NASDAQ:MAA",
       "displayName": "MAA - Mid-America Apartment Communities, Inc. (0.89%)"
     },
     {
-      "name": "NYSE:JLL",
+      "name": "NASDAQ:JLL",
       "displayName": "JLL - Jones Lang LaSalle Incorporated (0.87%)"
     }
   ]

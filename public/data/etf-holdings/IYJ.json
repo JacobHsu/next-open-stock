@@ -1,0 +1,107 @@
+{
+  "symbol": "IYJ",
+  "name": "iShares U.S. Industrials ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/iyj/holdings/",
+  "holdings": [
+    {
+      "name": "NYSE:V",
+      "displayName": "V - Visa Inc. (7.86%)"
+    },
+    {
+      "name": "NYSE:MA",
+      "displayName": "MA - Mastercard Incorporated (6.12%)"
+    },
+    {
+      "name": "NYSE:GE",
+      "displayName": "GE - GE Aerospace (4.42%)"
+    },
+    {
+      "name": "NYSE:CAT",
+      "displayName": "CAT - Caterpillar Inc. (3.63%)"
+    },
+    {
+      "name": "NYSE:RTX",
+      "displayName": "RTX - RTX Corporation (3.26%)"
+    },
+    {
+      "name": "NYSE:AXP",
+      "displayName": "AXP - American Express Company (2.68%)"
+    },
+    {
+      "name": "NYSE:GEV",
+      "displayName": "GEV - GE Vernova Inc. (2.38%)"
+    },
+    {
+      "name": "NYSE:ACN",
+      "displayName": "ACN - Accenture plc (2.25%)"
+    },
+    {
+      "name": "NYSE:BA",
+      "displayName": "BA - The Boeing Company (2.24%)"
+    },
+    {
+      "name": "NYSE:COF",
+      "displayName": "COF - Capital One Financial Corporation (2.09%)"
+    },
+    {
+      "name": "NYSE:UNP",
+      "displayName": "UNP - Union Pacific Corporation (1.76%)"
+    },
+    {
+      "name": "NASDAQ:HON",
+      "displayName": "HON - Honeywell International Inc. (1.67%)"
+    },
+    {
+      "name": "NYSE:ETN",
+      "displayName": "ETN - Eaton Corporation plc (1.66%)"
+    },
+    {
+      "name": "NYSE:DE",
+      "displayName": "DE - Deere & Company (1.52%)"
+    },
+    {
+      "name": "NYSE:PH",
+      "displayName": "PH - Parker-Hannifin Corporation (1.51%)"
+    },
+    {
+      "name": "NASDAQ:ADP",
+      "displayName": "ADP - Automatic Data Processing, Inc. (1.40%)"
+    },
+    {
+      "name": "NYSE:LMT",
+      "displayName": "LMT - Lockheed Martin Corporation (1.35%)"
+    },
+    {
+      "name": "NYSE:GD",
+      "displayName": "GD - General Dynamics Corporation (1.15%)"
+    },
+    {
+      "name": "NYSE:MMM",
+      "displayName": "MMM - 3M Company (1.14%)"
+    },
+    {
+      "name": "NYSE:HWM",
+      "displayName": "HWM - Howmet Aerospace Inc. (1.11%)"
+    },
+    {
+      "name": "NASDAQ:TT",
+      "displayName": "TT - Trane Technologies plc (1.10%)"
+    },
+    {
+      "name": "NYSE:CRH",
+      "displayName": "CRH - CRH plc (1.09%)"
+    },
+    {
+      "name": "NYSE:EMR",
+      "displayName": "EMR - Emerson Electric Co. (1.05%)"
+    },
+    {
+      "name": "NYSE:NOC",
+      "displayName": "NOC - Northrop Grumman Corporation (1.03%)"
+    },
+    {
+      "name": "NYSE:UPS",
+      "displayName": "UPS - United Parcel Service, Inc. (1.02%)"
+    }
+  ]
+}

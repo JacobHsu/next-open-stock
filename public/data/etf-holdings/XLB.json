@@ -1,0 +1,107 @@
+{
+  "symbol": "XLB",
+  "name": "Materials Select Sector SPDR Fund",
+  "sourceUrl": "https://stockanalysis.com/etf/xlb/holdings/",
+  "holdings": [
+    {
+      "name": "NASDAQ:LIN",
+      "displayName": "LIN - Linde plc (13.67%)"
+    },
+    {
+      "name": "NYSE:NEM",
+      "displayName": "NEM - Newmont Corporation (7.95%)"
+    },
+    {
+      "name": "NYSE:CRH",
+      "displayName": "CRH - CRH plc (5.55%)"
+    },
+    {
+      "name": "NYSE:FCX",
+      "displayName": "FCX - Freeport-McMoRan Inc. (5.37%)"
+    },
+    {
+      "name": "NYSE:SHW",
+      "displayName": "SHW - The Sherwin-Williams Company (5.15%)"
+    },
+    {
+      "name": "NYSE:APD",
+      "displayName": "APD - Air Products and Chemicals, Inc. (4.70%)"
+    },
+    {
+      "name": "NYSE:ECL",
+      "displayName": "ECL - Ecolab Inc. (4.62%)"
+    },
+    {
+      "name": "NYSE:CTVA",
+      "displayName": "CTVA - Corteva, Inc. (4.48%)"
+    },
+    {
+      "name": "NYSE:NUE",
+      "displayName": "NUE - Nucor Corporation (4.26%)"
+    },
+    {
+      "name": "NYSE:MLM",
+      "displayName": "MLM - Martin Marietta Materials, Inc. (4.26%)"
+    },
+    {
+      "name": "NYSE:VMC",
+      "displayName": "VMC - Vulcan Materials Company (4.18%)"
+    },
+    {
+      "name": "NYSE:PPG",
+      "displayName": "PPG - PPG Industries, Inc. (3.22%)"
+    },
+    {
+      "name": "NASDAQ:STLD",
+      "displayName": "STLD - Steel Dynamics, Inc. (3.19%)"
+    },
+    {
+      "name": "NYSE:IP",
+      "displayName": "IP - International Paper Company (2.89%)"
+    },
+    {
+      "name": "NYSE:SW",
+      "displayName": "SW - Smurfit Westrock Plc (2.86%)"
+    },
+    {
+      "name": "NYSE:AMCR",
+      "displayName": "AMCR - Amcor plc (2.68%)"
+    },
+    {
+      "name": "NYSE:ALB",
+      "displayName": "ALB - Albemarle Corporation (2.63%)"
+    },
+    {
+      "name": "NYSE:PKG",
+      "displayName": "PKG - Packaging Corporation of America (2.56%)"
+    },
+    {
+      "name": "NYSE:DD",
+      "displayName": "DD - DuPont de Nemours, Inc. (2.50%)"
+    },
+    {
+      "name": "NYSE:DOW",
+      "displayName": "DOW - Dow Inc. (2.44%)"
+    },
+    {
+      "name": "NASDAQ:IFF",
+      "displayName": "IFF - International Flavors & Fragrances Inc. (2.38%)"
+    },
+    {
+      "name": "NASDAQ:BALL",
+      "displayName": "BALL - Ball Corporation (1.98%)"
+    },
+    {
+      "name": "NASDAQ:AVY",
+      "displayName": "AVY - Avery Dennison Corporation (1.93%)"
+    },
+    {
+      "name": "NASDAQ:CF",
+      "displayName": "CF - CF Industries Holdings, Inc. (1.67%)"
+    },
+    {
+      "name": "NASDAQ:LYB",
+      "displayName": "LYB - LyondellBasell Industries N.V. (1.60%)"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "symbol": "IYK",
+  "name": "iShares U.S. Consumer Staples ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/iyk/holdings/",
+  "holdings": [
+    {
+      "name": "NYSE:PG",
+      "displayName": "PG - The Procter & Gamble Company (14.17%)"
+    },
+    {
+      "name": "NYSE:KO",
+      "displayName": "KO - The Coca-Cola Company (11.55%)"
+    },
+    {
+      "name": "NYSE:PM",
+      "displayName": "PM - Philip Morris International Inc. (10.69%)"
+    },
+    {
+      "name": "NASDAQ:PEP",
+      "displayName": "PEP - PepsiCo, Inc. (8.35%)"
+    },
+    {
+      "name": "NYSE:MCK",
+      "displayName": "MCK - McKesson Corporation (4.64%)"
+    },
+    {
+      "name": "NYSE:CVS",
+      "displayName": "CVS - CVS Health Corporation (4.51%)"
+    },
+    {
+      "name": "NYSE:MO",
+      "displayName": "MO - Altria Group, Inc. (4.16%)"
+    },
+    {
+      "name": "NASDAQ:MDLZ",
+      "displayName": "MDLZ - Mondelez International, Inc. (3.20%)"
+    },
+    {
+      "name": "NYSE:COR",
+      "displayName": "COR - Cencora, Inc. (3.07%)"
+    },
+    {
+      "name": "NYSE:CL",
+      "displayName": "CL - Colgate-Palmolive Company (3.05%)"
+    },
+    {
+      "name": "NASDAQ:MNST",
+      "displayName": "MNST - Monster Beverage Corporation (2.72%)"
+    },
+    {
+      "name": "NYSE:CTVA",
+      "displayName": "CTVA - Corteva, Inc. (2.40%)"
+    },
+    {
+      "name": "NASDAQ:KR",
+      "displayName": "KR - The Kroger Co. (1.84%)"
+    },
+    {
+      "name": "NASDAQ:KDP",
+      "displayName": "KDP - Keurig Dr Pepper Inc. (1.81%)"
+    },
+    {
+      "name": "NASDAQ:SYY",
+      "displayName": "SYY - Sysco Corporation (1.77%)"
+    },
+    {
+      "name": "NASDAQ:KMB",
+      "displayName": "KMB - Kimberly-Clark Corporation (1.66%)"
+    },
+    {
+      "name": "NASDAQ:KVUE",
+      "displayName": "KVUE - Kenvue Inc. (1.63%)"
+    },
+    {
+      "name": "NASDAQ:ADM",
+      "displayName": "ADM - Archer-Daniels-Midland Company (1.43%)"
+    },
+    {
+      "name": "NYSE:HSY",
+      "displayName": "HSY - The Hershey Company (1.35%)"
+    },
+    {
+      "name": "NYSE:GIS",
+      "displayName": "GIS - General Mills, Inc. (1.17%)"
+    },
+    {
+      "name": "NASDAQ:CASY",
+      "displayName": "CASY - Casey's General Stores, Inc. (1.09%)"
+    },
+    {
+      "name": "NASDAQ:CHD",
+      "displayName": "CHD - Church & Dwight Co., Inc. (1.03%)"
+    },
+    {
+      "name": "NASDAQ:STZ",
+      "displayName": "STZ - Constellation Brands, Inc. (1.02%)"
+    },
+    {
+      "name": "NASDAQ:KHC",
+      "displayName": "KHC - The Kraft Heinz Company (1.01%)"
+    },
+    {
+      "name": "NASDAQ:USFD",
+      "displayName": "USFD - US Foods Holding Corp. (0.87%)"
+    }
+  ]
+}

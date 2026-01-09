@@ -5,59 +5,59 @@
   "holdings": [
     {
       "name": "NYSE:BRK.B",
-      "displayName": "BRK.B - Berkshire Hathaway Inc. (11.52%)"
+      "displayName": "BRK.B - Berkshire Hathaway Inc. (11.46%)"
     },
     {
       "name": "NYSE:JPM",
-      "displayName": "JPM - JPMorgan Chase & Co. (11.19%)"
+      "displayName": "JPM - JPMorgan Chase & Co. (11.18%)"
     },
     {
       "name": "NYSE:BAC",
-      "displayName": "BAC - Bank of America Corporation (4.54%)"
+      "displayName": "BAC - Bank of America Corporation (4.51%)"
     },
     {
       "name": "NYSE:WFC",
-      "displayName": "WFC - Wells Fargo & Company (4.11%)"
+      "displayName": "WFC - Wells Fargo & Company (4.09%)"
     },
     {
       "name": "NYSE:GS",
-      "displayName": "GS - The Goldman Sachs Group, Inc. (3.87%)"
+      "displayName": "GS - The Goldman Sachs Group, Inc. (4.01%)"
     },
     {
       "name": "NYSE:C",
-      "displayName": "C - Citigroup Inc. (3.25%)"
+      "displayName": "C - Citigroup Inc. (3.26%)"
     },
     {
       "name": "NYSE:MS",
-      "displayName": "MS - Morgan Stanley (3.15%)"
+      "displayName": "MS - Morgan Stanley (3.22%)"
     },
     {
       "name": "NYSE:SCHW",
-      "displayName": "SCHW - The Charles Schwab Corporation (2.62%)"
+      "displayName": "SCHW - The Charles Schwab Corporation (2.63%)"
     },
     {
       "name": "NYSE:BLK",
-      "displayName": "BLK - BlackRock, Inc. (2.50%)"
+      "displayName": "BLK - BlackRock, Inc. (2.48%)"
     },
     {
       "name": "NYSE:SPGI",
-      "displayName": "SPGI - S&P Global Inc. (2.40%)"
+      "displayName": "SPGI - S&P Global Inc. (2.47%)"
     },
     {
       "name": "NYSE:PGR",
-      "displayName": "PGR - The Progressive Corporation (2.01%)"
+      "displayName": "PGR - The Progressive Corporation (1.86%)"
     },
     {
       "name": "NYSE:BX",
-      "displayName": "BX - Blackstone Inc. (1.74%)"
+      "displayName": "BX - Blackstone Inc. (1.73%)"
     },
     {
       "name": "NYSE:CB",
-      "displayName": "CB - Chubb Limited (1.73%)"
+      "displayName": "CB - Chubb Limited (1.70%)"
     },
     {
-      "name": "NASDAQ:CME",
-      "displayName": "CME - CME Group Inc. (1.49%)"
+      "name": "NYSE:CME",
+      "displayName": "CME - CME Group Inc. (1.45%)"
     },
     {
       "name": "NYSE:ICE",
@@ -65,43 +65,43 @@
     },
     {
       "name": "NYSE:MMC",
-      "displayName": "MMC - Marsh & McLennan Companies, Inc. (1.40%)"
-    },
-    {
-      "name": "NASDAQ:HOOD",
-      "displayName": "HOOD - Robinhood Markets, Inc. (1.34%)"
+      "displayName": "MMC - Marsh & McLennan Companies, Inc. (1.37%)"
     },
     {
       "name": "NYSE:KKR",
       "displayName": "KKR - KKR & Co. Inc. (1.34%)"
     },
     {
+      "name": "NASDAQ:HOOD",
+      "displayName": "HOOD - Robinhood Markets, Inc. (1.31%)"
+    },
+    {
       "name": "NYSE:USB",
-      "displayName": "USB - U.S. Bancorp (1.29%)"
+      "displayName": "USB - U.S. Bancorp (1.30%)"
     },
     {
       "name": "NYSE:PNC",
-      "displayName": "PNC - The PNC Financial Services Group, Inc. (1.27%)"
+      "displayName": "PNC - The PNC Financial Services Group, Inc. (1.29%)"
     },
     {
       "name": "NYSE:BK",
-      "displayName": "BK - The Bank of New York Mellon Corporation (1.24%)"
+      "displayName": "BK - The Bank of New York Mellon Corporation (1.27%)"
     },
     {
       "name": "NYSE:MCO",
-      "displayName": "MCO - Moody's Corporation (1.21%)"
+      "displayName": "MCO - Moody's Corporation (1.25%)"
     },
     {
       "name": "NYSE:AON",
-      "displayName": "AON - Aon plc (1.13%)"
+      "displayName": "AON - Aon plc (1.11%)"
     },
     {
       "name": "NYSE:AJG",
       "displayName": "AJG - Arthur J. Gallagher & Co. (0.99%)"
     },
     {
-      "name": "NYSE:TRV",
-      "displayName": "TRV - The Travelers Companies, Inc. (0.99%)"
+      "name": "NYSE:TFC",
+      "displayName": "TFC - Truist Financial Corporation (0.99%)"
     }
   ]
 }

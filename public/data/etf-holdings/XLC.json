@@ -1,0 +1,107 @@
+{
+  "symbol": "XLC",
+  "name": "Communication Services Select Sector SPDR Fund",
+  "sourceUrl": "https://stockanalysis.com/etf/xlc/holdings/",
+  "holdings": [
+    {
+      "name": "NASDAQ:META",
+      "displayName": "META - Meta Platforms, Inc. (19.50%)"
+    },
+    {
+      "name": "NASDAQ:GOOGL",
+      "displayName": "GOOGL - Alphabet, Inc. (10.99%)"
+    },
+    {
+      "name": "NASDAQ:GOOG",
+      "displayName": "GOOG - Alphabet Inc. (8.80%)"
+    },
+    {
+      "name": "NASDAQ:NFLX",
+      "displayName": "NFLX - Netflix, Inc. (5.31%)"
+    },
+    {
+      "name": "NASDAQ:TTWO",
+      "displayName": "TTWO - Take-Two Interactive Software, Inc. (4.66%)"
+    },
+    {
+      "name": "NYSE:DIS",
+      "displayName": "DIS - The Walt Disney Company (4.63%)"
+    },
+    {
+      "name": "NASDAQ:CMCSA",
+      "displayName": "CMCSA - Comcast Corporation (4.52%)"
+    },
+    {
+      "name": "NASDAQ:TMUS",
+      "displayName": "TMUS - T-Mobile US, Inc. (4.51%)"
+    },
+    {
+      "name": "NYSE:VZ",
+      "displayName": "VZ - Verizon Communications Inc. (4.49%)"
+    },
+    {
+      "name": "NASDAQ:EA",
+      "displayName": "EA - Electronic Arts Inc. (4.49%)"
+    },
+    {
+      "name": "NYSE:T",
+      "displayName": "T - AT&T Inc. (4.39%)"
+    },
+    {
+      "name": "NASDAQ:WBD",
+      "displayName": "WBD - Warner Bros. Discovery, Inc. (4.32%)"
+    },
+    {
+      "name": "NYSE:OMC",
+      "displayName": "OMC - Omnicom Group Inc. (3.19%)"
+    },
+    {
+      "name": "NYSE:LYV",
+      "displayName": "LYV - Live Nation Entertainment, Inc. (2.93%)"
+    },
+    {
+      "name": "NASDAQ:CHTR",
+      "displayName": "CHTR - Charter Communications, Inc. (2.34%)"
+    },
+    {
+      "name": "NASDAQ:TTD",
+      "displayName": "TTD - The Trade Desk, Inc. (2.20%)"
+    },
+    {
+      "name": "NASDAQ:FOXA",
+      "displayName": "FOXA - Fox Corporation (2.02%)"
+    },
+    {
+      "name": "NASDAQ:TKO",
+      "displayName": "TKO - TKO Group Holdings, Inc. (1.74%)"
+    },
+    {
+      "name": "NASDAQ:FOX",
+      "displayName": "FOX - Fox Corporation (1.29%)"
+    },
+    {
+      "name": "NASDAQ:NWSA",
+      "displayName": "NWSA - News Corporation (1.28%)"
+    },
+    {
+      "name": "NASDAQ:MTCH",
+      "displayName": "MTCH - Match Group, Inc. (0.99%)"
+    },
+    {
+      "name": "NASDAQ:PSKY",
+      "displayName": "PSKY - Paramount Skydance Corporation (0.50%)"
+    },
+    {
+      "name": "NASDAQ:NWS",
+      "displayName": "NWS - News Corporation (0.48%)"
+    },
+    {
+      "name": "NASDAQ:-",
+      "displayName": "- - SSI US GOV MONEY MARKET CLASS (0.33%)"
+    },
+    {
+      "name": "NASDAQ:-",
+      "displayName": "- - US DOLLAR (0.03%)"
+    }
+  ]
+}

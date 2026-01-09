@@ -1,0 +1,107 @@
+{
+  "symbol": "IYZ",
+  "name": "iShares U.S. Telecommunications ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/iyz/holdings/",
+  "holdings": [
+    {
+      "name": "NASDAQ:CSCO",
+      "displayName": "CSCO - Cisco Systems, Inc. (19.89%)"
+    },
+    {
+      "name": "NYSE:VZ",
+      "displayName": "VZ - Verizon Communications Inc. (11.87%)"
+    },
+    {
+      "name": "NYSE:T",
+      "displayName": "T - AT&T Inc. (11.60%)"
+    },
+    {
+      "name": "NYSE:ANET",
+      "displayName": "ANET - Arista Networks, Inc. (4.42%)"
+    },
+    {
+      "name": "NASDAQ:CMCSA",
+      "displayName": "CMCSA - Comcast Corporation (4.17%)"
+    },
+    {
+      "name": "NASDAQ:TMUS",
+      "displayName": "TMUS - T-Mobile US, Inc. (4.10%)"
+    },
+    {
+      "name": "NYSE:CIEN",
+      "displayName": "CIEN - Ciena Corporation (3.99%)"
+    },
+    {
+      "name": "NYSE:MSI",
+      "displayName": "MSI - Motorola Solutions, Inc. (3.80%)"
+    },
+    {
+      "name": "NASDAQ:LITE",
+      "displayName": "LITE - Lumentum Holdings Inc. (3.61%)"
+    },
+    {
+      "name": "NASDAQ:ASTS",
+      "displayName": "ASTS - AST SpaceMobile, Inc. (3.55%)"
+    },
+    {
+      "name": "NASDAQ:ROKU",
+      "displayName": "ROKU - Roku, Inc. (3.39%)"
+    },
+    {
+      "name": "NASDAQ:GLIBK",
+      "displayName": "GLIBK - GCI Liberty, Inc. (3.28%)"
+    },
+    {
+      "name": "NASDAQ:TIGO",
+      "displayName": "TIGO - Millicom International Cellular S.A. (3.21%)"
+    },
+    {
+      "name": "NASDAQ:FYBR",
+      "displayName": "FYBR - Frontier Communications Parent, Inc. (3.21%)"
+    },
+    {
+      "name": "NASDAQ:CHTR",
+      "displayName": "CHTR - Charter Communications, Inc. (3.17%)"
+    },
+    {
+      "name": "NASDAQ:UI",
+      "displayName": "UI - Ubiquiti Inc. (3.01%)"
+    },
+    {
+      "name": "NASDAQ:IRDM",
+      "displayName": "IRDM - Iridium Communications Inc. (2.97%)"
+    },
+    {
+      "name": "NASDAQ:LBRDK",
+      "displayName": "LBRDK - Liberty Broadband Corporation (2.68%)"
+    },
+    {
+      "name": "NASDAQ:LBTYA",
+      "displayName": "LBTYA - Liberty Global Ltd. (1.71%)"
+    },
+    {
+      "name": "NASDAQ:LBTYK",
+      "displayName": "LBTYK - Liberty Global Ltd. (1.36%)"
+    },
+    {
+      "name": "NASDAQ:LBRDA",
+      "displayName": "LBRDA - Liberty Broadband Corporation (0.39%)"
+    },
+    {
+      "name": "NASDAQ:GLIBA",
+      "displayName": "GLIBA - GCI Liberty, Inc. (0.33%)"
+    },
+    {
+      "name": "NASDAQ:XTSLA",
+      "displayName": "XTSLA - BLK CSH FND TREASURY SL AGENCY (0.18%)"
+    },
+    {
+      "name": "NASDAQ:USD",
+      "displayName": "USD - USD CASH (0.07%)"
+    },
+    {
+      "name": "NASDAQ:SGAFT",
+      "displayName": "SGAFT - CASH COLLATERAL USD SGAFT (0.02%)"
+    }
+  ]
+}

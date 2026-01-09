@@ -9,9 +9,13 @@ on:
   workflow_dispatch:
     inputs:
       etf_symbols:
-        description: 'ETF symbols to update (comma-separated, or "all-vanguard")'
+        description: 'ETF symbols to update (comma-separated, or "all-vanguard", "all-spdr", "all-ishares", "all")'
         required: false
-        default: 'all-vanguard'
+        default: 'all'
+      provider:
+        description: 'Provider to update (vanguard, spdr, ishares, all)'
+        required: false
+        default: 'all'
 
 jobs:
   update-holdings:
@@ -37,15 +41,29 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Determine update strategy
+        id: strategy
+        run: |
+          # Determine what to update based on inputs
+          SYMBOLS="${{ github.event.inputs.etf_symbols }}"
+          PROVIDER="${{ github.event.inputs.provider }}"
+          
+          # If symbols provided, use symbols
+          if [ -n "$SYMBOLS" ] && [ "$SYMBOLS" != "all" ] && [ "$SYMBOLS" != "all-vanguard" ] && [ "$SYMBOLS" != "all-spdr" ] && [ "$SYMBOLS" != "all-ishares" ]; then
+            echo "command=pnpm run update-etf --symbols $SYMBOLS" >> $GITHUB_OUTPUT
+          # If provider specified
+          elif [ -n "$PROVIDER" ] && [ "$PROVIDER" != "all" ]; then
+            echo "command=pnpm run update-etf --provider $PROVIDER" >> $GITHUB_OUTPUT
+          # Default to all
+          else
+            echo "command=pnpm run update-etf --all" >> $GITHUB_OUTPUT
+          fi
+
       - name: Update ETF holdings
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: |
-          if [ "${{ github.event.inputs.etf_symbols }}" = "all-vanguard" ] || [ -z "${{ github.event.inputs.etf_symbols }}" ]; then
-            pnpm run update-etf:vanguard
-          else
-            pnpm run update-etf --symbols ${{ github.event.inputs.etf_symbols }}
-          fi
+          ${{ steps.strategy.outputs.command }}
 
       - name: Check for changes
         id: git-check
@@ -63,7 +81,8 @@ jobs:
           Updated ETF holdings from stockanalysis.com
           - Exchange verification via Finnhub API
           - Top 25 holdings per ETF
-          - Weight percentages included"
+          - Weight percentages included
+          - Providers: Vanguard, SPDR, iShares"
           git push
 
       - name: Create summary
@@ -74,6 +93,11 @@ jobs:
           echo "Updated holdings data for:" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           git diff --name-only HEAD~1 HEAD | grep '.json$' | sed 's/.*\//- /' | sed 's/.json//' >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Providers covered:" >> $GITHUB_STEP_SUMMARY
+          echo "- Vanguard (11 sector ETFs)" >> $GITHUB_STEP_SUMMARY
+          echo "- SPDR (11 sector ETFs)" >> $GITHUB_STEP_SUMMARY
+          echo "- iShares US (11 sector ETFs)" >> $GITHUB_STEP_SUMMARY
 
       - name: No changes summary
         if: steps.git-check.outputs.changes != 'true'
@@ -81,3 +105,5 @@ jobs:
           echo "### No Changes Detected ℹ️" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "ETF holdings are already up to date." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Coverage: 33 ETFs (Vanguard, SPDR, iShares)" >> $GITHUB_STEP_SUMMARY

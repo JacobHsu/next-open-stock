@@ -1,0 +1,107 @@
+{
+  "symbol": "XLK",
+  "name": "Technology Select Sector SPDR Fund",
+  "sourceUrl": "https://stockanalysis.com/etf/xlk/holdings/",
+  "holdings": [
+    {
+      "name": "NASDAQ:NVDA",
+      "displayName": "NVDA - NVIDIA Corporation (14.88%)"
+    },
+    {
+      "name": "NASDAQ:AAPL",
+      "displayName": "AAPL - Apple Inc. (12.46%)"
+    },
+    {
+      "name": "NASDAQ:MSFT",
+      "displayName": "MSFT - Microsoft Corporation (11.64%)"
+    },
+    {
+      "name": "NASDAQ:AVGO",
+      "displayName": "AVGO - Broadcom Inc. (5.25%)"
+    },
+    {
+      "name": "NASDAQ:PLTR",
+      "displayName": "PLTR - Palantir Technologies Inc. (3.51%)"
+    },
+    {
+      "name": "NASDAQ:MU",
+      "displayName": "MU - Micron Technology, Inc. (3.22%)"
+    },
+    {
+      "name": "NASDAQ:AMD",
+      "displayName": "AMD - Advanced Micro Devices, Inc. (2.89%)"
+    },
+    {
+      "name": "NASDAQ:ORCL",
+      "displayName": "ORCL - Oracle Corporation (2.74%)"
+    },
+    {
+      "name": "NASDAQ:CSCO",
+      "displayName": "CSCO - Cisco Systems, Inc. (2.49%)"
+    },
+    {
+      "name": "NYSE:IBM",
+      "displayName": "IBM - International Business Machines Corporation (2.34%)"
+    },
+    {
+      "name": "NASDAQ:LRCX",
+      "displayName": "LRCX - Lam Research Corporation (2.16%)"
+    },
+    {
+      "name": "NASDAQ:CRM",
+      "displayName": "CRM - Salesforce, Inc. (2.14%)"
+    },
+    {
+      "name": "NASDAQ:AMAT",
+      "displayName": "AMAT - Applied Materials, Inc. (1.97%)"
+    },
+    {
+      "name": "NASDAQ:0QZ3",
+      "displayName": "0QZ3 - QUALCOMM INC (1.63%)"
+    },
+    {
+      "name": "NASDAQ:INTC",
+      "displayName": "INTC - Intel Corporation (1.62%)"
+    },
+    {
+      "name": "NASDAQ:INTU",
+      "displayName": "INTU - Intuit Inc. (1.53%)"
+    },
+    {
+      "name": "NASDAQ:KLAC",
+      "displayName": "KLAC - KLA Corporation (1.51%)"
+    },
+    {
+      "name": "NASDAQ:APP",
+      "displayName": "APP - AppLovin Corporation (1.45%)"
+    },
+    {
+      "name": "NYSE:APH",
+      "displayName": "APH - Amphenol Corporation (1.44%)"
+    },
+    {
+      "name": "NYSE:ACN",
+      "displayName": "ACN - Accenture plc (1.44%)"
+    },
+    {
+      "name": "NASDAQ:TXN",
+      "displayName": "TXN - Texas Instruments Incorporated (1.43%)"
+    },
+    {
+      "name": "NASDAQ:NOW",
+      "displayName": "NOW - ServiceNow, Inc. (1.32%)"
+    },
+    {
+      "name": "NASDAQ:ADI",
+      "displayName": "ADI - Analog Devices, Inc. (1.22%)"
+    },
+    {
+      "name": "NASDAQ:ADBE",
+      "displayName": "ADBE - Adobe Inc. (1.20%)"
+    },
+    {
+      "name": "NYSE:ANET",
+      "displayName": "ANET - Arista Networks, Inc. (1.14%)"
+    }
+  ]
+}

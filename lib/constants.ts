@@ -207,3 +207,119 @@ export const WATCHLIST_TABLE_HEADER = [
     'Alert',
     'Action',
 ];
+
+// Known exchange codes for ETF holdings validation
+export const KNOWN_EXCHANGES = [
+    'NYSE',
+    'NASDAQ',
+    'AMEX',
+    'OTC',
+    'BATS',
+] as const;
+
+export type ExchangeCode = typeof KNOWN_EXCHANGES[number];
+
+// Map of known stock symbols to their exchanges (extends to 200+ major stocks)
+export const STOCK_EXCHANGE_MAP: Record<string, ExchangeCode> = {
+    // Tech Giants
+    'AAPL': 'NASDAQ', 'MSFT': 'NASDAQ', 'GOOGL': 'NASDAQ', 'GOOG': 'NASDAQ',
+    'AMZN': 'NASDAQ', 'META': 'NASDAQ', 'TSLA': 'NASDAQ', 'NVDA': 'NASDAQ',
+    'AVGO': 'NASDAQ', 'ORCL': 'NASDAQ', 'CRM': 'NASDAQ', 'ADBE': 'NASDAQ',
+    'AMD': 'NASDAQ', 'INTC': 'NASDAQ', 'CSCO': 'NASDAQ', 'QCOM': 'NASDAQ',
+    'TXN': 'NASDAQ', 'PEP': 'NASDAQ', 'COST': 'NASDAQ', 'CMCSA': 'NASDAQ',
+    'AMGN': 'NASDAQ', 'NFLX': 'NASDAQ', 'PYPL': 'NASDAQ', 'INTU': 'NASDAQ',
+    'MU': 'NASDAQ', 'ADI': 'NASDAQ', 'LRCX': 'NASDAQ', 'AMAT': 'NASDAQ',
+    'KLAC': 'NASDAQ', 'SNPS': 'NASDAQ', 'CDNS': 'NASDAQ', 'PANW': 'NASDAQ',
+    'FTNT': 'NASDAQ', 'NOW': 'NASDAQ', 'UBER': 'NASDAQ', 'ABNB': 'NASDAQ',
+    'BKNG': 'NASDAQ', 'ISRG': 'NASDAQ', 'VRTX': 'NASDAQ', 'REGN': 'NASDAQ',
+    'BIIB': 'NASDAQ', 'ILMN': 'NASDAQ', 'DXCM': 'NASDAQ', 'MRVL': 'NASDAQ',
+    'HPE': 'NASDAQ',
+    // Financial
+    'JPM': 'NYSE', 'BAC': 'NYSE', 'WFC': 'NYSE', 'C': 'NYSE', 'GS': 'NYSE',
+    'MS': 'NYSE', 'BLK': 'NYSE', 'SCHW': 'NYSE', 'AXP': 'NYSE', 'BK': 'NYSE',
+    'COF': 'NYSE', 'PNC': 'NYSE', 'TFC': 'NYSE', 'USB': 'NYSE', 'NTRS': 'NYSE',
+    'SPGI': 'NYSE', 'MCO': 'NYSE', 'CME': 'NASDAQ', 'ICE': 'NYSE', 'AON': 'NYSE',
+    'MET': 'NYSE', 'PRU': 'NYSE', 'AFL': 'NYSE', 'ALL': 'NYSE', 'TRV': 'NYSE',
+    'CB': 'NYSE', 'PGR': 'NYSE', 'CI': 'NYSE', 'ELV': 'NYSE', 'HUM': 'NYSE',
+    'MCK': 'NYSE', 'CAH': 'NYSE', 'CVS': 'NYSE', 'WMT': 'NYSE', 'TGT': 'NYSE',
+    'HD': 'NYSE', 'LOW': 'NYSE', 'NKE': 'NYSE', 'TJX': 'NYSE', 'ROST': 'NYSE',
+    'DLTR': 'NASDAQ', 'ORLY': 'NASDAQ', 'AZO': 'NASDAQ', 'ULTA': 'NASDAQ',
+    'YUM': 'NYSE', 'MCD': 'NYSE', 'SBUX': 'NASDAQ', 'DRI': 'NYSE', 'CMG': 'NYSE',
+    'MAR': 'NASDAQ', 'HLT': 'NYSE', 'RCL': 'NYSE', 'CCL': 'NYSE', 'NCLH': 'NASDAQ',
+    'DIS': 'NYSE', 'WBD': 'NASDAQ', 'FOX': 'NASDAQ', 'FOXA': 'NASDAQ', 'PARA': 'NASDAQ',
+    'CHTR': 'NASDAQ', 'T': 'NYSE', 'VZ': 'NYSE', 'TMUS': 'NASDAQ',
+    'KKR': 'NYSE', 'MMC': 'NYSE', 'BX': 'NYSE', 'COR': 'NYSE', 'AJG': 'NYSE',
+    'MSI': 'NYSE', 'WMB': 'NYSE', 'WM': 'NYSE', 'HWM': 'NYSE', 'CRH': 'NYSE',
+    'GM': 'NYSE', 'MO': 'NYSE', 'GEV': 'NYSE', 'BDX': 'NYSE', 'FDX': 'NYSE',
+    'KMI': 'NYSE', 'GLW': 'NYSE', 'TEL': 'NYSE', 'UPS': 'NYSE', 'VST': 'NYSE',
+    'VRT': 'NYSE', 'ZTS': 'NYSE', 'NET': 'NYSE', 'PWR': 'NYSE', 'SNOW': 'NYSE',
+    'RBLX': 'NYSE', 'HCA': 'NYSE', 'JCI': 'NYSE', 'CEG': 'NASDAQ', 'COIN': 'NASDAQ',
+    'CTAS': 'NASDAQ', 'FISV': 'NASDAQ', 'DASH': 'NASDAQ',
+    'MSTR': 'NASDAQ', 'CRWD': 'NASDAQ', 'HOOD': 'NASDAQ', 'APP': 'NASDAQ',
+    'ADP': 'NASDAQ', 'ALNY': 'NASDAQ', 'IDXX': 'NASDAQ', 'EA': 'NASDAQ',
+    'ADSK': 'NASDAQ', 'BRK.B': 'NYSE', 'V': 'NYSE', 'MA': 'NYSE', 'GE': 'NYSE',
+    'IBM': 'NYSE', 'PM': 'NYSE', 'ACN': 'NYSE', 'APH': 'NYSE', 'ANET': 'NYSE',
+    // NOW, UBER already defined in Tech Giants section
+    // Energy
+    'XOM': 'NYSE', 'CVX': 'NYSE', 'COP': 'NYSE', 'EOG': 'NYSE', 'SLB': 'NYSE',
+    'MPC': 'NYSE', 'PSX': 'NYSE', 'VLO': 'NYSE', 'OXY': 'NYSE', 'PXD': 'NYSE',
+    'DVN': 'NYSE', 'HES': 'NYSE', 'FANG': 'NASDAQ', 'HAL': 'NYSE', 'BKR': 'NASDAQ',
+    // Healthcare
+    'LLY': 'NYSE', 'JNJ': 'NYSE', 'UNH': 'NYSE', 'MRK': 'NYSE', 'ABBV': 'NYSE',
+    'TMO': 'NYSE', 'ABT': 'NYSE', 'DHR': 'NYSE', 'BMY': 'NYSE', 'PFE': 'NYSE',
+    'GILD': 'NASDAQ', 'SYK': 'NYSE', 'MDT': 'NYSE',
+    'BSX': 'NYSE', 'EW': 'NYSE', 'ZBH': 'NYSE', 'PH': 'NYSE',
+    // ETN, ROK, TT, AME, IR, DXCM defined in Industrial section
+    // Industrial
+    'CAT': 'NYSE', 'DE': 'NYSE', 'MMM': 'NYSE', 'ITW': 'NYSE', 'EMR': 'NYSE',
+    'CMI': 'NYSE', 'HON': 'NASDAQ', 'UNP': 'NYSE', 'CSX': 'NYSE', 'NSC': 'NYSE',
+    'GD': 'NYSE', 'LMT': 'NYSE', 'NOC': 'NYSE', 'RTX': 'NYSE', 'BA': 'NYSE',
+    'LHX': 'NYSE', 'TDG': 'NYSE', 'URI': 'NYSE', 'FAST': 'NASDAQ', 'PCAR': 'NASDAQ',
+    'ODFL': 'NASDAQ',
+    // Materials
+    'LIN': 'NASDAQ', 'APD': 'NYSE', 'ECL': 'NYSE', 'SHW': 'NYSE', 'NUE': 'NYSE',
+    'FCX': 'NYSE', 'NEM': 'NYSE', 'DOW': 'NYSE', 'DD': 'NYSE', 'PPG': 'NYSE',
+    'NTR': 'NYSE', 'VMC': 'NYSE', 'MLM': 'NYSE', 'BRO': 'NYSE',
+    // Utilities
+    'NEE': 'NYSE', 'DUK': 'NYSE', 'SO': 'NYSE', 'D': 'NYSE', 'SRE': 'NYSE',
+    'AEP': 'NASDAQ', 'XEL': 'NASDAQ', 'EXC': 'NASDAQ', 'ED': 'NYSE', 'PEG': 'NYSE',
+    // Real Estate
+    'PLD': 'NYSE', 'AMT': 'NYSE', 'CCI': 'NYSE', 'EQIX': 'NASDAQ', 'PSA': 'NYSE',
+    'SPG': 'NYSE', 'O': 'NYSE', 'WELL': 'NYSE', 'DLR': 'NYSE', 'AVB': 'NYSE',
+    'EQR': 'NYSE',
+    // Communication (META, NFLX, CMCSA, WBD already defined)
+    // Consumer
+    'PG': 'NYSE', 'KO': 'NYSE', 'MDLZ': 'NASDAQ', 'KMB': 'NASDAQ',
+    'CL': 'NYSE', 'MKC': 'NYSE', 'HSY': 'NYSE', 'GIS': 'NYSE', 'K': 'NYSE',
+    'STZ': 'NASDAQ',
+    // ETF Symbols
+    'VOO': 'NYSE', 'VTI': 'NYSE', 'IVV': 'NYSE', 'SPY': 'NYSE', 'QQQ': 'NASDAQ',
+    'VGT': 'NYSE', 'VFH': 'NYSE', 'VDE': 'NYSE', 'VHT': 'NYSE', 'VIS': 'NYSE',
+    'VDC': 'NYSE', 'VCR': 'NYSE', 'VAW': 'NYSE', 'VNQ': 'NYSE', 'VPU': 'NYSE',
+    'VOX': 'NYSE', 'XLK': 'NYSE', 'XLF': 'NYSE', 'XLE': 'NYSE', 'XLV': 'NYSE',
+    'XLI': 'NYSE', 'XLP': 'NYSE', 'XLY': 'NYSE', 'XLB': 'NYSE', 'XLRE': 'NYSE',
+    'XLU': 'NYSE', 'XLC': 'NYSE',
+};
+
+export function isValidExchange(exchange: string): exchange is ExchangeCode {
+    return KNOWN_EXCHANGES.includes(exchange as ExchangeCode);
+}
+
+export function getExchangeForSymbol(symbol: string): ExchangeCode | null {
+    return STOCK_EXCHANGE_MAP[symbol.toUpperCase()] || null;
+}
+
+export function validateSymbolExchange(symbol: string, expectedExchange?: string): { valid: boolean; exchange: ExchangeCode | null; reason?: string } {
+    const symbolUpper = symbol.toUpperCase();
+    const exchange = getExchangeForSymbol(symbolUpper);
+
+    if (!exchange) {
+        return { valid: false, exchange: null, reason: `Unknown exchange for symbol ${symbol}` };
+    }
+
+    if (expectedExchange && exchange !== expectedExchange) {
+        return { valid: false, exchange, reason: `Expected ${expectedExchange} but got ${exchange}` };
+    }
+
+    return { valid: true, exchange };
+}

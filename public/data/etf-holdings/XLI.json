@@ -1,0 +1,107 @@
+{
+  "symbol": "XLI",
+  "name": "Industrial Select Sector SPDR Fund",
+  "sourceUrl": "https://stockanalysis.com/etf/xli/holdings/",
+  "holdings": [
+    {
+      "name": "NYSE:GE",
+      "displayName": "GE - GE Aerospace (6.98%)"
+    },
+    {
+      "name": "NYSE:CAT",
+      "displayName": "CAT - Caterpillar Inc. (5.71%)"
+    },
+    {
+      "name": "NYSE:RTX",
+      "displayName": "RTX - RTX Corporation (5.09%)"
+    },
+    {
+      "name": "NYSE:GEV",
+      "displayName": "GEV - GE Vernova Inc. (3.68%)"
+    },
+    {
+      "name": "NASDAQ:UBER",
+      "displayName": "UBER - Uber Technologies, Inc. (3.66%)"
+    },
+    {
+      "name": "NYSE:BA",
+      "displayName": "BA - The Boeing Company (3.65%)"
+    },
+    {
+      "name": "NYSE:UNP",
+      "displayName": "UNP - Union Pacific Corporation (2.72%)"
+    },
+    {
+      "name": "NASDAQ:HON",
+      "displayName": "HON - Honeywell International Inc. (2.59%)"
+    },
+    {
+      "name": "NYSE:ETN",
+      "displayName": "ETN - Eaton Corporation plc (2.56%)"
+    },
+    {
+      "name": "NYSE:DE",
+      "displayName": "DE - Deere & Company (2.44%)"
+    },
+    {
+      "name": "NYSE:PH",
+      "displayName": "PH - Parker-Hannifin Corporation (2.35%)"
+    },
+    {
+      "name": "NASDAQ:ADP",
+      "displayName": "ADP - Automatic Data Processing, Inc. (2.16%)"
+    },
+    {
+      "name": "NYSE:LMT",
+      "displayName": "LMT - Lockheed Martin Corporation (2.07%)"
+    },
+    {
+      "name": "NYSE:GD",
+      "displayName": "GD - General Dynamics Corporation (1.79%)"
+    },
+    {
+      "name": "NYSE:MMM",
+      "displayName": "MMM - 3M Company (1.77%)"
+    },
+    {
+      "name": "NYSE:HWM",
+      "displayName": "HWM - Howmet Aerospace Inc. (1.74%)"
+    },
+    {
+      "name": "NASDAQ:TT",
+      "displayName": "TT - Trane Technologies plc (1.71%)"
+    },
+    {
+      "name": "NYSE:WM",
+      "displayName": "WM - Waste Management, Inc. (1.64%)"
+    },
+    {
+      "name": "NYSE:EMR",
+      "displayName": "EMR - Emerson Electric Co. (1.63%)"
+    },
+    {
+      "name": "NYSE:TDG",
+      "displayName": "TDG - TransDigm Group Incorporated (1.60%)"
+    },
+    {
+      "name": "NYSE:UPS",
+      "displayName": "UPS - United Parcel Service, Inc. (1.59%)"
+    },
+    {
+      "name": "NYSE:NOC",
+      "displayName": "NOC - Northrop Grumman Corporation (1.58%)"
+    },
+    {
+      "name": "NYSE:CMI",
+      "displayName": "CMI - Cummins Inc. (1.52%)"
+    },
+    {
+      "name": "NYSE:JCI",
+      "displayName": "JCI - Johnson Controls International plc (1.41%)"
+    },
+    {
+      "name": "NYSE:FDX",
+      "displayName": "FDX - FedEx Corporation (1.37%)"
+    }
+  ]
+}

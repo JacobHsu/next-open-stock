@@ -1,0 +1,107 @@
+{
+  "symbol": "XLE",
+  "name": "Energy Select Sector SPDR Fund",
+  "sourceUrl": "https://stockanalysis.com/etf/xle/holdings/",
+  "holdings": [
+    {
+      "name": "NYSE:XOM",
+      "displayName": "XOM - Exxon Mobil Corporation (23.12%)"
+    },
+    {
+      "name": "NYSE:CVX",
+      "displayName": "CVX - Chevron Corporation (17.76%)"
+    },
+    {
+      "name": "NYSE:COP",
+      "displayName": "COP - ConocoPhillips (7.02%)"
+    },
+    {
+      "name": "NYSE:WMB",
+      "displayName": "WMB - The Williams Companies, Inc. (4.56%)"
+    },
+    {
+      "name": "NYSE:SLB",
+      "displayName": "SLB - SLB N.V. (4.47%)"
+    },
+    {
+      "name": "NYSE:VLO",
+      "displayName": "VLO - Valero Energy Corporation (3.96%)"
+    },
+    {
+      "name": "NYSE:EOG",
+      "displayName": "EOG - EOG Resources, Inc. (3.93%)"
+    },
+    {
+      "name": "NYSE:PSX",
+      "displayName": "PSX - Phillips 66 (3.92%)"
+    },
+    {
+      "name": "NYSE:KMI",
+      "displayName": "KMI - Kinder Morgan, Inc. (3.73%)"
+    },
+    {
+      "name": "NYSE:MPC",
+      "displayName": "MPC - Marathon Petroleum Corporation (3.66%)"
+    },
+    {
+      "name": "NASDAQ:BKR",
+      "displayName": "BKR - Baker Hughes Company (3.40%)"
+    },
+    {
+      "name": "NASDAQ:OKE",
+      "displayName": "OKE - ONEOK, Inc. (3.14%)"
+    },
+    {
+      "name": "NASDAQ:TRGP",
+      "displayName": "TRGP - Targa Resources Corp. (2.65%)"
+    },
+    {
+      "name": "NASDAQ:EQT",
+      "displayName": "EQT - EQT Corporation (2.40%)"
+    },
+    {
+      "name": "NYSE:OXY",
+      "displayName": "OXY - Occidental Petroleum Corporation (2.08%)"
+    },
+    {
+      "name": "NASDAQ:FANG",
+      "displayName": "FANG - Diamondback Energy, Inc. (1.85%)"
+    },
+    {
+      "name": "NYSE:HAL",
+      "displayName": "HAL - Halliburton Company (1.81%)"
+    },
+    {
+      "name": "NASDAQ:EXE",
+      "displayName": "EXE - Expand Energy Corporation (1.79%)"
+    },
+    {
+      "name": "NYSE:DVN",
+      "displayName": "DVN - Devon Energy Corporation (1.53%)"
+    },
+    {
+      "name": "NASDAQ:CTRA",
+      "displayName": "CTRA - Coterra Energy Inc. (1.36%)"
+    },
+    {
+      "name": "NASDAQ:TPL",
+      "displayName": "TPL - Texas Pacific Land Corporation (1.15%)"
+    },
+    {
+      "name": "NASDAQ:APA",
+      "displayName": "APA - APA Corporation (0.59%)"
+    },
+    {
+      "name": "NASDAQ:-",
+      "displayName": "- - SSI US GOV MONEY MARKET CLASS (0.10%)"
+    },
+    {
+      "name": "NASDAQ:-",
+      "displayName": "- - US DOLLAR (0.04%)"
+    },
+    {
+      "name": "NASDAQ:IXPH6",
+      "displayName": "IXPH6 - XAE ENERGY        MAR26 (0.00%)"
+    }
+  ]
+}

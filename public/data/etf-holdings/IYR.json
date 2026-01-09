@@ -1,0 +1,107 @@
+{
+  "symbol": "IYR",
+  "name": "iShares U.S. Real Estate ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/iyr/holdings/",
+  "holdings": [
+    {
+      "name": "NYSE:WELL",
+      "displayName": "WELL - Welltower Inc. (9.56%)"
+    },
+    {
+      "name": "NYSE:PLD",
+      "displayName": "PLD - Prologis, Inc. (8.84%)"
+    },
+    {
+      "name": "NASDAQ:EQIX",
+      "displayName": "EQIX - Equinix, Inc. (4.75%)"
+    },
+    {
+      "name": "NYSE:SPG",
+      "displayName": "SPG - Simon Property Group, Inc. (4.55%)"
+    },
+    {
+      "name": "NYSE:AMT",
+      "displayName": "AMT - American Tower Corporation (4.22%)"
+    },
+    {
+      "name": "NYSE:O",
+      "displayName": "O - Realty Income Corporation (4.12%)"
+    },
+    {
+      "name": "NYSE:DLR",
+      "displayName": "DLR - Digital Realty Trust, Inc. (3.91%)"
+    },
+    {
+      "name": "NASDAQ:CBRE",
+      "displayName": "CBRE - CBRE Group, Inc. (3.81%)"
+    },
+    {
+      "name": "NYSE:PSA",
+      "displayName": "PSA - Public Storage (3.28%)"
+    },
+    {
+      "name": "NYSE:CCI",
+      "displayName": "CCI - Crown Castle Inc. (2.90%)"
+    },
+    {
+      "name": "NASDAQ:VTR",
+      "displayName": "VTR - Ventas, Inc. (2.78%)"
+    },
+    {
+      "name": "NASDAQ:VICI",
+      "displayName": "VICI - VICI Properties Inc. (2.30%)"
+    },
+    {
+      "name": "NASDAQ:EXR",
+      "displayName": "EXR - Extra Space Storage Inc. (2.22%)"
+    },
+    {
+      "name": "NASDAQ:CSGP",
+      "displayName": "CSGP - CoStar Group, Inc. (2.04%)"
+    },
+    {
+      "name": "NASDAQ:IRM",
+      "displayName": "IRM - Iron Mountain Incorporated (2.01%)"
+    },
+    {
+      "name": "NYSE:AVB",
+      "displayName": "AVB - AvalonBay Communities, Inc. (1.98%)"
+    },
+    {
+      "name": "NYSE:EQR",
+      "displayName": "EQR - Equity Residential (1.68%)"
+    },
+    {
+      "name": "NASDAQ:SBAC",
+      "displayName": "SBAC - SBA Communications Corporation (1.51%)"
+    },
+    {
+      "name": "NASDAQ:WY",
+      "displayName": "WY - Weyerhaeuser Company (1.31%)"
+    },
+    {
+      "name": "NASDAQ:JLL",
+      "displayName": "JLL - Jones Lang LaSalle Incorporated (1.30%)"
+    },
+    {
+      "name": "NASDAQ:ESS",
+      "displayName": "ESS - Essex Property Trust, Inc. (1.26%)"
+    },
+    {
+      "name": "NASDAQ:MAA",
+      "displayName": "MAA - Mid-America Apartment Communities, Inc. (1.24%)"
+    },
+    {
+      "name": "NASDAQ:NLY",
+      "displayName": "NLY - Annaly Capital Management, Inc. (1.23%)"
+    },
+    {
+      "name": "NASDAQ:INVH",
+      "displayName": "INVH - Invitation Homes Inc. (1.16%)"
+    },
+    {
+      "name": "NASDAQ:WPC",
+      "displayName": "WPC - W. P. Carey Inc. (1.14%)"
+    }
+  ]
+}

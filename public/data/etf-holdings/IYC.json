@@ -1,0 +1,107 @@
+{
+  "symbol": "IYC",
+  "name": "iShares U.S. Consumer Discretionary ETF",
+  "sourceUrl": "https://stockanalysis.com/etf/iyc/holdings/",
+  "holdings": [
+    {
+      "name": "NASDAQ:AMZN",
+      "displayName": "AMZN - Amazon.com, Inc. (14.04%)"
+    },
+    {
+      "name": "NASDAQ:TSLA",
+      "displayName": "TSLA - Tesla, Inc. (8.37%)"
+    },
+    {
+      "name": "NYSE:WMT",
+      "displayName": "WMT - Walmart Inc. (4.43%)"
+    },
+    {
+      "name": "NASDAQ:COST",
+      "displayName": "COST - Costco Wholesale Corporation (4.17%)"
+    },
+    {
+      "name": "NASDAQ:NFLX",
+      "displayName": "NFLX - Netflix, Inc. (4.06%)"
+    },
+    {
+      "name": "NYSE:HD",
+      "displayName": "HD - The Home Depot, Inc. (4.00%)"
+    },
+    {
+      "name": "NYSE:MCD",
+      "displayName": "MCD - McDonald's Corporation (3.36%)"
+    },
+    {
+      "name": "NYSE:DIS",
+      "displayName": "DIS - The Walt Disney Company (3.16%)"
+    },
+    {
+      "name": "NASDAQ:BKNG",
+      "displayName": "BKNG - Booking Holdings Inc. (2.74%)"
+    },
+    {
+      "name": "NASDAQ:UBER",
+      "displayName": "UBER - Uber Technologies, Inc. (2.68%)"
+    },
+    {
+      "name": "NYSE:TJX",
+      "displayName": "TJX - The TJX Companies, Inc. (2.67%)"
+    },
+    {
+      "name": "NYSE:LOW",
+      "displayName": "LOW - Lowe's Companies, Inc. (2.14%)"
+    },
+    {
+      "name": "NASDAQ:SBUX",
+      "displayName": "SBUX - Starbucks Corporation (1.53%)"
+    },
+    {
+      "name": "NASDAQ:SPOT",
+      "displayName": "SPOT - Spotify Technology S.A. (1.36%)"
+    },
+    {
+      "name": "NYSE:RCL",
+      "displayName": "RCL - Royal Caribbean Cruises Ltd. (1.19%)"
+    },
+    {
+      "name": "NASDAQ:ORLY",
+      "displayName": "ORLY - O'Reilly Automotive, Inc. (1.18%)"
+    },
+    {
+      "name": "NYSE:GM",
+      "displayName": "GM - General Motors Company (1.18%)"
+    },
+    {
+      "name": "NYSE:NKE",
+      "displayName": "NKE - NIKE, Inc. (1.13%)"
+    },
+    {
+      "name": "NASDAQ:MAR",
+      "displayName": "MAR - Marriott International, Inc. (1.11%)"
+    },
+    {
+      "name": "NYSE:HLT",
+      "displayName": "HLT - Hilton Worldwide Holdings Inc. (1.04%)"
+    },
+    {
+      "name": "NASDAQ:WBD",
+      "displayName": "WBD - Warner Bros. Discovery, Inc. (1.03%)"
+    },
+    {
+      "name": "NYSE:CVNA",
+      "displayName": "CVNA - Carvana Co. (0.94%)"
+    },
+    {
+      "name": "NYSE:ROST",
+      "displayName": "ROST - Ross Stores, Inc. (0.92%)"
+    },
+    {
+      "name": "NASDAQ:ABNB",
+      "displayName": "ABNB - Airbnb, Inc. (0.90%)"
+    },
+    {
+      "name": "NASDAQ:AZO",
+      "displayName": "AZO - AutoZone, Inc. (0.86%)"
+    }
+  ]
+}

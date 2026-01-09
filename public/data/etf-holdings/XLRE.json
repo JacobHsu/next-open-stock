@@ -1,0 +1,107 @@
+{
+  "symbol": "XLRE",
+  "name": "Real Estate Select Sector SPDR Fund",
+  "sourceUrl": "https://stockanalysis.com/etf/xlre/holdings/",
+  "holdings": [
+    {
+      "name": "NYSE:WELL",
+      "displayName": "WELL - Welltower Inc. (10.06%)"
+    },
+    {
+      "name": "NYSE:PLD",
+      "displayName": "PLD - Prologis, Inc. (9.31%)"
+    },
+    {
+      "name": "NYSE:AMT",
+      "displayName": "AMT - American Tower Corporation (6.26%)"
+    },
+    {
+      "name": "NASDAQ:EQIX",
+      "displayName": "EQIX - Equinix, Inc. (6.02%)"
+    },
+    {
+      "name": "NASDAQ:CBRE",
+      "displayName": "CBRE - CBRE Group, Inc. (4.79%)"
+    },
+    {
+      "name": "NYSE:SPG",
+      "displayName": "SPG - Simon Property Group, Inc. (4.74%)"
+    },
+    {
+      "name": "NYSE:O",
+      "displayName": "O - Realty Income Corporation (4.56%)"
+    },
+    {
+      "name": "NYSE:PSA",
+      "displayName": "PSA - Public Storage (4.48%)"
+    },
+    {
+      "name": "NYSE:DLR",
+      "displayName": "DLR - Digital Realty Trust, Inc. (4.38%)"
+    },
+    {
+      "name": "NYSE:CCI",
+      "displayName": "CCI - Crown Castle Inc. (4.08%)"
+    },
+    {
+      "name": "NASDAQ:VTR",
+      "displayName": "VTR - Ventas, Inc. (3.91%)"
+    },
+    {
+      "name": "NASDAQ:VICI",
+      "displayName": "VICI - VICI Properties Inc. (3.24%)"
+    },
+    {
+      "name": "NASDAQ:EXR",
+      "displayName": "EXR - Extra Space Storage Inc. (3.13%)"
+    },
+    {
+      "name": "NASDAQ:CSGP",
+      "displayName": "CSGP - CoStar Group, Inc. (2.88%)"
+    },
+    {
+      "name": "NASDAQ:IRM",
+      "displayName": "IRM - Iron Mountain Incorporated (2.83%)"
+    },
+    {
+      "name": "NYSE:AVB",
+      "displayName": "AVB - AvalonBay Communities, Inc. (2.79%)"
+    },
+    {
+      "name": "NYSE:EQR",
+      "displayName": "EQR - Equity Residential (2.36%)"
+    },
+    {
+      "name": "NASDAQ:SBAC",
+      "displayName": "SBAC - SBA Communications Corporation (2.13%)"
+    },
+    {
+      "name": "NASDAQ:WY",
+      "displayName": "WY - Weyerhaeuser Company (1.84%)"
+    },
+    {
+      "name": "NASDAQ:ESS",
+      "displayName": "ESS - Essex Property Trust, Inc. (1.78%)"
+    },
+    {
+      "name": "NASDAQ:MAA",
+      "displayName": "MAA - Mid-America Apartment Communities, Inc. (1.74%)"
+    },
+    {
+      "name": "NASDAQ:INVH",
+      "displayName": "INVH - Invitation Homes Inc. (1.64%)"
+    },
+    {
+      "name": "NASDAQ:KIM",
+      "displayName": "KIM - Kimco Realty Corporation (1.51%)"
+    },
+    {
+      "name": "NASDAQ:DOC",
+      "displayName": "DOC - Healthpeak Properties, Inc. (1.29%)"
+    },
+    {
+      "name": "NASDAQ:REG",
+      "displayName": "REG - Regency Centers Corporation (1.27%)"
+    }
+  ]
+}
