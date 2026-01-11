@@ -230,7 +230,7 @@ export const STOCK_EXCHANGE_MAP: Record<string, ExchangeCode> = {
     'AMGN': 'NASDAQ', 'NFLX': 'NASDAQ', 'PYPL': 'NASDAQ', 'INTU': 'NASDAQ',
     'MU': 'NASDAQ', 'ADI': 'NASDAQ', 'LRCX': 'NASDAQ', 'AMAT': 'NASDAQ',
     'KLAC': 'NASDAQ', 'SNPS': 'NASDAQ', 'CDNS': 'NASDAQ', 'PANW': 'NASDAQ',
-    'FTNT': 'NASDAQ', 'NOW': 'NASDAQ', 'UBER': 'NASDAQ', 'ABNB': 'NASDAQ',
+    'FTNT': 'NASDAQ', 'NOW': 'NASDAQ', 'UBER': 'NYSE', 'ABNB': 'NASDAQ',
     'BKNG': 'NASDAQ', 'ISRG': 'NASDAQ', 'VRTX': 'NASDAQ', 'REGN': 'NASDAQ',
     'BIIB': 'NASDAQ', 'ILMN': 'NASDAQ', 'DXCM': 'NASDAQ', 'MRVL': 'NASDAQ',
     'HPE': 'NASDAQ',

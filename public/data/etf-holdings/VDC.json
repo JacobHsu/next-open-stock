@@ -4,7 +4,7 @@
   "sourceUrl": "https://stockanalysis.com/etf/vdc/holdings/",
   "holdings": [
     {
-      "name": "NYSE:WMT",
+      "name": "NASDAQ:WMT",
       "displayName": "WMT - Walmart Inc. (14.50%)"
     },
     {
@@ -52,7 +52,7 @@
       "displayName": "TGT - Target Corporation (1.48%)"
     },
     {
-      "name": "NASDAQ:SYY",
+      "name": "NYSE:SYY",
       "displayName": "SYY - Sysco Corporation (1.34%)"
     },
     {
@@ -64,7 +64,7 @@
       "displayName": "KDP - Keurig Dr Pepper Inc. (1.32%)"
     },
     {
-      "name": "NASDAQ:KVUE",
+      "name": "NYSE:KVUE",
       "displayName": "KVUE - Kenvue Inc. (1.23%)"
     },
     {
@@ -84,7 +84,7 @@
       "displayName": "K - Kellogg Company (0.94%)"
     },
     {
-      "name": "NASDAQ:DG",
+      "name": "NYSE:DG",
       "displayName": "DG - Dollar General Corporation (0.93%)"
     },
     {

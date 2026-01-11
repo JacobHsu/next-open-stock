@@ -35,7 +35,7 @@ const KNOWN_EXCHANGES: Record<string, string> = {
     'NEE': 'NYSE', 'DUK': 'NYSE', 'SO': 'NYSE', 'D': 'NYSE', 'SRE': 'NYSE',
     'LIN': 'NASDAQ', 'NEM': 'NYSE', 'SHW': 'NYSE', 'ECL': 'NYSE', 'FCX': 'NYSE',
     'APD': 'NYSE', 'CTVA': 'NYSE', 'VMC': 'NYSE', 'MLM': 'NYSE', 'NUE': 'NYSE',
-
+    'KVUE': 'NYSE',
     // Major NASDAQ stocks
     'AAPL': 'NASDAQ', 'MSFT': 'NASDAQ', 'GOOGL': 'NASDAQ', 'GOOG': 'NASDAQ',
     'AMZN': 'NASDAQ', 'META': 'NASDAQ', 'TSLA': 'NASDAQ', 'NVDA': 'NASDAQ',

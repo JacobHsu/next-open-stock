@@ -67,7 +67,7 @@ export const MARKET_OVERVIEW_WIDGET_CONFIG = {
             title: 'Retail',
             symbols: [
                 { s: 'NASDAQ:AMZN', d: 'Amazon.com Inc' },
-                { s: 'NYSE:WMT', d: 'Walmart Inc' },
+                { s: 'NASDAQ:WMT', d: 'Walmart Inc' },
                 { s: 'NASDAQ:COST', d: 'Costco Wholesale Corp' },
                 { s: 'NYSE:HD', d: 'Home Depot Inc' },
                 { s: 'NYSE:TJX', d: 'TJX Companies Inc' },

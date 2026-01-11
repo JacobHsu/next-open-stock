@@ -7,7 +7,6 @@ import {
     TOP_STORIES_WIDGET_CONFIG,
     TICKER_TAPE_WIDGET_CONFIG
 } from "@/lib/constants";
-import {sendDailyNewsSummary} from "@/lib/inngest/functions";
 
 const Home = () => {
     const scriptUrl = `https://s3.tradingview.com/external-embedding/embed-widget-`;
@@ -51,6 +50,7 @@ const Home = () => {
                         scriptUrl={`${scriptUrl}market-quotes.js`}
                         config={MARKET_DATA_WIDGET_CONFIG}
                         height={600}
+                        showTopLosers={true}
                     />
                 </div>
                 <div className="h-full md:col-span-1 xl:col-span-1">

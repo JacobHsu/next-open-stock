@@ -4,7 +4,7 @@
   "sourceUrl": "https://stockanalysis.com/etf/xlp/holdings/",
   "holdings": [
     {
-      "name": "NYSE:WMT",
+      "name": "NASDAQ:WMT",
       "displayName": "WMT - Walmart Inc. (11.71%)"
     },
     {
@@ -52,11 +52,11 @@
       "displayName": "KDP - Keurig Dr Pepper Inc. (2.58%)"
     },
     {
-      "name": "NASDAQ:KR",
+      "name": "NYSE:KR",
       "displayName": "KR - The Kroger Co. (2.52%)"
     },
     {
-      "name": "NASDAQ:SYY",
+      "name": "NYSE:SYY",
       "displayName": "SYY - Sysco Corporation (2.41%)"
     },
     {
@@ -64,15 +64,15 @@
       "displayName": "KMB - Kimberly-Clark Corporation (2.26%)"
     },
     {
-      "name": "NASDAQ:KVUE",
+      "name": "NYSE:KVUE",
       "displayName": "KVUE - Kenvue Inc. (2.24%)"
     },
     {
-      "name": "NASDAQ:DG",
+      "name": "NYSE:DG",
       "displayName": "DG - Dollar General Corporation (2.20%)"
     },
     {
-      "name": "NASDAQ:ADM",
+      "name": "NYSE:ADM",
       "displayName": "ADM - Archer-Daniels-Midland Company (1.96%)"
     },
     {
@@ -80,7 +80,7 @@
       "displayName": "HSY - The Hershey Company (1.86%)"
     },
     {
-      "name": "NASDAQ:EL",
+      "name": "NYSE:EL",
       "displayName": "EL - The Estée Lauder Companies Inc. (1.80%)"
     },
     {
@@ -92,11 +92,11 @@
       "displayName": "GIS - General Mills, Inc. (1.60%)"
     },
     {
-      "name": "NASDAQ:CHD",
+      "name": "NYSE:CHD",
       "displayName": "CHD - Church & Dwight Co., Inc. (1.40%)"
     },
     {
-      "name": "NASDAQ:STZ",
+      "name": "NYSE:STZ",
       "displayName": "STZ - Constellation Brands, Inc. (1.38%)"
     },
     {

@@ -18,6 +18,7 @@ interface ETFMarketDataWidgetProps {
   className?: string;
   showCryptoLinks?: boolean;
   showNasdaq100Links?: boolean;
+  showTopLosers?: boolean;
 }
 
 const ETFMarketDataWidget = ({
@@ -27,9 +28,11 @@ const ETFMarketDataWidget = ({
   className,
   showCryptoLinks = false,
   showNasdaq100Links = false,
+  showTopLosers = false,
 }: ETFMarketDataWidgetProps) => {
   const containerRef = useTradingViewWidget(scriptUrl, config, height);
   const [topLosers, setTopLosers] = useState<string[]>([]);
+  const [topLosersData, setTopLosersData] = useState<Array<{ ticker: string; change: string }>>([]);
 
   useEffect(() => {
     if (!showNasdaq100Links) return;
@@ -51,6 +54,35 @@ const ETFMarketDataWidget = ({
 
     fetchTopLosers();
   }, [showNasdaq100Links]);
+
+  useEffect(() => {
+    if (!showTopLosers) return;
+
+    // Fetch top losers from finviz-map API
+    const fetchTopLosersData = async () => {
+      try {
+        const res = await fetch('https://jacobhsu.github.io/finviz-map/api/top_losers.json');
+        const data = await res.json();
+
+        if (data.status === 'success' && data.data?.top_losers) {
+          setTopLosersData(data.data.top_losers);
+          
+          // Log top losers in red color
+          console.log('%c📉 Top Losers:', 'font-weight: bold; font-size: 14px; color: #EF4444;');
+          data.data.top_losers.forEach((loser: { ticker: string; change: string }) => {
+            console.log(`%c${loser.ticker}%c - ${loser.change}`,
+              'font-weight: bold; color: #EF4444;',
+              'color: #9CA3AF;'
+            );
+          });
+        }
+      } catch (error) {
+        console.error('Failed to fetch top losers from finviz-map:', error);
+      }
+    };
+
+    fetchTopLosersData();
+  }, [showTopLosers]);
 
   return (
     <div className="w-full">
@@ -135,6 +167,24 @@ const ETFMarketDataWidget = ({
               className="text-black hover:text-white transition-colors duration-200"
             >
               {symbol}
+            </Link>
+          ))}
+        </div>
+      )}
+
+      {/* Top Losers from finviz-map API - show on home page */}
+      {showTopLosers && topLosersData.length > 0 && (
+        <div className="flex items-center gap-4 mt-2 text-sm flex-wrap">
+          {topLosersData.map((loser) => (
+            <Link
+              key={loser.ticker}
+              href={`https://jacobhsu.github.io/stock-watch/stock/?symbol=${loser.ticker}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-black hover:text-red-400 transition-colors duration-200"
+              title={`${loser.ticker}: ${loser.change}`}
+            >
+              {loser.ticker}
             </Link>
           ))}
         </div>

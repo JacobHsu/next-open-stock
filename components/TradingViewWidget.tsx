@@ -8,6 +8,7 @@ import Link from "next/link";
 interface HiddenLink {
     text: string;
     urls: string[];
+    tooltip?: string;
 }
 
 interface TradingViewWidgetProps {
@@ -47,7 +48,8 @@ const TradingViewWidget = ({ title, titleLink, hiddenLinks, scriptUrl, config, h
                         <button
                             key={index}
                             onClick={() => handleMultipleLinks(link.urls)}
-                            className="ml-2 text-black hover:text-white transition-colors cursor-pointer"
+                            className={`ml-2 ${link.tooltip ? 'text-red-600 hover:text-red-400' : 'text-black hover:text-white'} transition-colors cursor-pointer`}
+                            title={link.tooltip}
                         >
                             {link.text}
                         </button>
