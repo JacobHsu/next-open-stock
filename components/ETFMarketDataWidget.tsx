@@ -137,7 +137,7 @@ const ETFMarketDataWidget = ({
       {showNasdaq100Links && (
         <div className="flex items-center gap-4 mt-2 text-sm">
           <Link
-            href="https://jacobhsu.github.io/stock-watch/etf/qqq"
+            href="https://jacobhsu.github.io/stock-watch/stock?symbol=QQQ"
             target="_blank"
             rel="noopener noreferrer"
             className="text-black hover:text-white transition-colors duration-200"
@@ -153,18 +153,6 @@ const ETFMarketDataWidget = ({
               rel="noopener noreferrer"
               className="text-black hover:text-red-400 transition-colors duration-200"
               title={`Top loser from QQQ`}
-            >
-              {symbol}
-            </Link>
-          ))}
-          {/* Fixed symbols */}
-          {["EWT", "TSM", "NVDA", "AAPL", "META", "GOOG"].map((symbol) => (
-            <Link
-              key={symbol}
-              href={`https://jacobhsu.github.io/stock-watch/stock/?symbol=${symbol}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-black hover:text-white transition-colors duration-200"
             >
               {symbol}
             </Link>
