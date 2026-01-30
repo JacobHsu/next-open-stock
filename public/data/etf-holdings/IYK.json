@@ -52,7 +52,7 @@
       "displayName": "CTVA - Corteva, Inc. (2.40%)"
     },
     {
-      "name": "NASDAQ:KR",
+      "name": "NYSE:KR",
       "displayName": "KR - The Kroger Co. (1.84%)"
     },
     {
@@ -72,7 +72,7 @@
       "displayName": "KVUE - Kenvue Inc. (1.63%)"
     },
     {
-      "name": "NASDAQ:ADM",
+      "name": "NYSE:ADM",
       "displayName": "ADM - Archer-Daniels-Midland Company (1.43%)"
     },
     {
@@ -88,7 +88,7 @@
       "displayName": "CASY - Casey's General Stores, Inc. (1.09%)"
     },
     {
-      "name": "NASDAQ:CHD",
+      "name": "NYSE:CHD",
       "displayName": "CHD - Church & Dwight Co., Inc. (1.03%)"
     },
     {
@@ -100,7 +100,7 @@
       "displayName": "KHC - The Kraft Heinz Company (1.01%)"
     },
     {
-      "name": "NASDAQ:USFD",
+      "name": "NYSE:USFD",
       "displayName": "USFD - US Foods Holding Corp. (0.87%)"
     }
   ]
