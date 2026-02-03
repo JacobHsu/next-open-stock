@@ -119,7 +119,7 @@ const ETFMarketDataWidget = ({
       {/* Hidden crypto links - only show on crypto page */}
       {showCryptoLinks && (
         <div className="flex items-center gap-4 mt-2 text-sm">
-          {["BTC", "ETH", "XRP", "SOL"].map((crypto) => (
+          {["BTC", "ETH", "XRP", "SOL", "XAUT", "SLVX"].map((crypto) => (
             <Link
               key={crypto}
               href={`https://jacobhsu.github.io/crypto-watch/${crypto.toLowerCase()}`}
