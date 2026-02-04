@@ -247,7 +247,6 @@ export const CRYPTO_MARKET_DATA_WIDGET_CONFIG = {
                 { name: 'NYSE:IBM', displayName: 'IBM - International Business Machines (3.25%)' },
                 { name: 'NYSE:NU', displayName: 'NU - Nu Holdings (3.15%)' },
                 { name: 'NASDAQ:PYPL', displayName: 'PYPL - PayPal Holdings (2.82%)' },
-                { name: 'NYSE:CMPO', displayName: 'CMPO - CompoSecure (2.66%)' },
                 { name: 'AMEX:FBTC', displayName: 'FBTC - Fidelity Wise Origin Bitcoin Fund (2.47%)' },
                 { name: 'NASDAQ:CORZ', displayName: 'CORZ - Core Scientific (2.45%)' },
                 { name: 'NASDAQ:OPRA', displayName: 'OPRA - Opera Limited (2.41%)' },
