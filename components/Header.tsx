@@ -15,6 +15,7 @@ const Header = async () => {
                         alt="OpenStock"
                         width={200}
                         height={50}
+                        style={{ width: 'auto', height: 'auto' }}
                     />
                 </Link>
                 <nav className="w-full sm:w-auto">

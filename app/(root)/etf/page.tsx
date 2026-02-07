@@ -15,24 +15,25 @@ const ETFPage = () => {
 
     useEffect(() => {
         const vanguardETFs = [
-            { code: 'VGT', link: 'https://stockanalysis.com/etf/vgt/holdings/' },
-            { code: 'VFH', link: 'https://stockanalysis.com/etf/vfh/holdings/' },
-            { code: 'VDE', link: 'https://stockanalysis.com/etf/vde/holdings/' },
-            { code: 'VHT', link: 'https://stockanalysis.com/etf/vht/holdings/' },
-            { code: 'VIS', link: 'https://stockanalysis.com/etf/vis/holdings/' },
-            { code: 'VDC', link: 'https://stockanalysis.com/etf/vdc/holdings/' },
-            { code: 'VCR', link: 'https://stockanalysis.com/etf/vcr/holdings/' },
-            { code: 'VAW', link: 'https://stockanalysis.com/etf/vaw/holdings/' },
-            { code: 'VNQ', link: 'https://stockanalysis.com/etf/vnq/holdings/' },
-            { code: 'VPU', link: 'https://stockanalysis.com/etf/vpu/holdings/' },
-            { code: 'VOX', link: 'https://stockanalysis.com/etf/vox/holdings/' },
+            { code: 'VGT', name: '資訊科技ETF', link: 'https://stockanalysis.com/etf/vgt/holdings/' },
+            { code: 'VFH', name: '金融ETF', link: 'https://stockanalysis.com/etf/vfh/holdings/' },
+            { code: 'VDE', name: '能源ETF', link: 'https://stockanalysis.com/etf/vde/holdings/' },
+            { code: 'VHT', name: '醫療保健ETF', link: 'https://stockanalysis.com/etf/vht/holdings/' },
+            { code: 'VIS', name: '工業ETF', link: 'https://stockanalysis.com/etf/vis/holdings/' },
+            { code: 'VDC', name: '必需性消費ETF', link: 'https://stockanalysis.com/etf/vdc/holdings/' },
+            { code: 'VCR', name: '非必需消費ETF', link: 'https://stockanalysis.com/etf/vcr/holdings/' },
+            { code: 'VAW', name: '原物料ETF', link: 'https://stockanalysis.com/etf/vaw/holdings/' },
+            { code: 'VNQ', name: '房地產ETF', link: 'https://stockanalysis.com/etf/vnq/holdings/' },
+            { code: 'VPU', name: '公用事業ETF', link: 'https://stockanalysis.com/etf/vpu/holdings/' },
+            { code: 'VOX', name: '通訊服務ETF', link: 'https://stockanalysis.com/etf/vox/holdings/' },
         ];
 
         console.log('%c📊 Vanguard ETFs Data Source:', 'font-weight: bold; font-size: 14px; color: #0FEDBE;');
         vanguardETFs.forEach(etf => {
-            console.log(`%c${etf.code}%c - ${etf.link}`,
+            console.log(`%c${etf.code}%c ${etf.name}`, 
                 'font-weight: bold; color: #60A5FA;',
-                'color: #9CA3AF;'
+                'color: #9CA3AF;',
+                etf.link
             );
         });
     }, []);
