@@ -110,22 +110,6 @@ export const ETF_MARKET_OVERVIEW_WIDGET_CONFIG = {
             ],
         },
         {
-            title: 'Invesco',
-            symbols: [
-                { s: 'NASDAQ:PTF', d: 'Invesco DWA Technology Momentum ETF' },
-                { s: 'NASDAQ:PFI', d: 'Invesco DWA Financial Momentum ETF' },
-                { s: 'AMEX:PXE', d: 'Invesco DWA Energy Momentum ETF' },
-                { s: 'NASDAQ:PTH', d: 'Invesco DWA Healthcare Momentum ETF' },
-                { s: 'NASDAQ:PRN', d: 'Invesco DWA Industrials Momentum ETF' },
-                { s: 'NASDAQ:PSL', d: 'Invesco DWA Consumer Staples Momentum ETF' },
-                { s: 'NASDAQ:PEZ', d: 'Invesco DWA Consumer Cyclicals Momentum ETF' },
-                { s: 'NASDAQ:PYZ', d: 'Invesco DWA Basic Materials Momentum ETF' },
-                { s: 'AMEX:PSR', d: 'Invesco Active U.S. Real Estate ETF' },
-                { s: 'NASDAQ:PUI', d: 'Invesco DWA Utilities Momentum ETF' },
-                { s: 'NASDAQ:PXI', d: 'Invesco DWA Communication Services Momentum ETF' }
-            ],
-        },
-        {
             title: 'Industrials',
             symbols: [
                 { s: 'AMEX:XLI', d: 'Industrial Select Sector SPDR Fund' },
