@@ -97,24 +97,26 @@ const ETFMarketDataWidget = ({
       </div>
 
       {/* Links below the widget table */}
-      <div className="flex items-center gap-3 mt-3 text-sm">
-        <span className="text-gray-400">Data source:</span>
-        {config.symbolsGroups?.map(
-          (group) =>
-            group.sourceUrl && (
-              <Link
-                key={group.name}
-                href={group.sourceUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300 hover:underline font-medium transition-colors"
-                title={`View ${group.name} holdings on StockAnalysis.com`}
-              >
-                {group.name}
-              </Link>
-            )
-        )}
-      </div>
+      {config.symbolsGroups?.some(group => group.sourceUrl) && (
+        <div className="flex items-center gap-3 mt-3 text-sm">
+          <span className="text-gray-400">Data source:</span>
+          {config.symbolsGroups.map(
+            (group) =>
+              group.sourceUrl && (
+                <Link
+                  key={group.name}
+                  href={group.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 hover:underline font-medium transition-colors"
+                  title={`View ${group.name} holdings on StockAnalysis.com`}
+                >
+                  {group.name}
+                </Link>
+              )
+          )}
+        </div>
+      )}
 
       {/* Hidden crypto links - only show on crypto page */}
       {showCryptoLinks && (

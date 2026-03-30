@@ -6,6 +6,7 @@ export * from './configs/russell2000-config';
 export * from './configs/etf-config';
 export * from './configs/crypto-config';
 export * from './configs/watchlist-config';
+export * from './configs/tpex-config';
 
 // Common Navigation
 export const NAV_ITEMS = [
@@ -16,6 +17,7 @@ export const NAV_ITEMS = [
     { href: '/etf', label: 'ETF' },
     { href: '/crypto', label: 'Crypto' },
     { href: '/search', label: 'Search' },
+    { href: '/tpex', label: 'TPEX' },
     { href: '/watchlist', label: 'Watchlist' },
 ];
 
