@@ -65,24 +65,28 @@ jobs:
         run: |
           ${{ steps.strategy.outputs.command }}
 
+      - name: Update Nasdaq-100 (QQQ) constituents
+        run: pnpm run update-nasdaq100
+
       - name: Check for changes
         id: git-check
         run: |
-          git diff --exit-code public/data/etf-holdings/ || echo "changes=true" >> $GITHUB_OUTPUT
+          git diff --exit-code public/data/etf-holdings/ lib/configs/nasdaq100-config.ts || echo "changes=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push changes
         if: steps.git-check.outputs.changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add public/data/etf-holdings/
+          git add public/data/etf-holdings/ lib/configs/nasdaq100-config.ts
           git commit -m "chore: update ETF holdings data (automated)
 
           Updated ETF holdings from stockanalysis.com
           - Exchange verification via Finnhub API
           - Top 25 holdings per ETF
           - Weight percentages included
-          - Providers: Vanguard, SPDR, iShares"
+          - Providers: Vanguard, SPDR, iShares
+          - Nasdaq-100 (QQQ) constituents from Nasdaq index API"
           git push
 
       - name: Create summary

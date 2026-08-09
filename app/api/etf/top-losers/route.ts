@@ -57,12 +57,13 @@ export async function GET(request: Request) {
       );
     }
 
-    // Get QQQ holdings from config
-    const qqqGroup = NASDAQ100_MARKET_DATA_WIDGET_CONFIG.symbolsGroups.find(
-      (group) => group.name === symbol
+    // Get the symbol group from config. The QQQ list is kept current by the
+    // monthly "Update ETF Holdings" workflow (scripts/update-nasdaq100.ts).
+    const group = NASDAQ100_MARKET_DATA_WIDGET_CONFIG.symbolsGroups.find(
+      (g) => g.name === symbol
     );
 
-    if (!qqqGroup) {
+    if (!group) {
       return NextResponse.json(
         { error: `Symbol group ${symbol} not found` },
         { status: 404 }
@@ -70,9 +71,9 @@ export async function GET(request: Request) {
     }
 
     // Extract symbols (remove exchange prefix like "NASDAQ:")
-    const symbols = qqqGroup.symbols
+    const symbols = group.symbols
       .map((s) => s.name.split(':')[1])
-      .filter(Boolean); // No limit - process all symbols in batches
+      .filter((s): s is string => Boolean(s));
 
     // Fetch quotes in batches to avoid rate limits
     const fetchQuote = async (sym: string): Promise<TopMover | null> => {

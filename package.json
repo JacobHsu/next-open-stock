@@ -12,7 +12,8 @@
     "update-etf:vanguard": "tsx scripts/update-etf-holdings.ts --all-vanguard",
     "update-etf:spdr": "tsx scripts/update-etf-holdings.ts --all-spdr",
     "update-etf:ishares": "tsx scripts/update-etf-holdings.ts --all-ishares",
-    "update-etf:all": "tsx scripts/update-etf-holdings.ts --all"
+    "update-etf:all": "tsx scripts/update-etf-holdings.ts --all",
+    "update-nasdaq100": "tsx scripts/update-nasdaq100.ts"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.10",
